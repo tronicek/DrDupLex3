@@ -1,0 +1,3547 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<clones>
+    <clone nlines="11" distance="6">
+        <source file="jdk/nashorn/internal/runtime/PropertyListeners.java" startline="146" endline="156">
+public synchronized void propertyAdded(final Property prop) {
+        if (listeners != null) {
+            final WeakPropertyMapSet set = listeners.get(prop.getKey());
+            if (set != null) {
+                for (final PropertyMap propertyMap : set.elements()) {
+                    propertyMap.propertyAdded(prop);
+                }
+                listeners.remove(prop.getKey());
+            }
+        }
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/PropertyListeners.java" startline="182" endline="192">
+public synchronized void propertyModified(final Property oldProp, final Property newProp) {
+        if (listeners != null) {
+            final WeakPropertyMapSet set = listeners.get(oldProp.getKey());
+            if (set != null) {
+                for (final PropertyMap propertyMap : set.elements()) {
+                    propertyMap.propertyModified(oldProp, newProp);
+                }
+                listeners.remove(oldProp.getKey());
+            }
+        }
+    }
+</source>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="jdk/nashorn/internal/runtime/PropertyListeners.java" startline="163" endline="173">
+public synchronized void propertyDeleted(final Property prop) {
+        if (listeners != null) {
+            final WeakPropertyMapSet set = listeners.get(prop.getKey());
+            if (set != null) {
+                for (final PropertyMap propertyMap : set.elements()) {
+                    propertyMap.propertyDeleted(prop);
+                }
+                listeners.remove(prop.getKey());
+            }
+        }
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/PropertyListeners.java" startline="182" endline="192">
+public synchronized void propertyModified(final Property oldProp, final Property newProp) {
+        if (listeners != null) {
+            final WeakPropertyMapSet set = listeners.get(oldProp.getKey());
+            if (set != null) {
+                for (final PropertyMap propertyMap : set.elements()) {
+                    propertyMap.propertyModified(oldProp, newProp);
+                }
+                listeners.remove(oldProp.getKey());
+            }
+        }
+    }
+</source>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="jdk/nashorn/internal/objects/NativeTypeError.java" startline="65" endline="74">
+@SuppressWarnings("LeakingThisInConstructor")
+    NativeTypeError(final Object msg, final Global global) {
+        super(global.getTypeErrorPrototype(), $nasgenmap$);
+        if (msg != UNDEFINED) {
+            this.instMessage = JSType.toString(msg);
+        } else {
+            delete(NativeError.MESSAGE, false);
+        }
+        NativeError.initException(this);
+    }
+</source>
+        <source file="jdk/nashorn/internal/objects/NativeSyntaxError.java" startline="65" endline="74">
+@SuppressWarnings("LeakingThisInConstructor")
+    NativeSyntaxError(final Object msg, final Global global) {
+        super(global.getSyntaxErrorPrototype(), $nasgenmap$);
+        if (msg != UNDEFINED) {
+            this.instMessage = JSType.toString(msg);
+        } else {
+            this.delete(NativeError.MESSAGE, false);
+        }
+        NativeError.initException(this);
+    }
+</source>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="jdk/nashorn/internal/objects/NativeTypeError.java" startline="65" endline="74">
+@SuppressWarnings("LeakingThisInConstructor")
+    NativeTypeError(final Object msg, final Global global) {
+        super(global.getTypeErrorPrototype(), $nasgenmap$);
+        if (msg != UNDEFINED) {
+            this.instMessage = JSType.toString(msg);
+        } else {
+            delete(NativeError.MESSAGE, false);
+        }
+        NativeError.initException(this);
+    }
+</source>
+        <source file="jdk/nashorn/internal/objects/NativeURIError.java" startline="64" endline="73">
+@SuppressWarnings("LeakingThisInConstructor")
+    NativeURIError(final Object msg, final Global global) {
+        super(global.getURIErrorPrototype(), $nasgenmap$);
+        if (msg != UNDEFINED) {
+            this.instMessage = JSType.toString(msg);
+        } else {
+            this.delete(NativeError.MESSAGE, false);
+        }
+        NativeError.initException(this);
+    }
+</source>
+    </clone>
+    <clone nlines="14" distance="4">
+        <source file="jdk/nashorn/internal/runtime/regexp/joni/StackMachine.java" startline="341" endline="354">
+protected final void stopBtEnd() {
+        int k = stk;
+        while (true) {
+            k--;
+            final StackEntry e = stack[k];
+
+            if ((e.type &amp; MASK_TO_VOID_TARGET) != 0) {
+                e.type = VOID;
+            } else if (e.type == STOP_BT) {
+                e.type = VOID;
+                break;
+            }
+        }
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/regexp/joni/StackMachine.java" startline="326" endline="339">
+protected final int posEnd() {
+        int k = stk;
+        while (true) {
+            k--;
+            final StackEntry e = stack[k];
+            if ((e.type &amp; MASK_TO_VOID_TARGET) != 0) {
+                e.type = VOID;
+            } else if (e.type == POS) {
+                e.type = VOID;
+                break;
+            }
+        }
+        return k;
+    }
+</source>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="jdk/nashorn/internal/objects/NativeError.java" startline="94" endline="103">
+@SuppressWarnings("LeakingThisInConstructor")
+    private NativeError(final Object msg, final ScriptObject proto, final PropertyMap map) {
+        super(proto, map);
+        if (msg != UNDEFINED) {
+            this.instMessage = JSType.toString(msg);
+        } else {
+            this.delete(NativeError.MESSAGE, false);
+        }
+        initException(this);
+    }
+</source>
+        <source file="jdk/nashorn/internal/objects/NativeEvalError.java" startline="65" endline="74">
+@SuppressWarnings("LeakingThisInConstructor")
+    private NativeEvalError(final Object msg, final ScriptObject proto, final PropertyMap map) {
+        super(proto, map);
+        if (msg != UNDEFINED) {
+            this.instMessage = JSType.toString(msg);
+        } else {
+            this.delete(NativeError.MESSAGE, false);
+        }
+        NativeError.initException(this);
+    }
+</source>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="jdk/nashorn/internal/objects/NativeError.java" startline="94" endline="103">
+@SuppressWarnings("LeakingThisInConstructor")
+    private NativeError(final Object msg, final ScriptObject proto, final PropertyMap map) {
+        super(proto, map);
+        if (msg != UNDEFINED) {
+            this.instMessage = JSType.toString(msg);
+        } else {
+            this.delete(NativeError.MESSAGE, false);
+        }
+        initException(this);
+    }
+</source>
+        <source file="jdk/nashorn/internal/objects/NativeRangeError.java" startline="65" endline="74">
+@SuppressWarnings("LeakingThisInConstructor")
+    private NativeRangeError(final Object msg, final ScriptObject proto, final PropertyMap map) {
+        super(proto, map);
+        if (msg != UNDEFINED) {
+            this.instMessage = JSType.toString(msg);
+        } else {
+            this.delete(NativeError.MESSAGE, false);
+        }
+        NativeError.initException(this);
+    }
+</source>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="jdk/nashorn/internal/objects/NativeError.java" startline="94" endline="103">
+@SuppressWarnings("LeakingThisInConstructor")
+    private NativeError(final Object msg, final ScriptObject proto, final PropertyMap map) {
+        super(proto, map);
+        if (msg != UNDEFINED) {
+            this.instMessage = JSType.toString(msg);
+        } else {
+            this.delete(NativeError.MESSAGE, false);
+        }
+        initException(this);
+    }
+</source>
+        <source file="jdk/nashorn/internal/objects/NativeReferenceError.java" startline="65" endline="74">
+@SuppressWarnings("LeakingThisInConstructor")
+    private NativeReferenceError(final Object msg, final ScriptObject proto, final PropertyMap map) {
+        super(proto, map);
+        if (msg != UNDEFINED) {
+            this.instMessage = JSType.toString(msg);
+        } else {
+            this.delete(NativeError.MESSAGE, false);
+        }
+        NativeError.initException(this);
+    }
+</source>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="jdk/internal/dynalink/support/TypeConverterFactory.java" startline="116" endline="130">
+@Override
+        protected ClassMap&lt;MethodHandle&gt; computeValue(final Class&lt;?&gt; sourceType) {
+            return new ClassMap&lt;MethodHandle&gt;(getClassLoader(sourceType)) {
+                @Override
+                protected MethodHandle computeValue(final Class&lt;?&gt; targetType) {
+                    try {
+                        return createConverter(sourceType, targetType);
+                    } catch (final RuntimeException e) {
+                        throw e;
+                    } catch (final Exception e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            };
+        }
+</source>
+        <source file="jdk/internal/dynalink/support/TypeConverterFactory.java" startline="152" endline="166">
+@Override
+        protected ClassMap&lt;Boolean&gt; computeValue(final Class&lt;?&gt; sourceType) {
+            return new ClassMap&lt;Boolean&gt;(getClassLoader(sourceType)) {
+                @Override
+                protected Boolean computeValue(final Class&lt;?&gt; targetType) {
+                    try {
+                        return getTypeConverterNull(sourceType, targetType) != null;
+                    } catch (final RuntimeException e) {
+                        throw e;
+                    } catch (final Exception e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            };
+        }
+</source>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="jdk/internal/dynalink/support/TypeConverterFactory.java" startline="119" endline="128">
+@Override
+                protected MethodHandle computeValue(final Class&lt;?&gt; targetType) {
+                    try {
+                        return createConverter(sourceType, targetType);
+                    } catch (final RuntimeException e) {
+                        throw e;
+                    } catch (final Exception e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+</source>
+        <source file="jdk/internal/dynalink/support/TypeConverterFactory.java" startline="155" endline="164">
+@Override
+                protected Boolean computeValue(final Class&lt;?&gt; targetType) {
+                    try {
+                        return getTypeConverterNull(sourceType, targetType) != null;
+                    } catch (final RuntimeException e) {
+                        throw e;
+                    } catch (final Exception e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+</source>
+    </clone>
+    <clone nlines="11" distance="2">
+        <source file="jdk/nashorn/internal/ir/BinaryNode.java" startline="124" endline="134">
+public boolean isRelational() {
+        switch (tokenType()) {
+        case LT:
+        case GT:
+        case LE:
+        case GE:
+            return true;
+        default:
+            return false;
+        }
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/UnaryNode.java" startline="107" endline="118">
+@Override
+    public boolean isAssignment() {
+        switch (tokenType()) {
+        case DECPOSTFIX:
+        case DECPREFIX:
+        case INCPOSTFIX:
+        case INCPREFIX:
+            return true;
+        default:
+            return false;
+        }
+    }
+</source>
+    </clone>
+    <clone nlines="13" distance="2">
+        <source file="jdk/nashorn/internal/codegen/CompilerConstants.java" startline="572" endline="584">
+public static Call staticCall(final MethodHandles.Lookup lookup, final Class&lt;?&gt; clazz, final String name, final Class&lt;?&gt; rtype, final Class&lt;?&gt;... ptypes) {
+        return new Call(MH.findStatic(lookup, clazz, name, MH.type(rtype, ptypes)), className(clazz), name, methodDescriptor(rtype, ptypes)) {
+            @Override
+            MethodEmitter invoke(final MethodEmitter method) {
+                return method.invokestatic(className, name, descriptor);
+            }
+
+            @Override
+            public void invoke(final MethodVisitor mv) {
+                mv.visitMethodInsn(Opcodes.INVOKESTATIC, className, name, descriptor, false);
+            }
+        };
+    }
+</source>
+        <source file="jdk/nashorn/internal/codegen/CompilerConstants.java" startline="623" endline="635">
+public static Call specialCall(final MethodHandles.Lookup lookup, final Class&lt;?&gt; clazz, final String name, final Class&lt;?&gt; rtype, final Class&lt;?&gt;... ptypes) {
+        return new Call(MH.findSpecial(lookup, clazz, name, MH.type(rtype, ptypes), clazz), className(clazz), name, methodDescriptor(rtype, ptypes)) {
+            @Override
+            MethodEmitter invoke(final MethodEmitter method) {
+                return method.invokespecial(className, name, descriptor);
+            }
+
+            @Override
+            public void invoke(final MethodVisitor mv) {
+                mv.visitMethodInsn(Opcodes.INVOKESPECIAL, className, name, descriptor, false);
+            }
+        };
+    }
+</source>
+    </clone>
+    <clone nlines="13" distance="2">
+        <source file="jdk/nashorn/internal/codegen/CompilerConstants.java" startline="597" endline="609">
+public static Call virtualCall(final MethodHandles.Lookup lookup, final Class&lt;?&gt; clazz, final String name, final Class&lt;?&gt; rtype, final Class&lt;?&gt;... ptypes) {
+        return new Call(MH.findVirtual(lookup, clazz, name, MH.type(rtype, ptypes)), className(clazz), name, methodDescriptor(rtype, ptypes)) {
+            @Override
+            MethodEmitter invoke(final MethodEmitter method) {
+                return method.invokevirtual(className, name, descriptor);
+            }
+
+            @Override
+            public void invoke(final MethodVisitor mv) {
+                mv.visitMethodInsn(Opcodes.INVOKEVIRTUAL, className, name, descriptor, false);
+            }
+        };
+    }
+</source>
+        <source file="jdk/nashorn/internal/codegen/CompilerConstants.java" startline="623" endline="635">
+public static Call specialCall(final MethodHandles.Lookup lookup, final Class&lt;?&gt; clazz, final String name, final Class&lt;?&gt; rtype, final Class&lt;?&gt;... ptypes) {
+        return new Call(MH.findSpecial(lookup, clazz, name, MH.type(rtype, ptypes), clazz), className(clazz), name, methodDescriptor(rtype, ptypes)) {
+            @Override
+            MethodEmitter invoke(final MethodEmitter method) {
+                return method.invokespecial(className, name, descriptor);
+            }
+
+            @Override
+            public void invoke(final MethodVisitor mv) {
+                mv.visitMethodInsn(Opcodes.INVOKESPECIAL, className, name, descriptor, false);
+            }
+        };
+    }
+</source>
+    </clone>
+    <clone nlines="11" distance="2">
+        <source file="jdk/nashorn/internal/runtime/Context.java" startline="887" endline="897">
+@Override
+           public Global run() {
+               try {
+                   return newGlobal();
+               } catch (final RuntimeException e) {
+                   if (Context.DEBUG) {
+                       e.printStackTrace();
+                   }
+                   throw e;
+               }
+           }
+</source>
+        <source file="jdk/nashorn/api/scripting/NashornScriptEngine.java" startline="344" endline="354">
+@Override
+            public Global run() {
+                try {
+                    return nashornContext.newGlobal();
+                } catch (final RuntimeException e) {
+                    if (Context.DEBUG) {
+                        e.printStackTrace();
+                    }
+                    throw e;
+                }
+            }
+</source>
+    </clone>
+    <clone nlines="21" distance="4">
+        <source file="jdk/nashorn/internal/runtime/regexp/joni/ScannerSupport.java" startline="75" endline="95">
+protected final int scanUnsignedHexadecimalNumber(final int maxLength) {
+        final int last = c;
+        int num = 0;
+        int ml = maxLength;
+        while(left() &amp;&amp; ml-- != 0) {
+            fetch();
+            if (EncodingHelper.isXDigit(c)) {
+                final int onum = num;
+                final int val = EncodingHelper.xdigitVal(c);
+                num = (num &lt;&lt; 4) + val;
+                if (((onum ^ num) &amp; INT_SIGN_BIT) != 0) {
+                    return -1;
+                }
+            } else {
+                unfetch();
+                break;
+            }
+        }
+        c = last;
+        return num;
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/regexp/joni/ScannerSupport.java" startline="97" endline="117">
+protected final int scanUnsignedOctalNumber(final int maxLength) {
+        final int last = c;
+        int num = 0;
+        int ml = maxLength;
+        while(left() &amp;&amp; ml-- != 0) {
+            fetch();
+            if (Character.isDigit(c) &amp;&amp; c &lt; '8') {
+                final int onum = num;
+                final int val = EncodingHelper.odigitVal(c);
+                num = (num &lt;&lt; 3) + val;
+                if (((onum ^ num) &amp; INT_SIGN_BIT) != 0) {
+                    return -1;
+                }
+            } else {
+                unfetch();
+                break;
+            }
+        }
+        c = last;
+        return num;
+    }
+</source>
+    </clone>
+    <clone nlines="19" distance="6">
+        <source file="jdk/nashorn/internal/runtime/regexp/joni/ByteCodeMachine.java" startline="662" endline="680">
+private void opEndLine()  {
+        if (s == end) {
+            if (Config.USE_NEWLINE_AT_END_OF_STRING_HAS_EMPTY_LINE) {
+                if (str == end || !isNewLine(chars, sprev, end)) {
+                    if (isNotEol(msaOptions)) {
+                        opFail();
+                    }
+                }
+                return;
+            }
+            if (isNotEol(msaOptions)) {
+                opFail();
+            }
+            return;
+        } else if (isNewLine(chars, s, end)) {
+            return;
+        }
+        opFail();
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/regexp/joni/ByteCodeMachine.java" startline="682" endline="700">
+private void opSemiEndBuf() {
+        if (s == end) {
+            if (Config.USE_NEWLINE_AT_END_OF_STRING_HAS_EMPTY_LINE) {
+                if (str == end || !isNewLine(chars, sprev, end)) {
+                    if (isNotEol(msaOptions)) {
+                        opFail();
+                    }
+                }
+                return;
+            }
+            if (isNotEol(msaOptions)) {
+                opFail();
+            }
+            return;
+        } else if (isNewLine(chars, s, end) &amp;&amp; s + 1 == end) {
+            return;
+        }
+        opFail();
+    }
+</source>
+    </clone>
+    <clone nlines="11" distance="4">
+        <source file="jdk/nashorn/api/scripting/NashornScriptEngine.java" startline="126" endline="136">
+@Override
+            public Context run() {
+                try {
+                    return new Context(options, errMgr, appLoader, classFilter);
+                } catch (final RuntimeException e) {
+                    if (Context.DEBUG) {
+                        e.printStackTrace();
+                    }
+                    throw e;
+                }
+            }
+</source>
+        <source file="jdk/nashorn/api/scripting/NashornScriptEngineFactory.java" startline="145" endline="155">
+@Override
+    public ScriptEngine getScriptEngine() {
+        try {
+            return new NashornScriptEngine(this, DEFAULT_OPTIONS, getAppClassLoader(), null);
+        } catch (final RuntimeException e) {
+            if (Context.DEBUG) {
+                e.printStackTrace();
+            }
+            throw e;
+        }
+    }
+</source>
+    </clone>
+    <clone nlines="21" distance="1">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1288" endline="1308">
+public FunctionNode setRootClass(final LexicalContext lc, final Class&lt;?&gt; rootClass) {
+        if (this.rootClass == rootClass) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1096" endline="1116">
+public FunctionNode setParameters(final LexicalContext lc, final List&lt;IdentNode&gt; parameters) {
+        if (this.parameters == parameters) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="jdk/nashorn/internal/runtime/regexp/joni/ByteCodeMachine.java" startline="1051" endline="1060">
+private void opPushIfPeekNext() {
+        final int addr = code[ip++];
+        // beyond string check
+        if (s &lt; range &amp;&amp; code[ip] == chars[s]) {
+            ip++;
+            pushAlt(ip + addr, s, sprev);
+            return;
+        }
+        ip++;
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/regexp/joni/ByteCodeMachine.java" startline="1040" endline="1049">
+private void opPushOrJumpExact1() {
+        final int addr = code[ip++];
+        // beyond string check
+        if (s &lt; range &amp;&amp; code[ip] == chars[s]) {
+            ip++;
+            pushAlt(ip + addr, s, sprev);
+            return;
+        }
+        ip += addr + 1;
+    }
+</source>
+    </clone>
+    <clone nlines="14" distance="1">
+        <source file="jdk/nashorn/internal/runtime/regexp/joni/ByteCodeMachine.java" startline="498" endline="511">
+private void opCClassMIXNot() {
+        if (s &gt;= range) {opFail(); return;}
+        if (chars[s] &gt; 0xff) {
+            ip += BitSet.BITSET_SIZE;
+            if (!isNotInClassMB()) {opFail(); return;}
+        } else {
+            if (isInBitSet()) {opFail(); return;}
+            ip += BitSet.BITSET_SIZE;
+            final int tlen = code[ip++];
+            ip += tlen;
+            s++;
+        }
+        sprev = sbegin; // break;
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/regexp/joni/ByteCodeMachine.java" startline="440" endline="453">
+private void opCClassMIX() {
+        if (s &gt;= range) {opFail(); return;}
+        if (chars[s] &gt; 0xff) {
+            ip += BitSet.BITSET_SIZE;
+            if (!isInClassMB()) {opFail(); return;}
+        } else {
+            if (!isInBitSet()) {opFail(); return;}
+            ip += BitSet.BITSET_SIZE;
+            final int tlen = code[ip++]; // by code range length
+            ip += tlen;
+            s++;
+        }
+        sprev = sbegin; // break;
+    }
+</source>
+    </clone>
+    <clone nlines="15" distance="3">
+        <source file="jdk/nashorn/internal/runtime/arrays/ScriptObjectIterator.java" startline="56" endline="70">
+@Override
+    public boolean hasNext() {
+        if (length == 0L) {
+            return false; //return empty string if toUint32(length) == 0
+        }
+
+        while (indexInArray()) {
+            if (obj.has(index) || includeUndefined) {
+                break;
+            }
+            bumpIndex();
+        }
+
+        return indexInArray();
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/arrays/JSObjectIterator.java" startline="56" endline="70">
+@Override
+    public boolean hasNext() {
+        if (length == 0L) {
+            return false; //return empty string if toUint32(length) == 0
+        }
+
+        while (indexInArray()) {
+            if (obj.hasSlot((int)index) || includeUndefined) {
+                break;
+            }
+            bumpIndex();
+        }
+
+        return indexInArray();
+    }
+</source>
+    </clone>
+    <clone nlines="13" distance="4">
+        <source file="jdk/nashorn/internal/objects/NativeString.java" startline="1157" endline="1169">
+@Function(attributes = Attribute.NOT_ENUMERABLE)
+    public static String trimRight(final Object self) {
+
+        final String str = checkObjectToString(self);
+        final int start = 0;
+        int end   = str.length() - 1;
+
+        while (end &gt;= start &amp;&amp; ScriptRuntime.isJSWhitespace(str.charAt(end))) {
+            end--;
+        }
+
+        return str.substring(start, end + 1);
+    }
+</source>
+        <source file="jdk/nashorn/internal/objects/NativeString.java" startline="1138" endline="1150">
+@Function(attributes = Attribute.NOT_ENUMERABLE)
+    public static String trimLeft(final Object self) {
+
+        final String str = checkObjectToString(self);
+        int start = 0;
+        final int end   = str.length() - 1;
+
+        while (start &lt;= end &amp;&amp; ScriptRuntime.isJSWhitespace(str.charAt(start))) {
+            start++;
+        }
+
+        return str.substring(start, end + 1);
+    }
+</source>
+    </clone>
+    <clone nlines="15" distance="3">
+        <source file="jdk/nashorn/internal/objects/NativeJSAdapter.java" startline="585" endline="599">
+@Override
+    protected GuardedInvocation findCallMethodMethod(final CallSiteDescriptor desc, final LinkRequest request) {
+        if (overrides &amp;&amp; super.hasOwnProperty(desc.getNameToken(2))) {
+            try {
+                final GuardedInvocation inv = super.findCallMethodMethod(desc, request);
+                if (inv != null) {
+                    return inv;
+                }
+            } catch (final Exception e) {
+                //ignored
+            }
+        }
+
+        return findHook(desc, __call__);
+    }
+</source>
+        <source file="jdk/nashorn/internal/objects/NativeJSAdapter.java" startline="641" endline="655">
+@Override
+    protected GuardedInvocation findSetMethod(final CallSiteDescriptor desc, final LinkRequest request) {
+        if (overrides &amp;&amp; super.hasOwnProperty(desc.getNameToken(CallSiteDescriptor.NAME_OPERAND))) {
+            try {
+                final GuardedInvocation inv = super.findSetMethod(desc, request);
+                if (inv != null) {
+                    return inv;
+                }
+            } catch (final Exception e) {
+                //ignored
+            }
+        }
+
+        return findHook(desc, __put__);
+    }
+</source>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="jdk/internal/dynalink/support/Lookup.java" startline="278" endline="292">
+public MethodHandle findStatic(final Class&lt;?&gt; declaringClass, final String name, final MethodType type) {
+        try {
+            return lookup.findStatic(declaringClass, name, type);
+        } catch(final IllegalAccessException e) {
+            final IllegalAccessError ee = new IllegalAccessError("Failed to access static method " + methodDescription(
+                    declaringClass, name, type));
+            ee.initCause(e);
+            throw ee;
+        } catch(final NoSuchMethodException e) {
+            final NoSuchMethodError ee = new NoSuchMethodError("Failed to find static method " + methodDescription(
+                    declaringClass, name, type));
+            ee.initCause(e);
+            throw ee;
+        }
+    }
+</source>
+        <source file="jdk/internal/dynalink/support/Lookup.java" startline="247" endline="261">
+public MethodHandle findSpecial(final Class&lt;?&gt; declaringClass, final String name, final MethodType type) {
+        try {
+            return lookup.findSpecial(declaringClass, name, type, declaringClass);
+        } catch(final IllegalAccessException e) {
+            final IllegalAccessError ee = new IllegalAccessError("Failed to access special method " + methodDescription(
+                    declaringClass, name, type));
+            ee.initCause(e);
+            throw ee;
+        } catch(final NoSuchMethodException e) {
+            final NoSuchMethodError ee = new NoSuchMethodError("Failed to find special method " + methodDescription(
+                    declaringClass, name, type));
+            ee.initCause(e);
+            throw ee;
+        }
+    }
+</source>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="jdk/internal/dynalink/support/Lookup.java" startline="305" endline="319">
+public MethodHandle findVirtual(final Class&lt;?&gt; declaringClass, final String name, final MethodType type) {
+        try {
+            return lookup.findVirtual(declaringClass, name, type);
+        } catch(final IllegalAccessException e) {
+            final IllegalAccessError ee = new IllegalAccessError("Failed to access virtual method " + methodDescription(
+                    declaringClass, name, type));
+            ee.initCause(e);
+            throw ee;
+        } catch(final NoSuchMethodException e) {
+            final NoSuchMethodError ee = new NoSuchMethodError("Failed to find virtual method " + methodDescription(
+                    declaringClass, name, type));
+            ee.initCause(e);
+            throw ee;
+        }
+    }
+</source>
+        <source file="jdk/internal/dynalink/support/Lookup.java" startline="247" endline="261">
+public MethodHandle findSpecial(final Class&lt;?&gt; declaringClass, final String name, final MethodType type) {
+        try {
+            return lookup.findSpecial(declaringClass, name, type, declaringClass);
+        } catch(final IllegalAccessException e) {
+            final IllegalAccessError ee = new IllegalAccessError("Failed to access special method " + methodDescription(
+                    declaringClass, name, type));
+            ee.initCause(e);
+            throw ee;
+        } catch(final NoSuchMethodException e) {
+            final NoSuchMethodError ee = new NoSuchMethodError("Failed to find special method " + methodDescription(
+                    declaringClass, name, type));
+            ee.initCause(e);
+            throw ee;
+        }
+    }
+</source>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="jdk/nashorn/internal/runtime/AccessorProperty.java" startline="425" endline="434">
+@Override
+     public Object getObjectValue(final ScriptObject self, final ScriptObject owner) {
+        try {
+            return getGetter(Object.class).invokeExact((Object)self);
+        } catch (final Error | RuntimeException e) {
+            throw e;
+        } catch (final Throwable e) {
+            throw new RuntimeException(e);
+        }
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/AccessorProperty.java" startline="392" endline="401">
+@Override
+    public int getIntValue(final ScriptObject self, final ScriptObject owner) {
+        try {
+            return (int)getGetter(int.class).invokeExact((Object)self);
+        } catch (final Error | RuntimeException e) {
+            throw e;
+        } catch (final Throwable e) {
+            throw new RuntimeException(e);
+        }
+     }
+</source>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="jdk/nashorn/internal/runtime/AccessorProperty.java" startline="425" endline="434">
+@Override
+     public Object getObjectValue(final ScriptObject self, final ScriptObject owner) {
+        try {
+            return getGetter(Object.class).invokeExact((Object)self);
+        } catch (final Error | RuntimeException e) {
+            throw e;
+        } catch (final Throwable e) {
+            throw new RuntimeException(e);
+        }
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/AccessorProperty.java" startline="403" endline="412">
+@Override
+    public long getLongValue(final ScriptObject self, final ScriptObject owner) {
+        try {
+            return (long)getGetter(long.class).invokeExact((Object)self);
+        } catch (final Error | RuntimeException e) {
+            throw e;
+        } catch (final Throwable e) {
+            throw new RuntimeException(e);
+        }
+    }
+</source>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="jdk/nashorn/internal/runtime/AccessorProperty.java" startline="425" endline="434">
+@Override
+     public Object getObjectValue(final ScriptObject self, final ScriptObject owner) {
+        try {
+            return getGetter(Object.class).invokeExact((Object)self);
+        } catch (final Error | RuntimeException e) {
+            throw e;
+        } catch (final Throwable e) {
+            throw new RuntimeException(e);
+        }
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/AccessorProperty.java" startline="414" endline="423">
+@Override
+     public double getDoubleValue(final ScriptObject self, final ScriptObject owner) {
+        try {
+            return (double)getGetter(double.class).invokeExact((Object)self);
+        } catch (final Error | RuntimeException e) {
+            throw e;
+        } catch (final Throwable e) {
+            throw new RuntimeException(e);
+        }
+    }
+</source>
+    </clone>
+    <clone nlines="13" distance="2">
+        <source file="jdk/nashorn/internal/runtime/arrays/NumberArrayData.java" startline="267" endline="279">
+@Override
+    public Object pop() {
+        final int len = (int)length();
+        if (len == 0) {
+            return UNDEFINED;
+        }
+
+        final int newLength = len - 1;
+        final double elem = array[newLength];
+        array[newLength] = 0;
+        setLength(newLength);
+        return elem;
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/arrays/IntArrayData.java" startline="327" endline="340">
+@Override
+    public Object pop() {
+        final int len = (int)length();
+        if (len == 0) {
+            return ScriptRuntime.UNDEFINED;
+        }
+
+        final int newLength = len - 1;
+        final int elem = array[newLength];
+        array[newLength] = 0;
+        setLength(newLength);
+
+        return elem;
+    }
+</source>
+    </clone>
+    <clone nlines="13" distance="2">
+        <source file="jdk/nashorn/internal/runtime/arrays/NumberArrayData.java" startline="267" endline="279">
+@Override
+    public Object pop() {
+        final int len = (int)length();
+        if (len == 0) {
+            return UNDEFINED;
+        }
+
+        final int newLength = len - 1;
+        final double elem = array[newLength];
+        array[newLength] = 0;
+        setLength(newLength);
+        return elem;
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/arrays/LongArrayData.java" startline="287" endline="300">
+@Override
+    public Object pop() {
+        final int len = (int)length();
+        if (len == 0) {
+            return ScriptRuntime.UNDEFINED;
+        }
+
+        final int newLength = len - 1;
+        final long elem = array[newLength];
+        array[newLength] = 0;
+        setLength(newLength);
+
+        return elem;
+    }
+</source>
+    </clone>
+    <clone nlines="12" distance="5">
+        <source file="jdk/nashorn/internal/runtime/regexp/joni/ByteCodeMachine.java" startline="1062" endline="1073">
+private void opRepeat() {
+        final int mem = code[ip++];   /* mem: OP_REPEAT ID */
+        final int addr= code[ip++];
+
+        // ensure1();
+        repeatStk[mem] = stk;
+        pushRepeat(mem, ip);
+
+        if (regex.repeatRangeLo[mem] == 0) { // lower
+            pushAlt(ip + addr, s, sprev);
+        }
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/regexp/joni/ByteCodeMachine.java" startline="1075" endline="1087">
+private void opRepeatNG() {
+        final int mem = code[ip++];   /* mem: OP_REPEAT ID */
+        final int addr= code[ip++];
+
+        // ensure1();
+        repeatStk[mem] = stk;
+        pushRepeat(mem, ip);
+
+        if (regex.repeatRangeLo[mem] == 0) {
+            pushAlt(ip, s, sprev);
+            ip += addr;
+        }
+    }
+</source>
+    </clone>
+    <clone nlines="19" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3251" endline="3269">
+@Override
+    public void set(final Object key, final Object value, final int callSiteFlags) {
+        final Object primitiveKey = JSType.toPrimitive(key, String.class);
+        final int    index        = getArrayIndex(primitiveKey);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(primitiveKey);
+        setObject(findProperty(propName, true), callSiteFlags, propName, value);
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3191" endline="3209">
+@Override
+    public void set(final Object key, final int value, final int callSiteFlags) {
+        final Object primitiveKey = JSType.toPrimitive(key, String.class);
+        final int    index        = getArrayIndex(primitiveKey);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(primitiveKey);
+        setObject(findProperty(propName, true), callSiteFlags, propName, JSType.toObject(value));
+    }
+</source>
+    </clone>
+    <clone nlines="19" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3251" endline="3269">
+@Override
+    public void set(final Object key, final Object value, final int callSiteFlags) {
+        final Object primitiveKey = JSType.toPrimitive(key, String.class);
+        final int    index        = getArrayIndex(primitiveKey);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(primitiveKey);
+        setObject(findProperty(propName, true), callSiteFlags, propName, value);
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3211" endline="3229">
+@Override
+    public void set(final Object key, final long value, final int callSiteFlags) {
+        final Object primitiveKey = JSType.toPrimitive(key, String.class);
+        final int    index        = getArrayIndex(primitiveKey);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(primitiveKey);
+        setObject(findProperty(propName, true), callSiteFlags, propName, JSType.toObject(value));
+    }
+</source>
+    </clone>
+    <clone nlines="19" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3251" endline="3269">
+@Override
+    public void set(final Object key, final Object value, final int callSiteFlags) {
+        final Object primitiveKey = JSType.toPrimitive(key, String.class);
+        final int    index        = getArrayIndex(primitiveKey);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(primitiveKey);
+        setObject(findProperty(propName, true), callSiteFlags, propName, value);
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3231" endline="3249">
+@Override
+    public void set(final Object key, final double value, final int callSiteFlags) {
+        final Object primitiveKey = JSType.toPrimitive(key, String.class);
+        final int    index        = getArrayIndex(primitiveKey);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(primitiveKey);
+        setObject(findProperty(propName, true), callSiteFlags, propName, JSType.toObject(value));
+    }
+</source>
+    </clone>
+    <clone nlines="22" distance="3">
+        <source file="jdk/nashorn/internal/codegen/types/BooleanType.java" startline="111" endline="132">
+@Override
+    public Type convert(final MethodVisitor method, final Type to) {
+        if (isEquivalentTo(to)) {
+            return to;
+        }
+
+        if (to.isNumber()) {
+            method.visitInsn(I2D);
+        } else if (to.isLong()) {
+            method.visitInsn(I2L);
+        } else if (to.isInteger()) {
+            //nop
+        } else if (to.isString()) {
+            invokestatic(method, TO_STRING);
+        } else if (to.isObject()) {
+            invokestatic(method, VALUE_OF);
+        } else {
+            throw new UnsupportedOperationException("Illegal conversion " + this + " -&gt; " + to);
+        }
+
+        return to;
+    }
+</source>
+        <source file="jdk/nashorn/internal/codegen/types/IntType.java" startline="130" endline="151">
+@Override
+    public Type convert(final MethodVisitor method, final Type to) {
+        if (to.isEquivalentTo(this)) {
+            return to;
+        }
+
+        if (to.isNumber()) {
+            method.visitInsn(I2D);
+        } else if (to.isLong()) {
+            method.visitInsn(I2L);
+        } else if (to.isBoolean()) {
+            //nop
+        } else if (to.isString()) {
+            invokestatic(method, TO_STRING);
+        } else if (to.isObject()) {
+            invokestatic(method, VALUE_OF);
+        } else {
+            throw new UnsupportedOperationException("Illegal conversion " + this + " -&gt; " + to);
+        }
+
+        return to;
+    }
+</source>
+    </clone>
+    <clone nlines="11" distance="2">
+        <source file="jdk/nashorn/internal/runtime/Source.java" startline="521" endline="531">
+@Override
+    public boolean equals(final Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof Source)) {
+            return false;
+        }
+        final Source other = (Source) obj;
+        return Objects.equals(name, other.name) &amp;&amp; data.equals(other.data);
+    }
+</source>
+        <source file="jdk/nashorn/internal/objects/GenericPropertyDescriptor.java" startline="164" endline="176">
+@Override
+    public boolean equals(final Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof GenericPropertyDescriptor)) {
+            return false;
+        }
+
+        final GenericPropertyDescriptor other = (GenericPropertyDescriptor)obj;
+        return ScriptRuntime.sameValue(configurable, other.configurable) &amp;&amp;
+               ScriptRuntime.sameValue(enumerable, other.enumerable);
+    }
+</source>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3328" endline="3345">
+@Override
+    public void set(final double key, final Object value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, value);
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3271" endline="3288">
+@Override
+    public void set(final double key, final int value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, JSType.toObject(value));
+    }
+</source>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3328" endline="3345">
+@Override
+    public void set(final double key, final Object value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, value);
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3290" endline="3307">
+@Override
+    public void set(final double key, final long value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, JSType.toObject(value));
+    }
+</source>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3328" endline="3345">
+@Override
+    public void set(final double key, final Object value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, value);
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3309" endline="3326">
+@Override
+    public void set(final double key, final double value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, JSType.toObject(value));
+    }
+</source>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3328" endline="3345">
+@Override
+    public void set(final double key, final Object value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, value);
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3347" endline="3364">
+@Override
+    public void set(final long key, final int value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, JSType.toObject(value));
+    }
+</source>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3328" endline="3345">
+@Override
+    public void set(final double key, final Object value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, value);
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3366" endline="3383">
+@Override
+    public void set(final long key, final long value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, JSType.toObject(value));
+    }
+</source>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3328" endline="3345">
+@Override
+    public void set(final double key, final Object value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, value);
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3385" endline="3402">
+@Override
+    public void set(final long key, final double value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, JSType.toObject(value));
+    }
+</source>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3328" endline="3345">
+@Override
+    public void set(final double key, final Object value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, value);
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3440" endline="3457">
+@Override
+    public void set(final int key, final long value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, JSType.toObject(value));
+    }
+</source>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3328" endline="3345">
+@Override
+    public void set(final double key, final Object value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, value);
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3459" endline="3476">
+@Override
+    public void set(final int key, final double value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, JSType.toObject(value));
+    }
+</source>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3404" endline="3421">
+@Override
+    public void set(final long key, final Object value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, value);
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3271" endline="3288">
+@Override
+    public void set(final double key, final int value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, JSType.toObject(value));
+    }
+</source>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3404" endline="3421">
+@Override
+    public void set(final long key, final Object value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, value);
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3290" endline="3307">
+@Override
+    public void set(final double key, final long value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, JSType.toObject(value));
+    }
+</source>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3404" endline="3421">
+@Override
+    public void set(final long key, final Object value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, value);
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3309" endline="3326">
+@Override
+    public void set(final double key, final double value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, JSType.toObject(value));
+    }
+</source>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3404" endline="3421">
+@Override
+    public void set(final long key, final Object value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, value);
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3347" endline="3364">
+@Override
+    public void set(final long key, final int value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, JSType.toObject(value));
+    }
+</source>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3404" endline="3421">
+@Override
+    public void set(final long key, final Object value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, value);
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3366" endline="3383">
+@Override
+    public void set(final long key, final long value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, JSType.toObject(value));
+    }
+</source>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3404" endline="3421">
+@Override
+    public void set(final long key, final Object value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, value);
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3385" endline="3402">
+@Override
+    public void set(final long key, final double value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, JSType.toObject(value));
+    }
+</source>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3404" endline="3421">
+@Override
+    public void set(final long key, final Object value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, value);
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3440" endline="3457">
+@Override
+    public void set(final int key, final long value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, JSType.toObject(value));
+    }
+</source>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3404" endline="3421">
+@Override
+    public void set(final long key, final Object value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, value);
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3459" endline="3476">
+@Override
+    public void set(final int key, final double value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, JSType.toObject(value));
+    }
+</source>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3478" endline="3495">
+@Override
+    public void set(final int key, final Object value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, value);
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3271" endline="3288">
+@Override
+    public void set(final double key, final int value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, JSType.toObject(value));
+    }
+</source>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3478" endline="3495">
+@Override
+    public void set(final int key, final Object value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, value);
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3290" endline="3307">
+@Override
+    public void set(final double key, final long value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, JSType.toObject(value));
+    }
+</source>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3478" endline="3495">
+@Override
+    public void set(final int key, final Object value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, value);
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3309" endline="3326">
+@Override
+    public void set(final double key, final double value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, JSType.toObject(value));
+    }
+</source>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3478" endline="3495">
+@Override
+    public void set(final int key, final Object value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, value);
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3347" endline="3364">
+@Override
+    public void set(final long key, final int value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, JSType.toObject(value));
+    }
+</source>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3478" endline="3495">
+@Override
+    public void set(final int key, final Object value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, value);
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3366" endline="3383">
+@Override
+    public void set(final long key, final long value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, JSType.toObject(value));
+    }
+</source>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3478" endline="3495">
+@Override
+    public void set(final int key, final Object value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, value);
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3385" endline="3402">
+@Override
+    public void set(final long key, final double value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, JSType.toObject(value));
+    }
+</source>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3478" endline="3495">
+@Override
+    public void set(final int key, final Object value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, value);
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3440" endline="3457">
+@Override
+    public void set(final int key, final long value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, JSType.toObject(value));
+    }
+</source>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3478" endline="3495">
+@Override
+    public void set(final int key, final Object value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, value);
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3459" endline="3476">
+@Override
+    public void set(final int key, final double value, final int callSiteFlags) {
+        final int index = getArrayIndex(key);
+
+        if (isValidArrayIndex(index)) {
+            final ArrayData data = getArray();
+            if (data.has(index)) {
+                setArray(data.set(index, value, isStrictFlag(callSiteFlags)));
+            } else {
+                doesNotHave(index, value, callSiteFlags);
+            }
+
+            return;
+        }
+
+        final String propName = JSType.toString(key);
+        setObject(findProperty(propName, true), callSiteFlags, propName, JSType.toObject(value));
+    }
+</source>
+    </clone>
+    <clone nlines="11" distance="4">
+        <source file="jdk/nashorn/internal/objects/NativeBoolean.java" startline="147" endline="157">
+private static Boolean getBoolean(final Object self) {
+        if (self instanceof Boolean) {
+            return ((Boolean)self);
+        } else if (self instanceof NativeBoolean) {
+            return ((NativeBoolean)self).getValue();
+        } else if (self != null &amp;&amp; self == Global.instance().getBooleanPrototype()) {
+            return false;
+        } else {
+            throw typeError("not.a.boolean", ScriptRuntime.safeToString(self));
+        }
+    }
+</source>
+        <source file="jdk/nashorn/internal/objects/NativeNumber.java" startline="336" endline="346">
+private static double getNumberValue(final Object self) {
+        if (self instanceof Number) {
+            return ((Number)self).doubleValue();
+        } else if (self instanceof NativeNumber) {
+            return ((NativeNumber)self).getValue();
+        } else if (self != null &amp;&amp; self == Global.instance().getNumberPrototype()) {
+            return 0.0;
+        } else {
+            throw typeError("not.a.number", ScriptRuntime.safeToString(self));
+        }
+    }
+</source>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="jdk/nashorn/internal/objects/NativeBoolean.java" startline="147" endline="157">
+private static Boolean getBoolean(final Object self) {
+        if (self instanceof Boolean) {
+            return ((Boolean)self);
+        } else if (self instanceof NativeBoolean) {
+            return ((NativeBoolean)self).getValue();
+        } else if (self != null &amp;&amp; self == Global.instance().getBooleanPrototype()) {
+            return false;
+        } else {
+            throw typeError("not.a.boolean", ScriptRuntime.safeToString(self));
+        }
+    }
+</source>
+        <source file="jdk/nashorn/internal/objects/NativeString.java" startline="1314" endline="1324">
+private static CharSequence getCharSequence(final Object self) {
+        if (JSType.isString(self)) {
+            return (CharSequence)self;
+        } else if (self instanceof NativeString) {
+            return ((NativeString)self).getValue();
+        } else if (self != null &amp;&amp; self == Global.instance().getStringPrototype()) {
+            return "";
+        } else {
+            throw typeError("not.a.string", ScriptRuntime.safeToString(self));
+        }
+    }
+</source>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="jdk/nashorn/internal/runtime/arrays/IntArrayData.java" startline="255" endline="264">
+@Override
+    public ArrayData set(final int index, final long value, final boolean strict) {
+        if (JSType.isRepresentableAsInt(value)) {
+            array[index] = JSType.toInt32(value);
+            setLength(Math.max(index + 1, length()));
+            return this;
+        }
+
+        return convert(Long.class).set(index, value, strict);
+    }
+</source>
+        <source file="jdk/nashorn/internal/runtime/arrays/IntArrayData.java" startline="266" endline="275">
+@Override
+    public ArrayData set(final int index, final double value, final boolean strict) {
+        if (JSType.isRepresentableAsInt(value)) {
+            array[index] = (int)(long)value;
+            setLength(Math.max(index + 1, length()));
+            return this;
+        }
+
+        return convert(Double.class).set(index, value, strict);
+    }
+</source>
+    </clone>
+    <clone nlines="10" distance="6">
+        <source file="jdk/nashorn/internal/codegen/Lower.java" startline="313" endline="322">
+@Override
+    public Node leaveSwitchNode(final SwitchNode switchNode) {
+        if(!switchNode.isUniqueInteger()) {
+            // Wrap it in a block so its internally created tag is restricted in scope
+            addStatementEnclosedInBlock(switchNode);
+        } else {
+            addStatement(switchNode);
+        }
+        return switchNode;
+    }
+</source>
+        <source file="jdk/nashorn/internal/codegen/OptimisticTypesCalculator.java" startline="134" endline="144">
+@Override
+    public boolean enterForNode(final ForNode forNode) {
+        if(forNode.isForIn()) {
+            // for..in has the iterable in its "modify"
+            tagNeverOptimistic(forNode.getModify());
+        } else {
+            // Test is never optimistic (always coerced to boolean).
+            tagNeverOptimisticLoopTest(forNode);
+        }
+        return true;
+    }
+</source>
+    </clone>
+    <clone nlines="21" distance="2">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="893" endline="913">
+public FunctionNode setThisProperties(final LexicalContext lc, final int thisProperties) {
+        if (this.thisProperties == thisProperties) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="655" endline="676">
+@Override
+    public FunctionNode setFlags(final LexicalContext lc, final int flags) {
+        if (this.flags == flags) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+    </clone>
+    <clone nlines="21" distance="2">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="954" endline="974">
+public FunctionNode setLastToken(final LexicalContext lc, final long lastToken) {
+        if (this.lastToken == lastToken) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="655" endline="676">
+@Override
+    public FunctionNode setFlags(final LexicalContext lc, final int flags) {
+        if (this.flags == flags) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+    </clone>
+    <clone nlines="22" distance="2">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="990" endline="1012">
+public FunctionNode setEndParserState(final LexicalContext lc, final Object endParserState) {
+        if (this.endParserState == endParserState) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass,
+                        source,
+                        namespace));
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="655" endline="676">
+@Override
+    public FunctionNode setFlags(final LexicalContext lc, final int flags) {
+        if (this.flags == flags) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+    </clone>
+    <clone nlines="21" distance="2">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1232" endline="1252">
+public FunctionNode setCompileUnit(final LexicalContext lc, final CompileUnit compileUnit) {
+        if (this.compileUnit == compileUnit) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="655" endline="676">
+@Override
+    public FunctionNode setFlags(final LexicalContext lc, final int flags) {
+        if (this.flags == flags) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+    </clone>
+    <clone nlines="21" distance="3">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="893" endline="913">
+public FunctionNode setThisProperties(final LexicalContext lc, final int thisProperties) {
+        if (this.thisProperties == thisProperties) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1288" endline="1308">
+public FunctionNode setRootClass(final LexicalContext lc, final Class&lt;?&gt; rootClass) {
+        if (this.rootClass == rootClass) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+    </clone>
+    <clone nlines="21" distance="3">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="954" endline="974">
+public FunctionNode setLastToken(final LexicalContext lc, final long lastToken) {
+        if (this.lastToken == lastToken) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1288" endline="1308">
+public FunctionNode setRootClass(final LexicalContext lc, final Class&lt;?&gt; rootClass) {
+        if (this.rootClass == rootClass) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+    </clone>
+    <clone nlines="21" distance="3">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="990" endline="1012">
+public FunctionNode setEndParserState(final LexicalContext lc, final Object endParserState) {
+        if (this.endParserState == endParserState) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass,
+                        source,
+                        namespace));
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1288" endline="1308">
+public FunctionNode setRootClass(final LexicalContext lc, final Class&lt;?&gt; rootClass) {
+        if (this.rootClass == rootClass) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+    </clone>
+    <clone nlines="21" distance="3">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1232" endline="1252">
+public FunctionNode setCompileUnit(final LexicalContext lc, final CompileUnit compileUnit) {
+        if (this.compileUnit == compileUnit) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1288" endline="1308">
+public FunctionNode setRootClass(final LexicalContext lc, final Class&lt;?&gt; rootClass) {
+        if (this.rootClass == rootClass) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+    </clone>
+    <clone nlines="21" distance="4">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="893" endline="913">
+public FunctionNode setThisProperties(final LexicalContext lc, final int thisProperties) {
+        if (this.thisProperties == thisProperties) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1028" endline="1050">
+public FunctionNode setName(final LexicalContext lc, final String name) {
+        if (this.name.equals(name)) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass,
+                        source,
+                        namespace));
+    }
+</source>
+    </clone>
+    <clone nlines="21" distance="4">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="954" endline="974">
+public FunctionNode setLastToken(final LexicalContext lc, final long lastToken) {
+        if (this.lastToken == lastToken) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1028" endline="1050">
+public FunctionNode setName(final LexicalContext lc, final String name) {
+        if (this.name.equals(name)) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass,
+                        source,
+                        namespace));
+    }
+</source>
+    </clone>
+    <clone nlines="23" distance="4">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="990" endline="1012">
+public FunctionNode setEndParserState(final LexicalContext lc, final Object endParserState) {
+        if (this.endParserState == endParserState) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass,
+                        source,
+                        namespace));
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1028" endline="1050">
+public FunctionNode setName(final LexicalContext lc, final String name) {
+        if (this.name.equals(name)) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass,
+                        source,
+                        namespace));
+    }
+</source>
+    </clone>
+    <clone nlines="21" distance="4">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1232" endline="1252">
+public FunctionNode setCompileUnit(final LexicalContext lc, final CompileUnit compileUnit) {
+        if (this.compileUnit == compileUnit) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1028" endline="1050">
+public FunctionNode setName(final LexicalContext lc, final String name) {
+        if (this.name.equals(name)) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass,
+                        source,
+                        namespace));
+    }
+</source>
+    </clone>
+    <clone nlines="21" distance="3">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="893" endline="913">
+public FunctionNode setThisProperties(final LexicalContext lc, final int thisProperties) {
+        if (this.thisProperties == thisProperties) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1096" endline="1116">
+public FunctionNode setParameters(final LexicalContext lc, final List&lt;IdentNode&gt; parameters) {
+        if (this.parameters == parameters) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+    </clone>
+    <clone nlines="21" distance="3">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="954" endline="974">
+public FunctionNode setLastToken(final LexicalContext lc, final long lastToken) {
+        if (this.lastToken == lastToken) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1096" endline="1116">
+public FunctionNode setParameters(final LexicalContext lc, final List&lt;IdentNode&gt; parameters) {
+        if (this.parameters == parameters) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+    </clone>
+    <clone nlines="21" distance="3">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="990" endline="1012">
+public FunctionNode setEndParserState(final LexicalContext lc, final Object endParserState) {
+        if (this.endParserState == endParserState) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass,
+                        source,
+                        namespace));
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1096" endline="1116">
+public FunctionNode setParameters(final LexicalContext lc, final List&lt;IdentNode&gt; parameters) {
+        if (this.parameters == parameters) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+    </clone>
+    <clone nlines="21" distance="3">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1232" endline="1252">
+public FunctionNode setCompileUnit(final LexicalContext lc, final CompileUnit compileUnit) {
+        if (this.compileUnit == compileUnit) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1096" endline="1116">
+public FunctionNode setParameters(final LexicalContext lc, final List&lt;IdentNode&gt; parameters) {
+        if (this.parameters == parameters) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+    </clone>
+    <clone nlines="21" distance="5">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="655" endline="676">
+@Override
+    public FunctionNode setFlags(final LexicalContext lc, final int flags) {
+        if (this.flags == flags) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1288" endline="1308">
+public FunctionNode setRootClass(final LexicalContext lc, final Class&lt;?&gt; rootClass) {
+        if (this.rootClass == rootClass) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+    </clone>
+    <clone nlines="22" distance="6">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="655" endline="676">
+@Override
+    public FunctionNode setFlags(final LexicalContext lc, final int flags) {
+        if (this.flags == flags) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1028" endline="1050">
+public FunctionNode setName(final LexicalContext lc, final String name) {
+        if (this.name.equals(name)) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass,
+                        source,
+                        namespace));
+    }
+</source>
+    </clone>
+    <clone nlines="21" distance="5">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="655" endline="676">
+@Override
+    public FunctionNode setFlags(final LexicalContext lc, final int flags) {
+        if (this.flags == flags) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1096" endline="1116">
+public FunctionNode setParameters(final LexicalContext lc, final List&lt;IdentNode&gt; parameters) {
+        if (this.parameters == parameters) {
+            return this;
+        }
+        return Node.replaceInLexicalContext(
+                lc,
+                this,
+                new FunctionNode(
+                        this,
+                        lastToken,
+                        endParserState,
+                        flags,
+                        name,
+                        returnType,
+                        compileUnit,
+                        compilationState,
+                        body,
+                        parameters,
+                        thisProperties,
+                        rootClass, source, namespace));
+    }
+</source>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="153" endline="163">
+@Override
+    public boolean enterBlock(final Block block) {
+        enterDefault(block);
+
+        type("BlockStatement");
+        comma();
+
+        array("body", block.getStatements());
+
+        return leave();
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="320" endline="331">
+@Override
+    public boolean enterBlockStatement(final BlockStatement blockStatement) {
+        enterDefault(blockStatement);
+
+        type("BlockStatement");
+        comma();
+
+        property("block");
+        blockStatement.getBlock().accept(this);
+
+        return leave();
+    }
+</source>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="153" endline="163">
+@Override
+    public boolean enterBlock(final Block block) {
+        enterDefault(block);
+
+        type("BlockStatement");
+        comma();
+
+        array("body", block.getStatements());
+
+        return leave();
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="733" endline="744">
+@Override
+    public boolean enterThrowNode(final ThrowNode throwNode) {
+        enterDefault(throwNode);
+
+        type("ThrowStatement");
+        comma();
+
+        property("argument");
+        throwNode.getExpression().accept(this);
+
+        return leave();
+    }
+</source>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="582" endline="592">
+@Override
+    public boolean enterObjectNode(final ObjectNode objectNode) {
+        enterDefault(objectNode);
+
+        type("ObjectExpression");
+        comma();
+
+        array("properties", objectNode.getElements());
+
+        return leave();
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="320" endline="331">
+@Override
+    public boolean enterBlockStatement(final BlockStatement blockStatement) {
+        enterDefault(blockStatement);
+
+        type("BlockStatement");
+        comma();
+
+        property("block");
+        blockStatement.getBlock().accept(this);
+
+        return leave();
+    }
+</source>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="582" endline="592">
+@Override
+    public boolean enterObjectNode(final ObjectNode objectNode) {
+        enterDefault(objectNode);
+
+        type("ObjectExpression");
+        comma();
+
+        array("properties", objectNode.getElements());
+
+        return leave();
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="733" endline="744">
+@Override
+    public boolean enterThrowNode(final ThrowNode throwNode) {
+        enterDefault(throwNode);
+
+        type("ThrowStatement");
+        comma();
+
+        property("argument");
+        throwNode.getExpression().accept(this);
+
+        return leave();
+    }
+</source>
+    </clone>
+    <clone nlines="15" distance="6">
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="530" endline="544">
+@Override
+    public boolean enterLabelNode(final LabelNode labelNode) {
+        enterDefault(labelNode);
+
+        type("LabeledStatement");
+        comma();
+
+        property("label", labelNode.getLabelName());
+        comma();
+
+        property("body");
+        labelNode.getBody().accept(this);
+
+        return leave();
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="922" endline="937">
+@Override
+    public boolean enterWithNode(final WithNode withNode) {
+        enterDefault(withNode);
+
+        type("WithStatement");
+        comma();
+
+        property("object");
+        withNode.getExpression().accept(this);
+        comma();
+
+        property("body");
+        withNode.getBody().accept(this);
+
+        return leave();
+   }
+</source>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="104" endline="113">
+@Override
+    public boolean enterJoinPredecessorExpression(final JoinPredecessorExpression joinPredecessorExpression) {
+        final Expression expr = joinPredecessorExpression.getExpression();
+        if(expr != null) {
+            expr.accept(this);
+        } else {
+            nullValue();
+        }
+        return false;
+    }
+</source>
+        <source file="jdk/nashorn/internal/codegen/LocalVariableTypesCalculator.java" startline="779" endline="788">
+@Override
+    public boolean enterJoinPredecessorExpression(final JoinPredecessorExpression joinExpr) {
+        final Expression expr = joinExpr.getExpression();
+        if (expr != null) {
+            expr.accept(this);
+        } else {
+            typeStack.push(LvarType.UNDEFINED);
+        }
+        return false;
+    }
+</source>
+    </clone>
+    <clone nlines="18" distance="6">
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="134" endline="151">
+@Override
+    public boolean enterAccessNode(final AccessNode accessNode) {
+        enterDefault(accessNode);
+
+        type("MemberExpression");
+        comma();
+
+        property("object");
+        accessNode.getBase().accept(this);
+        comma();
+
+        property("property", accessNode.getProperty());
+        comma();
+
+        property("computed", false);
+
+        return leave();
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="510" endline="528">
+@Override
+    public boolean enterIndexNode(final IndexNode indexNode) {
+        enterDefault(indexNode);
+
+        type("MemberExpression");
+        comma();
+
+        property("object");
+        indexNode.getBase().accept(this);
+        comma();
+
+        property("property");
+        indexNode.getIndex().accept(this);
+        comma();
+
+        property("computed", true);
+
+        return leave();
+    }
+</source>
+    </clone>
+    <clone nlines="15" distance="6">
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="212" endline="226">
+@Override
+    public boolean enterCallNode(final CallNode callNode) {
+        enterDefault(callNode);
+
+        type("CallExpression");
+        comma();
+
+        property("callee");
+        callNode.getFunction().accept(this);
+        comma();
+
+        array("arguments", callNode.getArgs());
+
+        return leave();
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="922" endline="937">
+@Override
+    public boolean enterWithNode(final WithNode withNode) {
+        enterDefault(withNode);
+
+        type("WithStatement");
+        comma();
+
+        property("object");
+        withNode.getExpression().accept(this);
+        comma();
+
+        property("body");
+        withNode.getBody().accept(this);
+
+        return leave();
+   }
+</source>
+    </clone>
+    <clone nlines="15" distance="6">
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="696" endline="710">
+@Override
+    public boolean enterSwitchNode(final SwitchNode switchNode) {
+        enterDefault(switchNode);
+
+        type("SwitchStatement");
+        comma();
+
+        property("discriminant");
+        switchNode.getExpression().accept(this);
+        comma();
+
+        array("cases", switchNode.getCases());
+
+        return leave();
+    }
+</source>
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="922" endline="937">
+@Override
+    public boolean enterWithNode(final WithNode withNode) {
+        enterDefault(withNode);
+
+        type("WithStatement");
+        comma();
+
+        property("object");
+        withNode.getExpression().accept(this);
+        comma();
+
+        property("body");
+        withNode.getBody().accept(this);
+
+        return leave();
+   }
+</source>
+    </clone>
+</clones>

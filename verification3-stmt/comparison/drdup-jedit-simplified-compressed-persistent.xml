@@ -1,0 +1,2303 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<clones>
+    <clone nlines="15" distance="2">
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="1653" startcolumn="15" endline="1667" endcolumn="36"/>
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="1653" startcolumn="1" endline="1667" endcolumn="36"/>
+    </clone>
+    <clone nlines="96" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/ParserTokenManager.java" startline="1689" startcolumn="21" endline="1784" endcolumn="32"/>
+        <source file="org/gjt/sp/jedit/bsh/ParserTokenManager.java" startline="1689" startcolumn="10" endline="1784" endcolumn="32"/>
+    </clone>
+    <clone nlines="16" distance="2">
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="1627" startcolumn="16" endline="1642" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="1627" startcolumn="1" endline="1642" endcolumn="3"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Interpreter.java" startline="362" startcolumn="6" endline="372" endcolumn="6"/>
+        <source file="org/gjt/sp/jedit/bsh/Interpreter.java" startline="361" startcolumn="5" endline="372" endcolumn="6"/>
+    </clone>
+    <clone nlines="64" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/ParserTokenManager.java" startline="2041" startcolumn="3" endline="2104" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/bsh/ParserTokenManager.java" startline="2040" startcolumn="3" endline="2104" endcolumn="3"/>
+    </clone>
+    <clone nlines="109" distance="2">
+        <source file="org/gjt/sp/jedit/search/SearchAndReplace.java" startline="483" startcolumn="8" endline="591" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/search/SearchAndReplace.java" startline="483" startcolumn="1" endline="591" endcolumn="4"/>
+    </clone>
+    <clone nlines="354" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/ParserTokenManager.java" startline="1331" startcolumn="21" endline="1684" endcolumn="32"/>
+        <source file="org/gjt/sp/jedit/bsh/ParserTokenManager.java" startline="1331" startcolumn="10" endline="1684" endcolumn="32"/>
+    </clone>
+    <clone nlines="73" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/ParserTokenManager.java" startline="1793" startcolumn="21" endline="1865" endcolumn="32"/>
+        <source file="org/gjt/sp/jedit/bsh/ParserTokenManager.java" startline="1793" startcolumn="10" endline="1865" endcolumn="32"/>
+    </clone>
+    <clone nlines="12" distance="2">
+        <source file="org/gjt/sp/jedit/syntax/DisplayTokenHandler.java" startline="643" startcolumn="5" endline="654" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/syntax/DisplayTokenHandler.java" startline="662" startcolumn="5" endline="673" endcolumn="5"/>
+    </clone>
+    <clone nlines="36" distance="2">
+        <source file="org/gjt/sp/jedit/search/BoyerMooreSearchMatcher.java" startline="176" startcolumn="3" endline="211" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/search/BoyerMooreSearchMatcher.java" startline="175" startcolumn="3" endline="211" endcolumn="3"/>
+    </clone>
+    <clone nlines="33" distance="7">
+        <source file="org/gjt/sp/jedit/buffer/LineManager.java" startline="83" startcolumn="4" endline="115" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/buffer/LineManager.java" startline="81" startcolumn="3" endline="116" endcolumn="3"/>
+    </clone>
+    <clone nlines="26" distance="7">
+        <source file="org/gjt/sp/jedit/textarea/RangeMap.java" startline="114" startcolumn="4" endline="139" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/textarea/RangeMap.java" startline="112" startcolumn="8" endline="140" endcolumn="3"/>
+    </clone>
+    <clone nlines="14" distance="8">
+        <source file="org/gjt/sp/jedit/bsh/BSHEnhancedForStatement.java" startline="82" startcolumn="21" endline="95" endcolumn="21"/>
+        <source file="org/gjt/sp/jedit/bsh/BSHEnhancedForStatement.java" startline="80" startcolumn="17" endline="96" endcolumn="17"/>
+    </clone>
+    <clone nlines="14" distance="8">
+        <source file="org/gjt/sp/jedit/bsh/BSHEnhancedForStatement.java" startline="82" startcolumn="21" endline="95" endcolumn="21"/>
+        <source file="org/gjt/sp/jedit/bsh/BSHForStatement.java" startline="113" startcolumn="17" endline="129" endcolumn="17"/>
+    </clone>
+    <clone nlines="14" distance="8">
+        <source file="org/gjt/sp/jedit/bsh/BSHForStatement.java" startline="115" startcolumn="21" endline="128" endcolumn="21"/>
+        <source file="org/gjt/sp/jedit/bsh/BSHEnhancedForStatement.java" startline="80" startcolumn="17" endline="96" endcolumn="17"/>
+    </clone>
+    <clone nlines="14" distance="8">
+        <source file="org/gjt/sp/jedit/bsh/BSHForStatement.java" startline="115" startcolumn="21" endline="128" endcolumn="21"/>
+        <source file="org/gjt/sp/jedit/bsh/BSHForStatement.java" startline="113" startcolumn="17" endline="129" endcolumn="17"/>
+    </clone>
+    <clone nlines="12" distance="8">
+        <source file="org/gjt/sp/jedit/bsh/BSHWhileStatement.java" startline="77" startcolumn="5" endline="88" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/BSHWhileStatement.java" startline="75" startcolumn="4" endline="89" endcolumn="4"/>
+    </clone>
+    <clone nlines="13" distance="8">
+        <source file="org/gjt/sp/jedit/bsh/Name.java" startline="739" startcolumn="4" endline="751" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/bsh/Name.java" startline="737" startcolumn="3" endline="752" endcolumn="3"/>
+    </clone>
+    <clone nlines="21" distance="8">
+        <source file="org/gjt/sp/jedit/syntax/XModeHandler.java" startline="189" startcolumn="5" endline="209" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/syntax/XModeHandler.java" startline="314" startcolumn="5" endline="336" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/gui/RolloverButton.java" startline="95" startcolumn="3" endline="104" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/gui/CloseDialog.java" startline="164" startcolumn="5" endline="174" endcolumn="5"/>
+    </clone>
+    <clone nlines="36" distance="8">
+        <source file="org/gjt/sp/jedit/EditBus.java" startline="260" startcolumn="5" endline="295" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/EditBus.java" startline="258" startcolumn="4" endline="296" endcolumn="4"/>
+    </clone>
+    <clone nlines="84" distance="2">
+        <source file="org/jedit/io/Native2ASCIIEncoding.java" startline="330" startcolumn="4" endline="413" endcolumn="4"/>
+        <source file="org/jedit/io/Native2ASCIIEncoding.java" startline="329" startcolumn="1" endline="413" endcolumn="4"/>
+    </clone>
+    <clone nlines="29" distance="2">
+        <source file="org/gjt/sp/jedit/textarea/RangeMap.java" startline="112" startcolumn="8" endline="140" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/textarea/RangeMap.java" startline="112" startcolumn="1" endline="140" endcolumn="3"/>
+    </clone>
+    <clone nlines="20" distance="6">
+        <source file="org/gjt/sp/jedit/textarea/ChunkCache.java" startline="467" startcolumn="3" endline="486" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/textarea/ChunkCache.java" startline="430" startcolumn="3" endline="449" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="8">
+        <source file="org/gjt/sp/jedit/textarea/DisplayManager.java" startline="619" startcolumn="8" endline="631" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/textarea/DisplayManager.java" startline="617" startcolumn="3" endline="631" endcolumn="3"/>
+    </clone>
+    <clone nlines="16" distance="6">
+        <source file="net/sourceforge/jarbundler/JarBundler.java" startline="1269" startcolumn="3" endline="1284" endcolumn="3"/>
+        <source file="net/sourceforge/jarbundler/JarBundler.java" startline="1139" startcolumn="3" endline="1154" endcolumn="3"/>
+    </clone>
+    <clone nlines="12" distance="2">
+        <source file="org/gjt/sp/util/StandardUtilities.java" startline="132" startcolumn="8" endline="143" endcolumn="3"/>
+        <source file="org/gjt/sp/util/StandardUtilities.java" startline="132" startcolumn="1" endline="143" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="org/gjt/sp/jedit/MiscUtilities.java" startline="1186" startcolumn="8" endline="1200" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/MiscUtilities.java" startline="1186" startcolumn="1" endline="1200" endcolumn="3"/>
+    </clone>
+    <clone nlines="56" distance="2">
+        <source file="org/gjt/sp/jedit/print/BufferPrintable.java" startline="278" startcolumn="13" endline="333" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/print/BufferPrintable.java" startline="278" startcolumn="1" endline="333" endcolumn="3"/>
+    </clone>
+    <clone nlines="10" distance="6">
+        <source file="org/gjt/sp/util/TaskManager.java" startline="189" startcolumn="4" endline="198" endcolumn="4"/>
+        <source file="org/gjt/sp/util/TaskManager.java" startline="187" startcolumn="3" endline="199" endcolumn="3"/>
+    </clone>
+    <clone nlines="14" distance="1">
+        <source file="installer/CBZip2OutputStream.java" startline="514" startcolumn="9" endline="527" endcolumn="9"/>
+        <source file="installer/CBZip2OutputStream.java" startline="467" startcolumn="9" endline="480" endcolumn="9"/>
+    </clone>
+    <clone nlines="14" distance="2">
+        <source file="org/gjt/sp/jedit/syntax/TokenMarker.java" startline="236" startcolumn="10" endline="249" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/syntax/TokenMarker.java" startline="236" startcolumn="1" endline="249" endcolumn="3"/>
+    </clone>
+    <clone nlines="11" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2497" startcolumn="9" endline="2507" endcolumn="9"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2496" startcolumn="9" endline="2507" endcolumn="9"/>
+    </clone>
+    <clone nlines="12" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2523" startcolumn="11" endline="2534" endcolumn="11"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2522" startcolumn="11" endline="2534" endcolumn="11"/>
+    </clone>
+    <clone nlines="102" distance="2">
+        <source file="org/gjt/sp/jedit/View.java" startline="1736" startcolumn="8" endline="1837" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/View.java" startline="1736" startcolumn="1" endline="1837" endcolumn="3"/>
+    </clone>
+    <clone nlines="12" distance="8">
+        <source file="org/gjt/sp/jedit/textarea/ColumnBlock.java" startline="293" startcolumn="5" endline="304" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/textarea/ColumnBlock.java" startline="291" startcolumn="9" endline="305" endcolumn="4"/>
+    </clone>
+    <clone nlines="13" distance="6">
+        <source file="org/gjt/sp/jedit/gui/ExtendedGridLayout.java" startline="710" startcolumn="4" endline="722" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/gui/VariableGridLayout.java" startline="282" startcolumn="5" endline="300" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="6">
+        <source file="org/gjt/sp/jedit/gui/ExtendedGridLayout.java" startline="710" startcolumn="4" endline="722" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/gui/VariableGridLayout.java" startline="307" startcolumn="5" endline="325" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="6">
+        <source file="org/gjt/sp/jedit/gui/ExtendedGridLayout.java" startline="803" startcolumn="4" endline="815" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/gui/VariableGridLayout.java" startline="282" startcolumn="5" endline="300" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="6">
+        <source file="org/gjt/sp/jedit/gui/ExtendedGridLayout.java" startline="803" startcolumn="4" endline="815" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/gui/VariableGridLayout.java" startline="307" startcolumn="5" endline="325" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="6">
+        <source file="org/gjt/sp/jedit/gui/ExtendedGridLayout.java" startline="823" startcolumn="4" endline="835" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/gui/VariableGridLayout.java" startline="282" startcolumn="5" endline="300" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="6">
+        <source file="org/gjt/sp/jedit/gui/ExtendedGridLayout.java" startline="823" startcolumn="4" endline="835" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/gui/VariableGridLayout.java" startline="307" startcolumn="5" endline="325" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="6">
+        <source file="org/gjt/sp/jedit/gui/ExtendedGridLayout.java" startline="916" startcolumn="4" endline="928" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/gui/VariableGridLayout.java" startline="282" startcolumn="5" endline="300" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="6">
+        <source file="org/gjt/sp/jedit/gui/ExtendedGridLayout.java" startline="916" startcolumn="4" endline="928" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/gui/VariableGridLayout.java" startline="307" startcolumn="5" endline="325" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="6">
+        <source file="org/gjt/sp/jedit/gui/VariableGridLayout.java" startline="287" startcolumn="6" endline="299" endcolumn="6"/>
+        <source file="org/gjt/sp/jedit/gui/VariableGridLayout.java" startline="282" startcolumn="5" endline="300" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="6">
+        <source file="org/gjt/sp/jedit/gui/VariableGridLayout.java" startline="287" startcolumn="6" endline="299" endcolumn="6"/>
+        <source file="org/gjt/sp/jedit/gui/VariableGridLayout.java" startline="307" startcolumn="5" endline="325" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="6">
+        <source file="org/gjt/sp/jedit/gui/VariableGridLayout.java" startline="312" startcolumn="6" endline="324" endcolumn="6"/>
+        <source file="org/gjt/sp/jedit/gui/VariableGridLayout.java" startline="282" startcolumn="5" endline="300" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="6">
+        <source file="org/gjt/sp/jedit/gui/VariableGridLayout.java" startline="312" startcolumn="6" endline="324" endcolumn="6"/>
+        <source file="org/gjt/sp/jedit/gui/VariableGridLayout.java" startline="307" startcolumn="5" endline="325" endcolumn="5"/>
+    </clone>
+    <clone nlines="15" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/BSHPrimaryExpression.java" startline="88" startcolumn="4" endline="102" endcolumn="58"/>
+        <source file="org/gjt/sp/jedit/bsh/BSHPrimaryExpression.java" startline="87" startcolumn="3" endline="102" endcolumn="58"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="3219" startcolumn="3" endline="3228" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="3179" startcolumn="3" endline="3188" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="7">
+        <source file="org/jedit/io/Native2ASCIIEncoding.java" startline="388" startcolumn="6" endline="403" endcolumn="6"/>
+        <source file="org/jedit/io/Native2ASCIIEncoding.java" startline="264" startcolumn="5" endline="276" endcolumn="5"/>
+    </clone>
+    <clone nlines="14" distance="4">
+        <source file="org/gjt/sp/jedit/syntax/TokenMarker.java" startline="492" startcolumn="5" endline="505" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/syntax/TokenMarker.java" startline="457" startcolumn="5" endline="471" endcolumn="5"/>
+    </clone>
+    <clone nlines="14" distance="8">
+        <source file="org/gjt/sp/jedit/syntax/XModeHandler.java" startline="191" startcolumn="6" endline="204" endcolumn="6"/>
+        <source file="org/gjt/sp/jedit/syntax/XModeHandler.java" startline="316" startcolumn="6" endline="331" endcolumn="6"/>
+    </clone>
+    <clone nlines="12" distance="4">
+        <source file="org/gjt/sp/jedit/pluginmgr/MirrorList.java" startline="144" startcolumn="3" endline="155" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/pluginmgr/MirrorList.java" startline="119" startcolumn="3" endline="130" endcolumn="3"/>
+    </clone>
+    <clone nlines="107" distance="7">
+        <source file="org/gjt/sp/jedit/bsh/Interpreter.java" startline="445" startcolumn="13" endline="551" endcolumn="13"/>
+        <source file="org/gjt/sp/jedit/bsh/Interpreter.java" startline="443" startcolumn="9" endline="552" endcolumn="9"/>
+    </clone>
+    <clone nlines="23" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2059" startcolumn="5" endline="2081" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3497" startcolumn="5" endline="3520" endcolumn="5"/>
+    </clone>
+    <clone nlines="23" distance="1">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2059" startcolumn="5" endline="2081" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="391" startcolumn="5" endline="413" endcolumn="5"/>
+    </clone>
+    <clone nlines="22" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1153" startcolumn="7" endline="1174" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2059" startcolumn="5" endline="2081" endcolumn="5"/>
+    </clone>
+    <clone nlines="22" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1153" startcolumn="7" endline="1174" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="391" startcolumn="5" endline="413" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="411" startcolumn="3" endline="421" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="958" startcolumn="3" endline="967" endcolumn="3"/>
+    </clone>
+    <clone nlines="96" distance="2">
+        <source file="org/gjt/sp/jedit/syntax/TokenMarker.java" startline="128" startcolumn="12" endline="223" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/syntax/TokenMarker.java" startline="128" startcolumn="1" endline="223" endcolumn="3"/>
+    </clone>
+    <clone nlines="21" distance="1">
+        <source file="installer/CBZip2OutputStream.java" startline="880" startcolumn="13" endline="900" endcolumn="13"/>
+        <source file="installer/CBZip2OutputStream.java" startline="846" startcolumn="21" endline="867" endcolumn="21"/>
+    </clone>
+    <clone nlines="26" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1314" startcolumn="5" endline="1339" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1313" startcolumn="5" endline="1339" endcolumn="5"/>
+    </clone>
+    <clone nlines="14" distance="2">
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="2589" startcolumn="5" endline="2602" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="2884" startcolumn="5" endline="2897" endcolumn="5"/>
+    </clone>
+    <clone nlines="27" distance="8">
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="2580" startcolumn="1" endline="2606" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="2875" startcolumn="1" endline="2901" endcolumn="3"/>
+    </clone>
+    <clone nlines="10" distance="7">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="612" startcolumn="9" endline="621" endcolumn="9"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="792" startcolumn="7" endline="802" endcolumn="7"/>
+    </clone>
+    <clone nlines="10" distance="7">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="612" startcolumn="9" endline="621" endcolumn="9"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2508" startcolumn="9" endline="2518" endcolumn="9"/>
+    </clone>
+    <clone nlines="11" distance="7">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="792" startcolumn="7" endline="802" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="966" startcolumn="7" endline="976" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="7">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2508" startcolumn="9" endline="2518" endcolumn="9"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="966" startcolumn="7" endline="976" endcolumn="7"/>
+    </clone>
+    <clone nlines="10" distance="7">
+        <source file="org/gjt/sp/jedit/gui/SplashScreen.java" startline="114" startcolumn="3" endline="126" endcolumn="3"/>
+        <source file="org/gjt/sp/util/TaskManager.java" startline="189" startcolumn="4" endline="198" endcolumn="4"/>
+    </clone>
+    <clone nlines="10" distance="7">
+        <source file="org/gjt/sp/jedit/gui/SplashScreen.java" startline="136" startcolumn="3" endline="148" endcolumn="3"/>
+        <source file="org/gjt/sp/util/TaskManager.java" startline="189" startcolumn="4" endline="198" endcolumn="4"/>
+    </clone>
+    <clone nlines="13" distance="6">
+        <source file="org/gjt/sp/jedit/textarea/Gutter.java" startline="778" startcolumn="5" endline="790" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/textarea/Gutter.java" startline="763" startcolumn="5" endline="775" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/io/EncodingWithBOM.java" startline="109" startcolumn="5" endline="118" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/io/EncodingWithBOM.java" startline="107" startcolumn="4" endline="119" endcolumn="4"/>
+    </clone>
+    <clone nlines="10" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/BSHPrimarySuffix.java" startline="75" startcolumn="4" endline="84" endcolumn="23"/>
+        <source file="org/gjt/sp/jedit/bsh/BSHPrimarySuffix.java" startline="74" startcolumn="3" endline="84" endcolumn="23"/>
+    </clone>
+    <clone nlines="18" distance="8">
+        <source file="org/gjt/sp/jedit/browser/VFSBrowser.java" startline="1646" startcolumn="4" endline="1663" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/browser/VFSBrowser.java" startline="1644" startcolumn="3" endline="1664" endcolumn="3"/>
+    </clone>
+    <clone nlines="14" distance="8">
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="2223" startcolumn="4" endline="2236" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="2219" startcolumn="3" endline="2237" endcolumn="3"/>
+    </clone>
+    <clone nlines="10" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Reflect.java" startline="794" startcolumn="4" endline="803" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/bsh/Reflect.java" startline="793" startcolumn="3" endline="803" endcolumn="4"/>
+    </clone>
+    <clone nlines="25" distance="8">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1058" startcolumn="5" endline="1082" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2909" startcolumn="5" endline="2934" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2207" startcolumn="3" endline="2216" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/search/SearchDialog.java" startline="1038" startcolumn="9" endline="1047" endcolumn="4"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2207" startcolumn="3" endline="2216" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="411" startcolumn="3" endline="421" endcolumn="3"/>
+    </clone>
+    <clone nlines="10" distance="7">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2207" startcolumn="3" endline="2216" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/BeanShell.java" startline="173" startcolumn="3" endline="182" endcolumn="3"/>
+    </clone>
+    <clone nlines="10" distance="6">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="958" startcolumn="3" endline="967" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/Macros.java" startline="78" startcolumn="4" endline="88" endcolumn="4"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="958" startcolumn="3" endline="967" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="939" startcolumn="3" endline="948" endcolumn="3"/>
+    </clone>
+    <clone nlines="11" distance="4">
+        <source file="org/gjt/sp/jedit/io/UrlVFS.java" startline="59" startcolumn="3" endline="69" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/io/UrlVFS.java" startline="76" startcolumn="3" endline="87" endcolumn="3"/>
+    </clone>
+    <clone nlines="11" distance="8">
+        <source file="org/gjt/sp/jedit/MiscUtilities.java" startline="814" startcolumn="4" endline="824" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/MiscUtilities.java" startline="812" startcolumn="3" endline="826" endcolumn="3"/>
+    </clone>
+    <clone nlines="14" distance="3">
+        <source file="org/gjt/sp/jedit/textarea/FirstLine.java" startline="303" startcolumn="3" endline="317" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/textarea/FirstLine.java" startline="362" startcolumn="3" endline="375" endcolumn="3"/>
+    </clone>
+    <clone nlines="24" distance="4">
+        <source file="installer/CBZip2OutputStream.java" startline="1293" startcolumn="17" endline="1316" endcolumn="17"/>
+        <source file="installer/CBZip2OutputStream.java" startline="1317" startcolumn="17" endline="1340" endcolumn="17"/>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="967" startcolumn="7" endline="976" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="966" startcolumn="7" endline="976" endcolumn="7"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1185" startcolumn="5" endline="1221" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1184" startcolumn="5" endline="1221" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1185" startcolumn="5" endline="1221" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1227" startcolumn="5" endline="1264" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1185" startcolumn="5" endline="1221" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1270" startcolumn="5" endline="1307" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1185" startcolumn="5" endline="1221" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1345" startcolumn="5" endline="1382" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1185" startcolumn="5" endline="1221" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1388" startcolumn="5" endline="1425" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1185" startcolumn="5" endline="1221" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1585" startcolumn="5" endline="1622" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1228" startcolumn="5" endline="1264" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1184" startcolumn="5" endline="1221" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1228" startcolumn="5" endline="1264" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1227" startcolumn="5" endline="1264" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1228" startcolumn="5" endline="1264" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1270" startcolumn="5" endline="1307" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1228" startcolumn="5" endline="1264" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1345" startcolumn="5" endline="1382" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1228" startcolumn="5" endline="1264" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1388" startcolumn="5" endline="1425" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1228" startcolumn="5" endline="1264" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1585" startcolumn="5" endline="1622" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1271" startcolumn="5" endline="1307" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1184" startcolumn="5" endline="1221" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1271" startcolumn="5" endline="1307" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1227" startcolumn="5" endline="1264" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1271" startcolumn="5" endline="1307" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1270" startcolumn="5" endline="1307" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1271" startcolumn="5" endline="1307" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1345" startcolumn="5" endline="1382" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1271" startcolumn="5" endline="1307" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1388" startcolumn="5" endline="1425" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1271" startcolumn="5" endline="1307" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1585" startcolumn="5" endline="1622" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1346" startcolumn="5" endline="1382" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1184" startcolumn="5" endline="1221" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1346" startcolumn="5" endline="1382" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1227" startcolumn="5" endline="1264" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1346" startcolumn="5" endline="1382" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1270" startcolumn="5" endline="1307" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1346" startcolumn="5" endline="1382" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1345" startcolumn="5" endline="1382" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1346" startcolumn="5" endline="1382" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1388" startcolumn="5" endline="1425" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1346" startcolumn="5" endline="1382" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1585" startcolumn="5" endline="1622" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1389" startcolumn="5" endline="1425" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1184" startcolumn="5" endline="1221" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1389" startcolumn="5" endline="1425" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1227" startcolumn="5" endline="1264" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1389" startcolumn="5" endline="1425" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1270" startcolumn="5" endline="1307" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1389" startcolumn="5" endline="1425" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1345" startcolumn="5" endline="1382" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1389" startcolumn="5" endline="1425" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1388" startcolumn="5" endline="1425" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1389" startcolumn="5" endline="1425" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1585" startcolumn="5" endline="1622" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1586" startcolumn="5" endline="1622" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1184" startcolumn="5" endline="1221" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1586" startcolumn="5" endline="1622" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1227" startcolumn="5" endline="1264" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1586" startcolumn="5" endline="1622" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1270" startcolumn="5" endline="1307" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1586" startcolumn="5" endline="1622" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1345" startcolumn="5" endline="1382" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1586" startcolumn="5" endline="1622" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1388" startcolumn="5" endline="1425" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1586" startcolumn="5" endline="1622" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1585" startcolumn="5" endline="1622" endcolumn="5"/>
+    </clone>
+    <clone nlines="20" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2771" startcolumn="7" endline="2790" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2770" startcolumn="7" endline="2790" endcolumn="7"/>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3533" startcolumn="7" endline="3547" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3532" startcolumn="7" endline="3547" endcolumn="7"/>
+    </clone>
+    <clone nlines="12" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Modifiers.java" startline="37" startcolumn="3" endline="48" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/textarea/MouseHandler.java" startline="126" startcolumn="4" endline="137" endcolumn="4"/>
+    </clone>
+    <clone nlines="12" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Modifiers.java" startline="37" startcolumn="3" endline="48" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/textarea/TextAreaMouseHandler.java" startline="113" startcolumn="4" endline="124" endcolumn="4"/>
+    </clone>
+    <clone nlines="12" distance="7">
+        <source file="org/gjt/sp/jedit/bsh/Modifiers.java" startline="37" startcolumn="3" endline="48" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/textarea/TextAreaMouseHandler.java" startline="313" startcolumn="3" endline="324" endcolumn="3"/>
+    </clone>
+    <clone nlines="11" distance="7">
+        <source file="org/gjt/sp/util/StandardUtilities.java" startline="195" startcolumn="4" endline="206" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/buffer/IndentFoldHandler.java" startline="53" startcolumn="4" endline="63" endcolumn="4"/>
+    </clone>
+    <clone nlines="12" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1528" startcolumn="7" endline="1539" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1461" startcolumn="7" endline="1474" endcolumn="7"/>
+    </clone>
+    <clone nlines="12" distance="5">
+        <source file="org/jedit/io/Native2ASCIIEncoding.java" startline="227" startcolumn="4" endline="238" endcolumn="4"/>
+        <source file="org/jedit/io/Native2ASCIIEncoding.java" startline="246" startcolumn="5" endline="257" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/gjt/sp/jedit/textarea/FirstLine.java" startline="307" startcolumn="4" endline="316" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/textarea/FirstLine.java" startline="365" startcolumn="4" endline="374" endcolumn="4"/>
+    </clone>
+    <clone nlines="92" distance="8">
+        <source file="org/gjt/sp/jedit/gui/VariableGridLayout.java" startline="533" startcolumn="4" endline="624" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/gui/VariableGridLayout.java" startline="531" startcolumn="3" endline="625" endcolumn="3"/>
+    </clone>
+    <clone nlines="21" distance="8">
+        <source file="org/gjt/sp/jedit/syntax/Chunk.java" startline="521" startcolumn="4" endline="541" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/syntax/Chunk.java" startline="519" startcolumn="3" endline="542" endcolumn="3"/>
+    </clone>
+    <clone nlines="25" distance="6">
+        <source file="installer/CBZip2OutputStream.java" startline="877" startcolumn="9" endline="901" endcolumn="9"/>
+        <source file="installer/CBZip2OutputStream.java" startline="843" startcolumn="17" endline="870" endcolumn="17"/>
+    </clone>
+    <clone nlines="12" distance="8">
+        <source file="org/gjt/sp/jedit/io/EncodingWithBOM.java" startline="122" startcolumn="5" endline="133" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/io/EncodingWithBOM.java" startline="120" startcolumn="4" endline="134" endcolumn="4"/>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="org/gjt/sp/jedit/textarea/BufferHandler.java" startline="303" startcolumn="9" endline="317" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/textarea/BufferHandler.java" startline="133" startcolumn="4" endline="148" endcolumn="4"/>
+    </clone>
+    <clone nlines="25" distance="8">
+        <source file="org/gjt/sp/jedit/bsh/Primitive.java" startline="631" startcolumn="14" endline="656" endcolumn="58"/>
+        <source file="org/gjt/sp/jedit/bsh/BSHUnaryExpression.java" startline="107" startcolumn="3" endline="131" endcolumn="93"/>
+    </clone>
+    <clone nlines="18" distance="7">
+        <source file="org/gjt/sp/jedit/jEdit.java" startline="4667" startcolumn="6" endline="4684" endcolumn="30"/>
+        <source file="org/gjt/sp/jedit/jEdit.java" startline="4665" startcolumn="5" endline="4685" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="7">
+        <source file="org/gjt/sp/jedit/PluginJAR.java" startline="1630" startcolumn="5" endline="1642" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/PluginJAR.java" startline="1389" startcolumn="4" endline="1398" endcolumn="4"/>
+    </clone>
+    <clone nlines="13" distance="8">
+        <source file="org/gjt/sp/jedit/browser/RenameBrowserTask.java" startline="77" startcolumn="6" endline="89" endcolumn="6"/>
+        <source file="org/gjt/sp/jedit/browser/RenameBrowserTask.java" startline="75" startcolumn="5" endline="90" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="7">
+        <source file="org/gjt/sp/jedit/MiscUtilities.java" startline="330" startcolumn="4" endline="342" endcolumn="10"/>
+        <source file="org/gjt/sp/jedit/MiscUtilities.java" startline="328" startcolumn="3" endline="343" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="8">
+        <source file="org/gjt/sp/jedit/bsh/BSHTryStatement.java" startline="122" startcolumn="6" endline="134" endcolumn="6"/>
+        <source file="org/gjt/sp/jedit/bsh/BSHTryStatement.java" startline="121" startcolumn="5" endline="134" endcolumn="6"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/bsh/classpath/BshClassPath.java" startline="661" startcolumn="4" endline="670" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/bsh/classpath/BshClassPath.java" startline="659" startcolumn="3" endline="671" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="8">
+        <source file="org/gjt/sp/jedit/gui/BufferSwitcher.java" startline="168" startcolumn="4" endline="180" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/gui/BufferSwitcher.java" startline="166" startcolumn="3" endline="181" endcolumn="3"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="net/sourceforge/jarbundler/JarBundler.java" startline="1017" startcolumn="4" endline="1026" endcolumn="4"/>
+        <source file="net/sourceforge/jarbundler/JarBundler.java" startline="1014" startcolumn="3" endline="1027" endcolumn="3"/>
+    </clone>
+    <clone nlines="20" distance="8">
+        <source file="org/gjt/sp/jedit/pluginmgr/PluginList.java" startline="94" startcolumn="4" endline="113" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/pluginmgr/PluginList.java" startline="92" startcolumn="3" endline="114" endcolumn="3"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1210" startcolumn="7" endline="1220" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1922" startcolumn="7" endline="1932" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1253" startcolumn="7" endline="1263" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1922" startcolumn="7" endline="1932" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1296" startcolumn="7" endline="1306" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1922" startcolumn="7" endline="1932" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1328" startcolumn="7" endline="1338" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1922" startcolumn="7" endline="1932" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1371" startcolumn="7" endline="1381" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1922" startcolumn="7" endline="1932" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1414" startcolumn="7" endline="1424" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1922" startcolumn="7" endline="1932" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1439" startcolumn="7" endline="1449" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1922" startcolumn="7" endline="1932" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1509" startcolumn="7" endline="1519" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1922" startcolumn="7" endline="1932" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1568" startcolumn="7" endline="1578" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1922" startcolumn="7" endline="1932" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1611" startcolumn="7" endline="1621" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1922" startcolumn="7" endline="1932" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1658" startcolumn="7" endline="1668" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1922" startcolumn="7" endline="1932" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1693" startcolumn="7" endline="1703" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1922" startcolumn="7" endline="1932" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1748" startcolumn="5" endline="1758" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1922" startcolumn="7" endline="1932" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1769" startcolumn="5" endline="1779" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1922" startcolumn="7" endline="1932" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1803" startcolumn="7" endline="1813" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1922" startcolumn="7" endline="1932" endcolumn="7"/>
+    </clone>
+    <clone nlines="12" distance="8">
+        <source file="org/gjt/sp/jedit/Buffer.java" startline="1697" startcolumn="4" endline="1708" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/Buffer.java" startline="1695" startcolumn="3" endline="1709" endcolumn="3"/>
+    </clone>
+    <clone nlines="12" distance="8">
+        <source file="org/gjt/sp/jedit/Buffer.java" startline="1697" startcolumn="4" endline="1708" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/View.java" startline="1516" startcolumn="3" endline="1530" endcolumn="3"/>
+    </clone>
+    <clone nlines="12" distance="8">
+        <source file="org/gjt/sp/jedit/View.java" startline="1518" startcolumn="4" endline="1529" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/Buffer.java" startline="1695" startcolumn="3" endline="1709" endcolumn="3"/>
+    </clone>
+    <clone nlines="12" distance="8">
+        <source file="org/gjt/sp/jedit/View.java" startline="1518" startcolumn="4" endline="1529" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/View.java" startline="1516" startcolumn="3" endline="1530" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="7">
+        <source file="org/gjt/sp/jedit/JEditRegisterSaver.java" startline="63" startcolumn="3" endline="75" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/jEdit.java" startline="2878" startcolumn="4" endline="2890" endcolumn="4"/>
+    </clone>
+    <clone nlines="23" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="391" startcolumn="5" endline="413" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3497" startcolumn="5" endline="3520" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="3">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="331" startcolumn="3" endline="343" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="387" startcolumn="3" endline="399" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="2">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="331" startcolumn="3" endline="343" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="1425" startcolumn="3" endline="1437" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="1">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="387" startcolumn="3" endline="399" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="1425" startcolumn="3" endline="1437" endcolumn="3"/>
+    </clone>
+    <clone nlines="14" distance="3">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="585" startcolumn="3" endline="598" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="633" startcolumn="3" endline="646" endcolumn="3"/>
+    </clone>
+    <clone nlines="14" distance="3">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="662" startcolumn="3" endline="675" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="633" startcolumn="3" endline="646" endcolumn="3"/>
+    </clone>
+    <clone nlines="10" distance="6">
+        <source file="org/gjt/sp/jedit/BeanShellFacade.java" startline="115" startcolumn="3" endline="124" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/BeanShell.java" startline="215" startcolumn="3" endline="224" endcolumn="3"/>
+    </clone>
+    <clone nlines="10" distance="6">
+        <source file="org/gjt/sp/jedit/BeanShellFacade.java" startline="115" startcolumn="3" endline="124" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/BeanShell.java" startline="250" startcolumn="3" endline="259" endcolumn="3"/>
+    </clone>
+    <clone nlines="12" distance="2">
+        <source file="org/gjt/sp/util/StandardUtilities.java" startline="156" startcolumn="8" endline="167" endcolumn="3"/>
+        <source file="org/gjt/sp/util/StandardUtilities.java" startline="156" startcolumn="1" endline="167" endcolumn="3"/>
+    </clone>
+    <clone nlines="30" distance="5">
+        <source file="org/gjt/sp/jedit/TextUtilities.java" startline="207" startcolumn="5" endline="236" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/TextUtilities.java" startline="159" startcolumn="5" endline="188" endcolumn="5"/>
+    </clone>
+    <clone nlines="25" distance="2">
+        <source file="org/gjt/sp/jedit/search/SearchAndReplace.java" startline="1209" startcolumn="7" endline="1233" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/search/SearchAndReplace.java" startline="1209" startcolumn="1" endline="1233" endcolumn="3"/>
+    </clone>
+    <clone nlines="16" distance="2">
+        <source file="org/gjt/sp/jedit/MiscUtilities.java" startline="1140" startcolumn="8" endline="1155" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/MiscUtilities.java" startline="1140" startcolumn="1" endline="1155" endcolumn="3"/>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="793" startcolumn="7" endline="802" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="792" startcolumn="7" endline="802" endcolumn="7"/>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="793" startcolumn="7" endline="802" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2508" startcolumn="9" endline="2518" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2509" startcolumn="9" endline="2518" endcolumn="9"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="792" startcolumn="7" endline="802" endcolumn="7"/>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2509" startcolumn="9" endline="2518" endcolumn="9"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2508" startcolumn="9" endline="2518" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="7">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="793" startcolumn="7" endline="802" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="967" startcolumn="7" endline="976" endcolumn="7"/>
+    </clone>
+    <clone nlines="10" distance="7">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2509" startcolumn="9" endline="2518" endcolumn="9"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="967" startcolumn="7" endline="976" endcolumn="7"/>
+    </clone>
+    <clone nlines="53" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1527" startcolumn="5" endline="1579" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1526" startcolumn="5" endline="1579" endcolumn="5"/>
+    </clone>
+    <clone nlines="41" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1629" startcolumn="5" endline="1669" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1628" startcolumn="5" endline="1669" endcolumn="5"/>
+    </clone>
+    <clone nlines="12" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2019" startcolumn="7" endline="2030" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2018" startcolumn="7" endline="2030" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="676" startcolumn="9" endline="686" endcolumn="9"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="675" startcolumn="9" endline="686" endcolumn="9"/>
+    </clone>
+    <clone nlines="11" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="676" startcolumn="9" endline="686" endcolumn="9"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2414" startcolumn="5" endline="2425" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="676" startcolumn="9" endline="686" endcolumn="9"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3247" startcolumn="7" endline="3258" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="676" startcolumn="9" endline="686" endcolumn="9"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3293" startcolumn="7" endline="3304" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2415" startcolumn="5" endline="2425" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="675" startcolumn="9" endline="686" endcolumn="9"/>
+    </clone>
+    <clone nlines="11" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2415" startcolumn="5" endline="2425" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2414" startcolumn="5" endline="2425" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2415" startcolumn="5" endline="2425" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3247" startcolumn="7" endline="3258" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2415" startcolumn="5" endline="2425" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3293" startcolumn="7" endline="3304" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3248" startcolumn="7" endline="3258" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="675" startcolumn="9" endline="686" endcolumn="9"/>
+    </clone>
+    <clone nlines="11" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3248" startcolumn="7" endline="3258" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2414" startcolumn="5" endline="2425" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3248" startcolumn="7" endline="3258" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3247" startcolumn="7" endline="3258" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3248" startcolumn="7" endline="3258" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3293" startcolumn="7" endline="3304" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3294" startcolumn="7" endline="3304" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="675" startcolumn="9" endline="686" endcolumn="9"/>
+    </clone>
+    <clone nlines="11" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3294" startcolumn="7" endline="3304" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2414" startcolumn="5" endline="2425" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3294" startcolumn="7" endline="3304" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3247" startcolumn="7" endline="3258" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3294" startcolumn="7" endline="3304" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3293" startcolumn="7" endline="3304" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="676" startcolumn="9" endline="686" endcolumn="9"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="993" startcolumn="5" endline="1005" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2415" startcolumn="5" endline="2425" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="993" startcolumn="5" endline="1005" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3248" startcolumn="7" endline="3258" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="993" startcolumn="5" endline="1005" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3294" startcolumn="7" endline="3304" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="993" startcolumn="5" endline="1005" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="3">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="676" startcolumn="9" endline="686" endcolumn="9"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="994" startcolumn="5" endline="1005" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="3">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2415" startcolumn="5" endline="2425" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="994" startcolumn="5" endline="1005" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="3">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3248" startcolumn="7" endline="3258" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="994" startcolumn="5" endline="1005" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="3">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3294" startcolumn="7" endline="3304" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="994" startcolumn="5" endline="1005" endcolumn="5"/>
+    </clone>
+    <clone nlines="12" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="994" startcolumn="5" endline="1005" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="993" startcolumn="5" endline="1005" endcolumn="5"/>
+    </clone>
+    <clone nlines="12" distance="8">
+        <source file="org/gjt/sp/jedit/textarea/MouseHandler.java" startline="126" startcolumn="4" endline="137" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="3035" startcolumn="3" endline="3046" endcolumn="3"/>
+    </clone>
+    <clone nlines="12" distance="8">
+        <source file="org/gjt/sp/jedit/textarea/TextAreaMouseHandler.java" startline="113" startcolumn="4" endline="124" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="3035" startcolumn="3" endline="3046" endcolumn="3"/>
+    </clone>
+    <clone nlines="12" distance="2">
+        <source file="org/gjt/sp/jedit/textarea/MouseHandler.java" startline="126" startcolumn="4" endline="137" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/textarea/TextAreaMouseHandler.java" startline="313" startcolumn="3" endline="324" endcolumn="3"/>
+    </clone>
+    <clone nlines="12" distance="2">
+        <source file="org/gjt/sp/jedit/textarea/TextAreaMouseHandler.java" startline="113" startcolumn="4" endline="124" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/textarea/TextAreaMouseHandler.java" startline="313" startcolumn="3" endline="324" endcolumn="3"/>
+    </clone>
+    <clone nlines="12" distance="6">
+        <source file="org/gjt/sp/jedit/textarea/TextAreaMouseHandler.java" startline="313" startcolumn="3" endline="324" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="3035" startcolumn="3" endline="3046" endcolumn="3"/>
+    </clone>
+    <clone nlines="12" distance="8">
+        <source file="org/gjt/sp/jedit/textarea/TextAreaMouseHandler.java" startline="313" startcolumn="3" endline="324" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/MiscUtilities.java" startline="1106" startcolumn="5" endline="1117" endcolumn="5"/>
+    </clone>
+    <clone nlines="12" distance="8">
+        <source file="org/gjt/sp/jedit/textarea/TextAreaMouseHandler.java" startline="313" startcolumn="3" endline="324" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/search/SearchAndReplace.java" startline="1392" startcolumn="5" endline="1403" endcolumn="5"/>
+    </clone>
+    <clone nlines="99" distance="8">
+        <source file="org/gjt/sp/jedit/View.java" startline="1738" startcolumn="4" endline="1836" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/View.java" startline="1736" startcolumn="1" endline="1837" endcolumn="3"/>
+    </clone>
+    <clone nlines="99" distance="6">
+        <source file="org/gjt/sp/jedit/View.java" startline="1738" startcolumn="4" endline="1836" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/View.java" startline="1736" startcolumn="8" endline="1837" endcolumn="3"/>
+    </clone>
+    <clone nlines="12" distance="3">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="675" startcolumn="9" endline="686" endcolumn="9"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="993" startcolumn="5" endline="1005" endcolumn="5"/>
+    </clone>
+    <clone nlines="12" distance="3">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2414" startcolumn="5" endline="2425" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="993" startcolumn="5" endline="1005" endcolumn="5"/>
+    </clone>
+    <clone nlines="12" distance="3">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3247" startcolumn="7" endline="3258" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="993" startcolumn="5" endline="1005" endcolumn="5"/>
+    </clone>
+    <clone nlines="12" distance="3">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3293" startcolumn="7" endline="3304" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="993" startcolumn="5" endline="1005" endcolumn="5"/>
+    </clone>
+    <clone nlines="12" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="675" startcolumn="9" endline="686" endcolumn="9"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="994" startcolumn="5" endline="1005" endcolumn="5"/>
+    </clone>
+    <clone nlines="12" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2414" startcolumn="5" endline="2425" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="994" startcolumn="5" endline="1005" endcolumn="5"/>
+    </clone>
+    <clone nlines="12" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3247" startcolumn="7" endline="3258" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="994" startcolumn="5" endline="1005" endcolumn="5"/>
+    </clone>
+    <clone nlines="12" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3293" startcolumn="7" endline="3304" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="994" startcolumn="5" endline="1005" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="8">
+        <source file="org/gjt/sp/jedit/bsh/Capabilities.java" startline="115" startcolumn="3" endline="127" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/bsh/classpath/ClassManagerImpl.java" startline="168" startcolumn="3" endline="181" endcolumn="3"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/gui/PanelWindowContainer.java" startline="213" startcolumn="3" endline="222" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/gui/CloseDialog.java" startline="192" startcolumn="5" endline="201" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/gui/PanelWindowContainer.java" startline="213" startcolumn="3" endline="222" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/gui/CloseDialog.java" startline="215" startcolumn="5" endline="224" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="6">
+        <source file="org/gjt/sp/jedit/gui/PanelWindowContainer.java" startline="213" startcolumn="3" endline="222" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/gui/PanelWindowContainer.java" startline="188" startcolumn="3" endline="198" endcolumn="3"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/gui/PanelWindowContainer.java" startline="213" startcolumn="3" endline="222" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/jEdit.java" startline="582" startcolumn="4" endline="591" endcolumn="4"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/gui/OptionsDialog.java" startline="431" startcolumn="5" endline="440" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/gui/OptionsDialog.java" startline="417" startcolumn="5" endline="426" endcolumn="5"/>
+    </clone>
+    <clone nlines="18" distance="8">
+        <source file="org/gjt/sp/jedit/gui/DefaultInputHandler.java" startline="126" startcolumn="4" endline="143" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/gui/DefaultInputHandler.java" startline="124" startcolumn="3" endline="144" endcolumn="3"/>
+    </clone>
+    <clone nlines="17" distance="8">
+        <source file="org/gjt/sp/jedit/input/TextAreaInputHandler.java" startline="252" startcolumn="4" endline="268" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/input/TextAreaInputHandler.java" startline="250" startcolumn="3" endline="269" endcolumn="3"/>
+    </clone>
+    <clone nlines="14" distance="6">
+        <source file="org/gjt/sp/jedit/io/VFS.java" startline="1244" startcolumn="6" endline="1257" endcolumn="6"/>
+        <source file="org/gjt/sp/jedit/io/VFS.java" startline="1242" startcolumn="5" endline="1258" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="6">
+        <source file="org/jedit/keymap/KeymapImpl.java" startline="72" startcolumn="3" endline="84" endcolumn="3"/>
+        <source file="org/jedit/keymap/KeymapImpl.java" startline="151" startcolumn="4" endline="163" endcolumn="4"/>
+    </clone>
+    <clone nlines="13" distance="7">
+        <source file="org/gjt/sp/jedit/jEdit.java" startline="2878" startcolumn="4" endline="2890" endcolumn="4"/>
+        <source file="org/jedit/keymap/KeymapImpl.java" startline="72" startcolumn="3" endline="84" endcolumn="3"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/search/SearchAndReplace.java" startline="925" startcolumn="5" endline="935" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="1414" startcolumn="3" endline="1423" endcolumn="3"/>
+    </clone>
+    <clone nlines="11" distance="7">
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="2018" startcolumn="3" endline="2029" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/Macros.java" startline="78" startcolumn="4" endline="88" endcolumn="4"/>
+    </clone>
+    <clone nlines="12" distance="6">
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="2018" startcolumn="3" endline="2029" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/jEdit.java" startline="2939" startcolumn="3" endline="2950" endcolumn="3"/>
+    </clone>
+    <clone nlines="11" distance="7">
+        <source file="installer/CBZip2InputStream.java" startline="708" startcolumn="9" endline="718" endcolumn="9"/>
+        <source file="installer/CBZip2OutputStream.java" startline="918" startcolumn="9" endline="930" endcolumn="9"/>
+    </clone>
+    <clone nlines="27" distance="8">
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="2580" startcolumn="8" endline="2606" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="2875" startcolumn="8" endline="2901" endcolumn="3"/>
+    </clone>
+    <clone nlines="27" distance="2">
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="2580" startcolumn="8" endline="2606" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="2580" startcolumn="1" endline="2606" endcolumn="3"/>
+    </clone>
+    <clone nlines="12" distance="7">
+        <source file="org/gjt/sp/jedit/Buffer.java" startline="1735" startcolumn="3" endline="1746" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/help/HelpIndex.java" startline="104" startcolumn="3" endline="115" endcolumn="3"/>
+    </clone>
+    <clone nlines="12" distance="7">
+        <source file="org/gjt/sp/jedit/Buffer.java" startline="1752" startcolumn="3" endline="1763" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/help/HelpIndex.java" startline="104" startcolumn="3" endline="115" endcolumn="3"/>
+    </clone>
+    <clone nlines="12" distance="7">
+        <source file="org/gjt/sp/jedit/Buffer.java" startline="1769" startcolumn="3" endline="1780" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/help/HelpIndex.java" startline="104" startcolumn="3" endline="115" endcolumn="3"/>
+    </clone>
+    <clone nlines="12" distance="7">
+        <source file="org/gjt/sp/jedit/Buffer.java" startline="1786" startcolumn="3" endline="1797" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/help/HelpIndex.java" startline="104" startcolumn="3" endline="115" endcolumn="3"/>
+    </clone>
+    <clone nlines="64" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="168" startcolumn="5" endline="231" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="167" startcolumn="5" endline="231" endcolumn="5"/>
+    </clone>
+    <clone nlines="61" distance="2">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1460" startcolumn="5" endline="1520" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1459" startcolumn="5" endline="1520" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="352" startcolumn="7" endline="362" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1194" startcolumn="7" endline="1204" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="352" startcolumn="7" endline="362" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1237" startcolumn="7" endline="1247" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="352" startcolumn="7" endline="362" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1280" startcolumn="7" endline="1290" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="352" startcolumn="7" endline="362" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1355" startcolumn="7" endline="1365" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="352" startcolumn="7" endline="362" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1398" startcolumn="7" endline="1408" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="352" startcolumn="7" endline="362" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1595" startcolumn="7" endline="1605" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="352" startcolumn="7" endline="362" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1677" startcolumn="7" endline="1687" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="352" startcolumn="7" endline="362" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1787" startcolumn="7" endline="1797" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="352" startcolumn="7" endline="362" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="1907" startcolumn="7" endline="1917" endcolumn="7"/>
+    </clone>
+    <clone nlines="11" distance="7">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="352" startcolumn="7" endline="362" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="248" startcolumn="7" endline="259" endcolumn="7"/>
+    </clone>
+    <clone nlines="18" distance="6">
+        <source file="org/gjt/sp/jedit/syntax/TokenMarker.java" startline="750" startcolumn="6" endline="767" endcolumn="6"/>
+        <source file="org/gjt/sp/jedit/syntax/TokenMarker.java" startline="748" startcolumn="5" endline="768" endcolumn="5"/>
+    </clone>
+    <clone nlines="37" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/org/objectweb/asm/Type.java" startline="579" startcolumn="7" endline="615" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/org/objectweb/asm/Type.java" startline="578" startcolumn="5" endline="616" endcolumn="5"/>
+    </clone>
+    <clone nlines="17" distance="8">
+        <source file="org/gjt/sp/jedit/bsh/NameSpace.java" startline="694" startcolumn="13" endline="710" endcolumn="13"/>
+        <source file="org/gjt/sp/jedit/bsh/NameSpace.java" startline="691" startcolumn="9" endline="713" endcolumn="9"/>
+    </clone>
+    <clone nlines="11" distance="4">
+        <source file="org/jedit/options/PluginOptionGroup.java" startline="71" startcolumn="4" endline="81" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/options/PluginOptions.java" startline="83" startcolumn="5" endline="93" endcolumn="5"/>
+    </clone>
+    <clone nlines="32" distance="6">
+        <source file="org/gjt/sp/jedit/gui/OptionsDialog.java" startline="200" startcolumn="9" endline="237" endcolumn="4"/>
+        <source file="org/jedit/options/OptionGroupPane.java" startline="148" startcolumn="9" endline="179" endcolumn="4"/>
+    </clone>
+    <clone nlines="13" distance="2">
+        <source file="org/gjt/sp/jedit/gui/BufferSwitcher.java" startline="395" startcolumn="5" endline="407" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/gui/BufferSwitcher.java" startline="300" startcolumn="4" endline="312" endcolumn="4"/>
+    </clone>
+    <clone nlines="13" distance="2">
+        <source file="org/gjt/sp/jedit/gui/BufferSwitcher.java" startline="395" startcolumn="5" endline="407" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/gui/BufferSwitcher.java" startline="348" startcolumn="4" endline="360" endcolumn="4"/>
+    </clone>
+    <clone nlines="13" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/JThis.java" startline="218" startcolumn="4" endline="230" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/bsh/JThis.java" startline="217" startcolumn="3" endline="230" endcolumn="4"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/bufferio/BufferAutosaveRequest.java" startline="110" startcolumn="4" endline="119" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/bufferio/BufferAutosaveRequest.java" startline="108" startcolumn="3" endline="120" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="8">
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="703" startcolumn="25" endline="717" endcolumn="25"/>
+        <source file="org/gjt/sp/jedit/Macros.java" startline="255" startcolumn="3" endline="269" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="8">
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="747" startcolumn="25" endline="761" endcolumn="25"/>
+        <source file="org/gjt/sp/jedit/Macros.java" startline="255" startcolumn="3" endline="269" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="org/gjt/sp/jedit/Macros.java" startline="163" startcolumn="4" endline="177" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="703" startcolumn="25" endline="717" endcolumn="25"/>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="org/gjt/sp/jedit/Macros.java" startline="163" startcolumn="4" endline="177" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="747" startcolumn="25" endline="761" endcolumn="25"/>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="org/gjt/sp/jedit/Macros.java" startline="203" startcolumn="4" endline="217" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="703" startcolumn="25" endline="717" endcolumn="25"/>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="org/gjt/sp/jedit/Macros.java" startline="203" startcolumn="4" endline="217" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="747" startcolumn="25" endline="761" endcolumn="25"/>
+    </clone>
+    <clone nlines="13" distance="7">
+        <source file="org/gjt/sp/jedit/gui/DockableWindowManagerImpl.java" startline="171" startcolumn="4" endline="183" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/gui/BufferSwitcher.java" startline="300" startcolumn="4" endline="312" endcolumn="4"/>
+    </clone>
+    <clone nlines="13" distance="7">
+        <source file="org/gjt/sp/jedit/gui/DockableWindowManagerImpl.java" startline="171" startcolumn="4" endline="183" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/gui/BufferSwitcher.java" startline="348" startcolumn="4" endline="360" endcolumn="4"/>
+    </clone>
+    <clone nlines="27" distance="2">
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="2875" startcolumn="8" endline="2901" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="2875" startcolumn="1" endline="2901" endcolumn="3"/>
+    </clone>
+    <clone nlines="11" distance="1">
+        <source file="installer/CBZip2OutputStream.java" startline="1706" startcolumn="13" endline="1716" endcolumn="13"/>
+        <source file="installer/CBZip2InputStream.java" startline="898" startcolumn="13" endline="908" endcolumn="13"/>
+    </clone>
+    <clone nlines="11" distance="4">
+        <source file="installer/CBZip2OutputStream.java" startline="1744" startcolumn="13" endline="1754" endcolumn="13"/>
+        <source file="installer/CBZip2OutputStream.java" startline="1760" startcolumn="21" endline="1770" endcolumn="21"/>
+    </clone>
+    <clone nlines="13" distance="8">
+        <source file="org/gjt/sp/jedit/syntax/Chunk.java" startline="237" startcolumn="4" endline="249" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/syntax/Chunk.java" startline="235" startcolumn="3" endline="250" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="8">
+        <source file="org/gjt/sp/jedit/browser/VFSBrowser.java" startline="1273" startcolumn="4" endline="1287" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/browser/VFSBrowser.java" startline="1271" startcolumn="3" endline="1288" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="8">
+        <source file="org/gjt/sp/jedit/gui/AbbrevEditor.java" startline="114" startcolumn="4" endline="128" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/gui/AbbrevEditor.java" startline="180" startcolumn="5" endline="195" endcolumn="5"/>
+    </clone>
+    <clone nlines="15" distance="8">
+        <source file="org/gjt/sp/jedit/gui/AbbrevEditor.java" startline="138" startcolumn="5" endline="152" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/gui/AbbrevEditor.java" startline="180" startcolumn="5" endline="195" endcolumn="5"/>
+    </clone>
+    <clone nlines="15" distance="8">
+        <source file="org/gjt/sp/util/XMLUtilities.java" startline="91" startcolumn="4" endline="105" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/gui/AbbrevEditor.java" startline="180" startcolumn="5" endline="195" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="8">
+        <source file="org/gjt/sp/jedit/gui/DockableLayout.java" startline="384" startcolumn="4" endline="399" endcolumn="30"/>
+        <source file="org/gjt/sp/jedit/gui/DockableLayout.java" startline="382" startcolumn="3" endline="400" endcolumn="3"/>
+    </clone>
+    <clone nlines="26" distance="5">
+        <source file="org/gjt/sp/jedit/jEdit.java" startline="843" startcolumn="3" endline="868" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/textarea/StandaloneTextArea.java" startline="424" startcolumn="3" endline="450" endcolumn="3"/>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="installer/CBZip2OutputStream.java" startline="1300" startcolumn="21" endline="1309" endcolumn="21"/>
+        <source file="installer/CBZip2OutputStream.java" startline="1324" startcolumn="21" endline="1333" endcolumn="21"/>
+    </clone>
+    <clone nlines="11" distance="2">
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="2800" startcolumn="3" endline="2810" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="2503" startcolumn="3" endline="2513" endcolumn="3"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/gui/CloseDialog.java" startline="192" startcolumn="5" endline="201" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/jEdit.java" startline="582" startcolumn="4" endline="591" endcolumn="4"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/gui/CloseDialog.java" startline="215" startcolumn="5" endline="224" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/jEdit.java" startline="582" startcolumn="4" endline="591" endcolumn="4"/>
+    </clone>
+    <clone nlines="25" distance="8">
+        <source file="org/gjt/sp/jedit/io/FileVFS.java" startline="614" startcolumn="4" endline="638" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/io/FileVFS.java" startline="612" startcolumn="3" endline="639" endcolumn="3"/>
+    </clone>
+    <clone nlines="19" distance="7">
+        <source file="org/gjt/sp/jedit/TextUtilities.java" startline="657" startcolumn="5" endline="675" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/TextUtilities.java" startline="471" startcolumn="5" endline="489" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="4">
+        <source file="org/gjt/sp/jedit/textarea/Gutter.java" startline="780" startcolumn="10" endline="790" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/textarea/Gutter.java" startline="765" startcolumn="10" endline="775" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="org/gjt/sp/jedit/search/PatternSearchMatcher.java" startline="201" startcolumn="6" endline="210" endcolumn="6"/>
+        <source file="org/gjt/sp/jedit/search/PatternSearchMatcher.java" startline="159" startcolumn="5" endline="169" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/gui/DockablePanel.java" startline="219" startcolumn="5" endline="228" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/gui/DockablePanel.java" startline="217" startcolumn="4" endline="229" endcolumn="4"/>
+    </clone>
+    <clone nlines="10" distance="6">
+        <source file="org/gjt/sp/jedit/bufferio/BufferIORequest.java" startline="213" startcolumn="6" endline="224" endcolumn="6"/>
+        <source file="installer/CBZip2InputStream.java" startline="217" startcolumn="9" endline="226" endcolumn="9"/>
+    </clone>
+    <clone nlines="11" distance="1">
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="5373" startcolumn="4" endline="5383" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="5221" startcolumn="4" endline="5232" endcolumn="4"/>
+    </clone>
+    <clone nlines="11" distance="4">
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="5373" startcolumn="4" endline="5383" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="5416" startcolumn="4" endline="5427" endcolumn="4"/>
+    </clone>
+    <clone nlines="11" distance="4">
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="5373" startcolumn="4" endline="5383" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="5437" startcolumn="4" endline="5448" endcolumn="4"/>
+    </clone>
+    <clone nlines="11" distance="4">
+        <source file="org/gjt/sp/jedit/browser/MkDirBrowserTask.java" startline="77" startcolumn="4" endline="87" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/browser/DeleteBrowserTask.java" startline="79" startcolumn="4" endline="89" endcolumn="4"/>
+    </clone>
+    <clone nlines="11" distance="4">
+        <source file="org/gjt/sp/jedit/browser/MkDirBrowserTask.java" startline="77" startcolumn="4" endline="87" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/browser/ListDirectoryBrowserTask.java" startline="85" startcolumn="4" endline="95" endcolumn="4"/>
+    </clone>
+    <clone nlines="11" distance="4">
+        <source file="org/gjt/sp/jedit/browser/MkDirBrowserTask.java" startline="77" startcolumn="4" endline="87" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/browser/RenameBrowserTask.java" startline="106" startcolumn="4" endline="116" endcolumn="4"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/BeanShell.java" startline="173" startcolumn="3" endline="182" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/Macros.java" startline="78" startcolumn="4" endline="88" endcolumn="4"/>
+    </clone>
+    <clone nlines="10" distance="7">
+        <source file="org/gjt/sp/jedit/BeanShell.java" startline="173" startcolumn="3" endline="182" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/jEdit.java" startline="2939" startcolumn="3" endline="2950" endcolumn="3"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/gjt/sp/jedit/BeanShell.java" startline="173" startcolumn="3" endline="182" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="2018" startcolumn="3" endline="2029" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="5">
+        <source file="org/gjt/sp/jedit/Macros.java" startline="255" startcolumn="3" endline="269" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="1019" startcolumn="3" endline="1033" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="5">
+        <source file="org/gjt/sp/jedit/Macros.java" startline="255" startcolumn="3" endline="269" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/Macros.java" startline="338" startcolumn="3" endline="352" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="7">
+        <source file="org/gjt/sp/jedit/Macros.java" startline="255" startcolumn="3" endline="269" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="918" startcolumn="3" endline="932" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="7">
+        <source file="org/gjt/sp/jedit/Macros.java" startline="255" startcolumn="3" endline="269" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="1080" startcolumn="3" endline="1094" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="7">
+        <source file="org/gjt/sp/jedit/Macros.java" startline="255" startcolumn="3" endline="269" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="966" startcolumn="3" endline="980" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="3">
+        <source file="org/gjt/sp/jedit/Macros.java" startline="255" startcolumn="3" endline="269" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/Macros.java" startline="295" startcolumn="3" endline="309" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="org/gjt/sp/jedit/Macros.java" startline="255" startcolumn="3" endline="269" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="822" startcolumn="3" endline="836" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="org/gjt/sp/jedit/Macros.java" startline="255" startcolumn="3" endline="269" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="871" startcolumn="3" endline="885" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="org/gjt/sp/jedit/Macros.java" startline="295" startcolumn="3" endline="309" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="1019" startcolumn="3" endline="1033" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="org/gjt/sp/jedit/Macros.java" startline="295" startcolumn="3" endline="309" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/Macros.java" startline="338" startcolumn="3" endline="352" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="4">
+        <source file="org/gjt/sp/jedit/Macros.java" startline="295" startcolumn="3" endline="309" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="918" startcolumn="3" endline="932" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="4">
+        <source file="org/gjt/sp/jedit/Macros.java" startline="295" startcolumn="3" endline="309" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="1080" startcolumn="3" endline="1094" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="5">
+        <source file="org/gjt/sp/jedit/Macros.java" startline="295" startcolumn="3" endline="309" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="822" startcolumn="3" endline="836" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="5">
+        <source file="org/gjt/sp/jedit/Macros.java" startline="295" startcolumn="3" endline="309" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="871" startcolumn="3" endline="885" endcolumn="3"/>
+    </clone>
+    <clone nlines="12" distance="8">
+        <source file="org/gjt/sp/jedit/gui/HistoryText.java" startline="178" startcolumn="3" endline="189" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/gui/HistoryText.java" startline="142" startcolumn="3" endline="153" endcolumn="3"/>
+    </clone>
+    <clone nlines="17" distance="8">
+        <source file="org/gjt/sp/jedit/gui/VariableGridLayout.java" startline="425" startcolumn="7" endline="441" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/gui/VariableGridLayout.java" startline="423" startcolumn="6" endline="442" endcolumn="6"/>
+    </clone>
+    <clone nlines="17" distance="8">
+        <source file="org/gjt/sp/jedit/gui/VariableGridLayout.java" startline="425" startcolumn="7" endline="441" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/gui/VariableGridLayout.java" startline="453" startcolumn="6" endline="472" endcolumn="6"/>
+    </clone>
+    <clone nlines="17" distance="8">
+        <source file="org/gjt/sp/jedit/gui/VariableGridLayout.java" startline="455" startcolumn="7" endline="471" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/gui/VariableGridLayout.java" startline="423" startcolumn="6" endline="442" endcolumn="6"/>
+    </clone>
+    <clone nlines="17" distance="8">
+        <source file="org/gjt/sp/jedit/gui/VariableGridLayout.java" startline="455" startcolumn="7" endline="471" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/gui/VariableGridLayout.java" startline="453" startcolumn="6" endline="472" endcolumn="6"/>
+    </clone>
+    <clone nlines="13" distance="8">
+        <source file="org/gjt/sp/jedit/ServiceManager.java" startline="341" startcolumn="9" endline="353" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/ServiceManager.java" startline="339" startcolumn="4" endline="353" endcolumn="4"/>
+    </clone>
+    <clone nlines="11" distance="8">
+        <source file="org/gjt/sp/jedit/gui/InputHandler.java" startline="191" startcolumn="4" endline="201" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/gui/InputHandler.java" startline="187" startcolumn="3" endline="202" endcolumn="3"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/search/SearchDialog.java" startline="1038" startcolumn="9" endline="1047" endcolumn="4"/>
+        <source file="installer/CBZip2InputStream.java" startline="217" startcolumn="9" endline="226" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="org/gjt/sp/jedit/search/SearchDialog.java" startline="1038" startcolumn="9" endline="1047" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/PluginJAR.java" startline="948" startcolumn="3" endline="957" endcolumn="3"/>
+    </clone>
+    <clone nlines="11" distance="8">
+        <source file="org/gjt/sp/jedit/gui/statusbar/MultiSelectWidgetFactory.java" startline="85" startcolumn="4" endline="97" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/options/AppearanceOptionPane.java" startline="249" startcolumn="3" endline="259" endcolumn="3"/>
+    </clone>
+    <clone nlines="11" distance="8">
+        <source file="org/gjt/sp/jedit/gui/statusbar/OverwriteWidgetFactory.java" startline="89" startcolumn="4" endline="101" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/options/AppearanceOptionPane.java" startline="249" startcolumn="3" endline="259" endcolumn="3"/>
+    </clone>
+    <clone nlines="11" distance="8">
+        <source file="org/gjt/sp/jedit/gui/statusbar/RectSelectWidgetFactory.java" startline="85" startcolumn="7" endline="97" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/options/AppearanceOptionPane.java" startline="249" startcolumn="3" endline="259" endcolumn="3"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/gjt/sp/util/IOUtilities.java" startline="202" startcolumn="3" endline="212" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/textarea/StandaloneTextArea.java" startline="192" startcolumn="3" endline="201" endcolumn="3"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/gjt/sp/util/IOUtilities.java" startline="223" startcolumn="3" endline="233" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/textarea/StandaloneTextArea.java" startline="192" startcolumn="3" endline="201" endcolumn="3"/>
+    </clone>
+    <clone nlines="11" distance="7">
+        <source file="org/gjt/sp/util/IOUtilities.java" startline="202" startcolumn="3" endline="212" endcolumn="3"/>
+        <source file="org/gjt/sp/util/Log.java" startline="216" startcolumn="3" endline="226" endcolumn="3"/>
+    </clone>
+    <clone nlines="11" distance="7">
+        <source file="org/gjt/sp/util/IOUtilities.java" startline="223" startcolumn="3" endline="233" endcolumn="3"/>
+        <source file="org/gjt/sp/util/Log.java" startline="216" startcolumn="3" endline="226" endcolumn="3"/>
+    </clone>
+    <clone nlines="11" distance="4">
+        <source file="org/gjt/sp/util/Log.java" startline="216" startcolumn="3" endline="226" endcolumn="3"/>
+        <source file="org/gjt/sp/util/Log.java" startline="236" startcolumn="3" endline="247" endcolumn="3"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/jEdit.java" startline="4387" startcolumn="5" endline="4396" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/options/BrowserColorsOptionPane.java" startline="388" startcolumn="4" endline="397" endcolumn="4"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/jEdit.java" startline="4402" startcolumn="6" endline="4411" endcolumn="6"/>
+        <source file="org/gjt/sp/jedit/options/BrowserColorsOptionPane.java" startline="388" startcolumn="4" endline="397" endcolumn="4"/>
+    </clone>
+    <clone nlines="12" distance="4">
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="5221" startcolumn="4" endline="5232" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="5416" startcolumn="4" endline="5427" endcolumn="4"/>
+    </clone>
+    <clone nlines="12" distance="4">
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="5221" startcolumn="4" endline="5232" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="5437" startcolumn="4" endline="5448" endcolumn="4"/>
+    </clone>
+    <clone nlines="42" distance="6">
+        <source file="org/gjt/sp/jedit/gui/OptionsDialog.java" startline="189" startcolumn="4" endline="237" endcolumn="4"/>
+        <source file="org/jedit/options/OptionGroupPane.java" startline="138" startcolumn="4" endline="179" endcolumn="4"/>
+    </clone>
+    <clone nlines="14" distance="8">
+        <source file="org/gjt/sp/jedit/syntax/XModeHandler.java" startline="579" startcolumn="5" endline="592" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/syntax/XModeHandler.java" startline="577" startcolumn="4" endline="593" endcolumn="4"/>
+    </clone>
+    <clone nlines="15" distance="3">
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="822" startcolumn="3" endline="836" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="1019" startcolumn="3" endline="1033" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="3">
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="822" startcolumn="3" endline="836" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/Macros.java" startline="338" startcolumn="3" endline="352" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="3">
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="871" startcolumn="3" endline="885" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="1019" startcolumn="3" endline="1033" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="3">
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="871" startcolumn="3" endline="885" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/Macros.java" startline="338" startcolumn="3" endline="352" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="5">
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="822" startcolumn="3" endline="836" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="918" startcolumn="3" endline="932" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="5">
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="822" startcolumn="3" endline="836" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="1080" startcolumn="3" endline="1094" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="5">
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="871" startcolumn="3" endline="885" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="918" startcolumn="3" endline="932" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="5">
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="871" startcolumn="3" endline="885" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="1080" startcolumn="3" endline="1094" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="5">
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="822" startcolumn="3" endline="836" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="966" startcolumn="3" endline="980" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="5">
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="871" startcolumn="3" endline="885" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="966" startcolumn="3" endline="980" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="1019" startcolumn="3" endline="1033" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="918" startcolumn="3" endline="932" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="1019" startcolumn="3" endline="1033" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="1080" startcolumn="3" endline="1094" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="org/gjt/sp/jedit/Macros.java" startline="338" startcolumn="3" endline="352" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="918" startcolumn="3" endline="932" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="org/gjt/sp/jedit/Macros.java" startline="338" startcolumn="3" endline="352" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="1080" startcolumn="3" endline="1094" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="7">
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="1019" startcolumn="3" endline="1033" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="966" startcolumn="3" endline="980" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="7">
+        <source file="org/gjt/sp/jedit/Macros.java" startline="338" startcolumn="3" endline="352" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="966" startcolumn="3" endline="980" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="5">
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="918" startcolumn="3" endline="932" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="966" startcolumn="3" endline="980" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="5">
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="1080" startcolumn="3" endline="1094" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="966" startcolumn="3" endline="980" endcolumn="3"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/BshMethod.java" startline="221" startcolumn="4" endline="231" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/bsh/BshMethod.java" startline="220" startcolumn="3" endline="231" endcolumn="4"/>
+    </clone>
+    <clone nlines="16" distance="1">
+        <source file="org/gjt/sp/jedit/gui/ExtendedGridLayout.java" startline="568" startcolumn="6" endline="583" endcolumn="6"/>
+        <source file="org/gjt/sp/jedit/gui/VariableGridLayout.java" startline="572" startcolumn="7" endline="587" endcolumn="7"/>
+    </clone>
+    <clone nlines="56" distance="2">
+        <source file="org/gjt/sp/jedit/search/SearchAndReplace.java" startline="896" startcolumn="8" endline="951" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/search/SearchAndReplace.java" startline="896" startcolumn="1" endline="951" endcolumn="4"/>
+    </clone>
+    <clone nlines="13" distance="6">
+        <source file="org/gjt/sp/jedit/EditPane.java" startline="193" startcolumn="4" endline="205" endcolumn="6"/>
+        <source file="org/gjt/sp/jedit/EditPane.java" startline="191" startcolumn="3" endline="206" endcolumn="3"/>
+    </clone>
+    <clone nlines="10" distance="7">
+        <source file="org/gjt/sp/jedit/pluginmgr/InstallPanel.java" startline="225" startcolumn="3" endline="234" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/gui/statusbar/IndentWidgetFactory.java" startline="62" startcolumn="4" endline="71" endcolumn="6"/>
+    </clone>
+    <clone nlines="19" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/org/objectweb/asm/CodeWriter.java" startline="744" startcolumn="7" endline="762" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/org/objectweb/asm/CodeWriter.java" startline="743" startcolumn="5" endline="763" endcolumn="5"/>
+    </clone>
+    <clone nlines="19" distance="8">
+        <source file="org/gjt/sp/jedit/print/BufferPrinter1_4.java" startline="147" startcolumn="4" endline="165" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/print/BufferPrinter1_4.java" startline="145" startcolumn="3" endline="166" endcolumn="3"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="org/gjt/sp/jedit/jEdit.java" startline="582" startcolumn="4" endline="591" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/gui/statusbar/MultiSelectWidgetFactory.java" startline="87" startcolumn="5" endline="96" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="org/gjt/sp/jedit/jEdit.java" startline="582" startcolumn="4" endline="591" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/gui/statusbar/OverwriteWidgetFactory.java" startline="91" startcolumn="5" endline="100" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="org/gjt/sp/jedit/jEdit.java" startline="582" startcolumn="4" endline="591" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/gui/statusbar/RectSelectWidgetFactory.java" startline="87" startcolumn="8" endline="96" endcolumn="8"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="org/gjt/sp/jedit/jEdit.java" startline="582" startcolumn="4" endline="591" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/search/SearchDialog.java" startline="935" startcolumn="3" endline="944" endcolumn="3"/>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="6711" startcolumn="5" endline="6720" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="6724" startcolumn="5" endline="6733" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="3">
+        <source file="org/gjt/sp/jedit/options/BufferOptionPane.java" startline="124" startcolumn="3" endline="139" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/options/GeneralOptionPane.java" startline="95" startcolumn="3" endline="110" endcolumn="3"/>
+    </clone>
+    <clone nlines="12" distance="6">
+        <source file="org/gjt/sp/jedit/menu/EnhancedMenu.java" startline="72" startcolumn="3" endline="83" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="336" startcolumn="3" endline="347" endcolumn="3"/>
+    </clone>
+    <clone nlines="14" distance="6">
+        <source file="org/gjt/sp/jedit/menu/EnhancedMenuItem.java" startline="108" startcolumn="3" endline="121" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/menu/EnhancedCheckBoxMenuItem.java" startline="115" startcolumn="3" endline="128" endcolumn="3"/>
+    </clone>
+    <clone nlines="14" distance="6">
+        <source file="org/gjt/sp/jedit/menu/MarkersProvider.java" startline="129" startcolumn="4" endline="142" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/menu/EnhancedCheckBoxMenuItem.java" startline="115" startcolumn="3" endline="128" endcolumn="3"/>
+    </clone>
+    <clone nlines="10" distance="1">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5225" startcolumn="5" endline="5234" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4085" startcolumn="5" endline="4094" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="1">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5225" startcolumn="5" endline="5234" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5186" startcolumn="5" endline="5195" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="1">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5225" startcolumn="5" endline="5234" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5507" startcolumn="5" endline="5516" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="1">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5225" startcolumn="5" endline="5234" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5560" startcolumn="5" endline="5569" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="net/sourceforge/jarbundler/JarBundler.java" startline="1271" startcolumn="4" endline="1281" endcolumn="4"/>
+        <source file="net/sourceforge/jarbundler/JarBundler.java" startline="1141" startcolumn="4" endline="1151" endcolumn="4"/>
+    </clone>
+    <clone nlines="14" distance="1">
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="5371" startcolumn="3" endline="5384" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="5219" startcolumn="3" endline="5233" endcolumn="3"/>
+    </clone>
+    <clone nlines="14" distance="4">
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="5371" startcolumn="3" endline="5384" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="5414" startcolumn="3" endline="5428" endcolumn="3"/>
+    </clone>
+    <clone nlines="14" distance="4">
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="5371" startcolumn="3" endline="5384" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="5435" startcolumn="3" endline="5449" endcolumn="3"/>
+    </clone>
+    <clone nlines="19" distance="2">
+        <source file="org/gjt/sp/jedit/jEdit.java" startline="4274" startcolumn="3" endline="4292" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/jEdit.java" startline="4273" startcolumn="1" endline="4292" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="2">
+        <source file="org/gjt/sp/jedit/syntax/KeywordMap.java" startline="117" startcolumn="3" endline="129" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/syntax/KeywordMap.java" startline="116" startcolumn="1" endline="129" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="4">
+        <source file="org/gjt/sp/jedit/syntax/XModeHandler.java" startline="271" startcolumn="7" endline="283" endcolumn="27"/>
+        <source file="org/gjt/sp/jedit/syntax/XModeHandler.java" startline="255" startcolumn="7" endline="267" endcolumn="27"/>
+    </clone>
+    <clone nlines="10" distance="7">
+        <source file="org/gjt/sp/jedit/gui/statusbar/MultiSelectWidgetFactory.java" startline="63" startcolumn="4" endline="72" endcolumn="6"/>
+        <source file="org/gjt/sp/jedit/bufferset/BufferSetManager.java" startline="116" startcolumn="5" endline="127" endcolumn="7"/>
+    </clone>
+    <clone nlines="10" distance="7">
+        <source file="org/gjt/sp/jedit/gui/statusbar/OverwriteWidgetFactory.java" startline="66" startcolumn="4" endline="75" endcolumn="6"/>
+        <source file="org/gjt/sp/jedit/bufferset/BufferSetManager.java" startline="116" startcolumn="5" endline="127" endcolumn="7"/>
+    </clone>
+    <clone nlines="10" distance="7">
+        <source file="org/gjt/sp/jedit/gui/statusbar/RectSelectWidgetFactory.java" startline="65" startcolumn="7" endline="74" endcolumn="9"/>
+        <source file="org/gjt/sp/jedit/bufferset/BufferSetManager.java" startline="116" startcolumn="5" endline="127" endcolumn="7"/>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="org/gjt/sp/jedit/PluginJAR.java" startline="2076" startcolumn="4" endline="2085" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/PluginJAR.java" startline="2092" startcolumn="4" endline="2101" endcolumn="4"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/gui/statusbar/MultiSelectWidgetFactory.java" startline="87" startcolumn="5" endline="96" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/gui/statusbar/MultiSelectWidgetFactory.java" startline="85" startcolumn="4" endline="97" endcolumn="4"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/gui/statusbar/MultiSelectWidgetFactory.java" startline="87" startcolumn="5" endline="96" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/gui/statusbar/OverwriteWidgetFactory.java" startline="89" startcolumn="4" endline="101" endcolumn="4"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/gui/statusbar/MultiSelectWidgetFactory.java" startline="87" startcolumn="5" endline="96" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/gui/statusbar/RectSelectWidgetFactory.java" startline="85" startcolumn="7" endline="97" endcolumn="7"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/gui/statusbar/OverwriteWidgetFactory.java" startline="91" startcolumn="5" endline="100" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/gui/statusbar/MultiSelectWidgetFactory.java" startline="85" startcolumn="4" endline="97" endcolumn="4"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/gui/statusbar/OverwriteWidgetFactory.java" startline="91" startcolumn="5" endline="100" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/gui/statusbar/OverwriteWidgetFactory.java" startline="89" startcolumn="4" endline="101" endcolumn="4"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/gui/statusbar/OverwriteWidgetFactory.java" startline="91" startcolumn="5" endline="100" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/gui/statusbar/RectSelectWidgetFactory.java" startline="85" startcolumn="7" endline="97" endcolumn="7"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/gui/statusbar/RectSelectWidgetFactory.java" startline="87" startcolumn="8" endline="96" endcolumn="8"/>
+        <source file="org/gjt/sp/jedit/gui/statusbar/MultiSelectWidgetFactory.java" startline="85" startcolumn="4" endline="97" endcolumn="4"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/gui/statusbar/RectSelectWidgetFactory.java" startline="87" startcolumn="8" endline="96" endcolumn="8"/>
+        <source file="org/gjt/sp/jedit/gui/statusbar/OverwriteWidgetFactory.java" startline="89" startcolumn="4" endline="101" endcolumn="4"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/gui/statusbar/RectSelectWidgetFactory.java" startline="87" startcolumn="8" endline="96" endcolumn="8"/>
+        <source file="org/gjt/sp/jedit/gui/statusbar/RectSelectWidgetFactory.java" startline="85" startcolumn="7" endline="97" endcolumn="7"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/search/SearchDialog.java" startline="935" startcolumn="3" endline="944" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/gui/statusbar/MultiSelectWidgetFactory.java" startline="85" startcolumn="4" endline="97" endcolumn="4"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/search/SearchDialog.java" startline="935" startcolumn="3" endline="944" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/gui/statusbar/OverwriteWidgetFactory.java" startline="89" startcolumn="4" endline="101" endcolumn="4"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/search/SearchDialog.java" startline="935" startcolumn="3" endline="944" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/gui/statusbar/RectSelectWidgetFactory.java" startline="85" startcolumn="7" endline="97" endcolumn="7"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/gui/statusbar/MultiSelectWidgetFactory.java" startline="87" startcolumn="5" endline="96" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/options/AppearanceOptionPane.java" startline="249" startcolumn="3" endline="259" endcolumn="3"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/gui/statusbar/OverwriteWidgetFactory.java" startline="91" startcolumn="5" endline="100" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/options/AppearanceOptionPane.java" startline="249" startcolumn="3" endline="259" endcolumn="3"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/gui/statusbar/RectSelectWidgetFactory.java" startline="87" startcolumn="8" endline="96" endcolumn="8"/>
+        <source file="org/gjt/sp/jedit/options/AppearanceOptionPane.java" startline="249" startcolumn="3" endline="259" endcolumn="3"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/search/SearchDialog.java" startline="935" startcolumn="3" endline="944" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/options/AppearanceOptionPane.java" startline="249" startcolumn="3" endline="259" endcolumn="3"/>
+    </clone>
+    <clone nlines="14" distance="5">
+        <source file="org/gjt/sp/jedit/TextUtilities.java" startline="637" startcolumn="10" endline="650" endcolumn="14"/>
+        <source file="org/gjt/sp/jedit/TextUtilities.java" startline="451" startcolumn="10" endline="464" endcolumn="18"/>
+    </clone>
+    <clone nlines="36" distance="6">
+        <source file="org/gjt/sp/jedit/gui/OptionsDialog.java" startline="196" startcolumn="9" endline="237" endcolumn="4"/>
+        <source file="org/jedit/options/OptionGroupPane.java" startline="144" startcolumn="9" endline="179" endcolumn="4"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/gui/tray/JTrayIconManager.java" startline="82" startcolumn="4" endline="91" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/jEdit.java" startline="3963" startcolumn="5" endline="3973" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="org/gjt/sp/jedit/Buffer.java" startline="1985" startcolumn="5" endline="1994" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/Buffer.java" startline="592" startcolumn="4" endline="602" endcolumn="4"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="org/gjt/sp/jedit/Buffer.java" startline="2031" startcolumn="5" endline="2040" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/Buffer.java" startline="592" startcolumn="4" endline="602" endcolumn="4"/>
+    </clone>
+    <clone nlines="15" distance="4">
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="5219" startcolumn="3" endline="5233" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="5414" startcolumn="3" endline="5428" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="4">
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="5219" startcolumn="3" endline="5233" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="5435" startcolumn="3" endline="5449" endcolumn="3"/>
+    </clone>
+    <clone nlines="16" distance="2">
+        <source file="org/gjt/sp/jedit/browser/VFSDirectoryEntryTableModel.java" startline="309" startcolumn="16" endline="324" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/browser/VFSDirectoryEntryTableModel.java" startline="309" startcolumn="1" endline="324" endcolumn="3"/>
+    </clone>
+    <clone nlines="10" distance="6">
+        <source file="org/gjt/sp/jedit/gui/statusbar/IndentWidgetFactory.java" startline="62" startcolumn="4" endline="71" endcolumn="6"/>
+        <source file="org/gjt/sp/jedit/gui/statusbar/MultiSelectWidgetFactory.java" startline="63" startcolumn="4" endline="72" endcolumn="6"/>
+    </clone>
+    <clone nlines="10" distance="6">
+        <source file="org/gjt/sp/jedit/gui/statusbar/IndentWidgetFactory.java" startline="62" startcolumn="4" endline="71" endcolumn="6"/>
+        <source file="org/gjt/sp/jedit/gui/statusbar/OverwriteWidgetFactory.java" startline="66" startcolumn="4" endline="75" endcolumn="6"/>
+    </clone>
+    <clone nlines="10" distance="6">
+        <source file="org/gjt/sp/jedit/gui/statusbar/IndentWidgetFactory.java" startline="62" startcolumn="4" endline="71" endcolumn="6"/>
+        <source file="org/gjt/sp/jedit/gui/statusbar/RectSelectWidgetFactory.java" startline="65" startcolumn="7" endline="74" endcolumn="9"/>
+    </clone>
+    <clone nlines="13" distance="1">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5223" startcolumn="5" endline="5235" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4083" startcolumn="5" endline="4095" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="1">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5223" startcolumn="5" endline="5235" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5184" startcolumn="5" endline="5196" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="1">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5223" startcolumn="5" endline="5235" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5505" startcolumn="5" endline="5517" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="1">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5223" startcolumn="5" endline="5235" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5558" startcolumn="5" endline="5570" endcolumn="5"/>
+    </clone>
+    <clone nlines="15" distance="3">
+        <source file="org/gjt/sp/jedit/JEditActionSet.java" startline="380" startcolumn="4" endline="394" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/ServiceManager.java" startline="113" startcolumn="4" endline="127" endcolumn="4"/>
+    </clone>
+    <clone nlines="56" distance="2">
+        <source file="org/gjt/sp/jedit/browser/VFSBrowser.java" startline="1214" startcolumn="3" endline="1269" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/browser/VFSBrowser.java" startline="1213" startcolumn="1" endline="1269" endcolumn="3"/>
+    </clone>
+    <clone nlines="31" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2357" startcolumn="7" endline="2387" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3034" startcolumn="7" endline="3065" endcolumn="7"/>
+    </clone>
+    <clone nlines="31" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="2357" startcolumn="7" endline="2387" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3067" startcolumn="7" endline="3098" endcolumn="7"/>
+    </clone>
+    <clone nlines="31" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3395" startcolumn="7" endline="3425" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3034" startcolumn="7" endline="3065" endcolumn="7"/>
+    </clone>
+    <clone nlines="31" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3395" startcolumn="7" endline="3425" endcolumn="7"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3067" startcolumn="7" endline="3098" endcolumn="7"/>
+    </clone>
+    <clone nlines="21" distance="3">
+        <source file="org/gjt/sp/jedit/gui/FilteredTableModel.java" startline="140" startcolumn="3" endline="160" endcolumn="17"/>
+        <source file="org/gjt/sp/jedit/gui/FilteredListModel.java" startline="115" startcolumn="5" endline="135" endcolumn="19"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3785" startcolumn="5" endline="3794" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5225" startcolumn="5" endline="5234" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4030" startcolumn="5" endline="4039" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5225" startcolumn="5" endline="5234" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4376" startcolumn="5" endline="4385" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5225" startcolumn="5" endline="5234" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4652" startcolumn="5" endline="4661" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5225" startcolumn="5" endline="5234" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4814" startcolumn="5" endline="4823" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5225" startcolumn="5" endline="5234" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4970" startcolumn="5" endline="4979" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5225" startcolumn="5" endline="5234" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5440" startcolumn="5" endline="5449" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5225" startcolumn="5" endline="5234" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3785" startcolumn="5" endline="3794" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4085" startcolumn="5" endline="4094" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3785" startcolumn="5" endline="3794" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5186" startcolumn="5" endline="5195" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3785" startcolumn="5" endline="3794" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5507" startcolumn="5" endline="5516" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3785" startcolumn="5" endline="3794" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5560" startcolumn="5" endline="5569" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4030" startcolumn="5" endline="4039" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4085" startcolumn="5" endline="4094" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4030" startcolumn="5" endline="4039" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5186" startcolumn="5" endline="5195" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4030" startcolumn="5" endline="4039" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5507" startcolumn="5" endline="5516" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4030" startcolumn="5" endline="4039" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5560" startcolumn="5" endline="5569" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4376" startcolumn="5" endline="4385" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4085" startcolumn="5" endline="4094" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4376" startcolumn="5" endline="4385" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5186" startcolumn="5" endline="5195" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4376" startcolumn="5" endline="4385" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5507" startcolumn="5" endline="5516" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4376" startcolumn="5" endline="4385" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5560" startcolumn="5" endline="5569" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4652" startcolumn="5" endline="4661" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4085" startcolumn="5" endline="4094" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4652" startcolumn="5" endline="4661" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5186" startcolumn="5" endline="5195" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4652" startcolumn="5" endline="4661" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5507" startcolumn="5" endline="5516" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4652" startcolumn="5" endline="4661" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5560" startcolumn="5" endline="5569" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4814" startcolumn="5" endline="4823" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4085" startcolumn="5" endline="4094" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4814" startcolumn="5" endline="4823" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5186" startcolumn="5" endline="5195" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4814" startcolumn="5" endline="4823" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5507" startcolumn="5" endline="5516" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4814" startcolumn="5" endline="4823" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5560" startcolumn="5" endline="5569" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4970" startcolumn="5" endline="4979" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4085" startcolumn="5" endline="4094" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4970" startcolumn="5" endline="4979" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5186" startcolumn="5" endline="5195" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4970" startcolumn="5" endline="4979" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5507" startcolumn="5" endline="5516" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4970" startcolumn="5" endline="4979" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5560" startcolumn="5" endline="5569" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5440" startcolumn="5" endline="5449" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4085" startcolumn="5" endline="4094" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5440" startcolumn="5" endline="5449" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5186" startcolumn="5" endline="5195" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5440" startcolumn="5" endline="5449" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5507" startcolumn="5" endline="5516" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5440" startcolumn="5" endline="5449" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5560" startcolumn="5" endline="5569" endcolumn="5"/>
+    </clone>
+    <clone nlines="17" distance="2">
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="2587" startcolumn="4" endline="2603" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="2882" startcolumn="4" endline="2898" endcolumn="4"/>
+    </clone>
+    <clone nlines="11" distance="7">
+        <source file="org/gjt/sp/jedit/pluginmgr/InstallPanel.java" startline="1245" startcolumn="4" endline="1255" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/pluginmgr/InstallPanel.java" startline="1069" startcolumn="4" endline="1080" endcolumn="4"/>
+    </clone>
+    <clone nlines="40" distance="6">
+        <source file="org/gjt/sp/jedit/GUIUtilities.java" startline="1746" startcolumn="3" endline="1785" endcolumn="52"/>
+        <source file="org/gjt/sp/jedit/textarea/TextArea.java" startline="6331" startcolumn="3" endline="6371" endcolumn="52"/>
+    </clone>
+    <clone nlines="16" distance="1">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5221" startcolumn="5" endline="5236" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4081" startcolumn="5" endline="4096" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="1">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5221" startcolumn="5" endline="5236" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5182" startcolumn="5" endline="5197" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="1">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5221" startcolumn="5" endline="5236" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5503" startcolumn="5" endline="5518" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="1">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5221" startcolumn="5" endline="5236" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5556" startcolumn="5" endline="5571" endcolumn="5"/>
+    </clone>
+    <clone nlines="24" distance="2">
+        <source file="org/gjt/sp/jedit/browser/VFSDirectoryEntryTableModel.java" startline="331" startcolumn="16" endline="354" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/browser/VFSDirectoryEntryTableModel.java" startline="331" startcolumn="1" endline="354" endcolumn="3"/>
+    </clone>
+    <clone nlines="11" distance="7">
+        <source file="org/gjt/sp/jedit/View.java" startline="909" startcolumn="3" endline="919" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/View.java" startline="930" startcolumn="3" endline="940" endcolumn="3"/>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="org/gjt/sp/util/StandardUtilities.java" startline="193" startcolumn="8" endline="207" endcolumn="3"/>
+        <source file="org/gjt/sp/util/StandardUtilities.java" startline="193" startcolumn="1" endline="207" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3783" startcolumn="5" endline="3795" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5223" startcolumn="5" endline="5235" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4028" startcolumn="5" endline="4040" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5223" startcolumn="5" endline="5235" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4374" startcolumn="5" endline="4386" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5223" startcolumn="5" endline="5235" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4650" startcolumn="5" endline="4662" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5223" startcolumn="5" endline="5235" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="4">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4968" startcolumn="5" endline="4980" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5223" startcolumn="5" endline="5235" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3783" startcolumn="5" endline="3795" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4083" startcolumn="5" endline="4095" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3783" startcolumn="5" endline="3795" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5184" startcolumn="5" endline="5196" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3783" startcolumn="5" endline="3795" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5505" startcolumn="5" endline="5517" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3783" startcolumn="5" endline="3795" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5558" startcolumn="5" endline="5570" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4028" startcolumn="5" endline="4040" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4083" startcolumn="5" endline="4095" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4028" startcolumn="5" endline="4040" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5184" startcolumn="5" endline="5196" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4028" startcolumn="5" endline="4040" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5505" startcolumn="5" endline="5517" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4028" startcolumn="5" endline="4040" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5558" startcolumn="5" endline="5570" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4374" startcolumn="5" endline="4386" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4083" startcolumn="5" endline="4095" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4374" startcolumn="5" endline="4386" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5184" startcolumn="5" endline="5196" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4374" startcolumn="5" endline="4386" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5505" startcolumn="5" endline="5517" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4374" startcolumn="5" endline="4386" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5558" startcolumn="5" endline="5570" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4650" startcolumn="5" endline="4662" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4083" startcolumn="5" endline="4095" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4650" startcolumn="5" endline="4662" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5184" startcolumn="5" endline="5196" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4650" startcolumn="5" endline="4662" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5505" startcolumn="5" endline="5517" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4650" startcolumn="5" endline="4662" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5558" startcolumn="5" endline="5570" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4968" startcolumn="5" endline="4980" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4083" startcolumn="5" endline="4095" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4968" startcolumn="5" endline="4980" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5184" startcolumn="5" endline="5196" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4968" startcolumn="5" endline="4980" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5505" startcolumn="5" endline="5517" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4968" startcolumn="5" endline="4980" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5558" startcolumn="5" endline="5570" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="8">
+        <source file="org/gjt/sp/jedit/bsh/classpath/BshClassPath.java" startline="260" startcolumn="4" endline="270" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/bsh/classpath/BshClassPath.java" startline="259" startcolumn="3" endline="271" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="4">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2568" startcolumn="3" endline="2580" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2450" startcolumn="3" endline="2462" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="4">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2586" startcolumn="3" endline="2598" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2450" startcolumn="3" endline="2462" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="4">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2604" startcolumn="3" endline="2616" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2450" startcolumn="3" endline="2462" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="8">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2568" startcolumn="3" endline="2580" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2469" startcolumn="3" endline="2482" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="8">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2568" startcolumn="3" endline="2580" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2489" startcolumn="3" endline="2502" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="8">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2568" startcolumn="3" endline="2580" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2509" startcolumn="3" endline="2522" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="8">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2568" startcolumn="3" endline="2580" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2529" startcolumn="3" endline="2542" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="8">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2586" startcolumn="3" endline="2598" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2469" startcolumn="3" endline="2482" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="8">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2586" startcolumn="3" endline="2598" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2489" startcolumn="3" endline="2502" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="8">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2586" startcolumn="3" endline="2598" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2509" startcolumn="3" endline="2522" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="8">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2586" startcolumn="3" endline="2598" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2529" startcolumn="3" endline="2542" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="8">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2604" startcolumn="3" endline="2616" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2469" startcolumn="3" endline="2482" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="8">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2604" startcolumn="3" endline="2616" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2489" startcolumn="3" endline="2502" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="8">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2604" startcolumn="3" endline="2616" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2509" startcolumn="3" endline="2522" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="8">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2604" startcolumn="3" endline="2616" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2529" startcolumn="3" endline="2542" endcolumn="3"/>
+    </clone>
+    <clone nlines="20" distance="2">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="1083" startcolumn="8" endline="1102" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="1083" startcolumn="1" endline="1102" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="4">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2450" startcolumn="3" endline="2462" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2469" startcolumn="3" endline="2482" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="4">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2450" startcolumn="3" endline="2462" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2489" startcolumn="3" endline="2502" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="4">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2450" startcolumn="3" endline="2462" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2509" startcolumn="3" endline="2522" endcolumn="3"/>
+    </clone>
+    <clone nlines="13" distance="4">
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2450" startcolumn="3" endline="2462" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/buffer/JEditBuffer.java" startline="2529" startcolumn="3" endline="2542" endcolumn="3"/>
+    </clone>
+    <clone nlines="16" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3781" startcolumn="5" endline="3796" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5221" startcolumn="5" endline="5236" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4026" startcolumn="5" endline="4041" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5221" startcolumn="5" endline="5236" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4372" startcolumn="5" endline="4387" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5221" startcolumn="5" endline="5236" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4648" startcolumn="5" endline="4663" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5221" startcolumn="5" endline="5236" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="5">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4966" startcolumn="5" endline="4981" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5221" startcolumn="5" endline="5236" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3781" startcolumn="5" endline="3796" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4081" startcolumn="5" endline="4096" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3781" startcolumn="5" endline="3796" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5182" startcolumn="5" endline="5197" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3781" startcolumn="5" endline="3796" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5503" startcolumn="5" endline="5518" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3781" startcolumn="5" endline="3796" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5556" startcolumn="5" endline="5571" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4026" startcolumn="5" endline="4041" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4081" startcolumn="5" endline="4096" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4026" startcolumn="5" endline="4041" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5182" startcolumn="5" endline="5197" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4026" startcolumn="5" endline="4041" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5503" startcolumn="5" endline="5518" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4026" startcolumn="5" endline="4041" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5556" startcolumn="5" endline="5571" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4372" startcolumn="5" endline="4387" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4081" startcolumn="5" endline="4096" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4372" startcolumn="5" endline="4387" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5182" startcolumn="5" endline="5197" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4372" startcolumn="5" endline="4387" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5503" startcolumn="5" endline="5518" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4372" startcolumn="5" endline="4387" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5556" startcolumn="5" endline="5571" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4648" startcolumn="5" endline="4663" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4081" startcolumn="5" endline="4096" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4648" startcolumn="5" endline="4663" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5182" startcolumn="5" endline="5197" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4648" startcolumn="5" endline="4663" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5503" startcolumn="5" endline="5518" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4648" startcolumn="5" endline="4663" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5556" startcolumn="5" endline="5571" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4966" startcolumn="5" endline="4981" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4081" startcolumn="5" endline="4096" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4966" startcolumn="5" endline="4981" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5182" startcolumn="5" endline="5197" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4966" startcolumn="5" endline="4981" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5503" startcolumn="5" endline="5518" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4966" startcolumn="5" endline="4981" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5556" startcolumn="5" endline="5571" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="org/gjt/sp/jedit/bsh/NameSpace.java" startline="1654" startcolumn="9" endline="1663" endcolumn="9"/>
+        <source file="org/gjt/sp/jedit/bsh/NameSpace.java" startline="768" startcolumn="13" endline="779" endcolumn="13"/>
+    </clone>
+    <clone nlines="22" distance="8">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3777" startcolumn="5" endline="3798" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4077" startcolumn="5" endline="4098" endcolumn="5"/>
+    </clone>
+    <clone nlines="22" distance="8">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3777" startcolumn="5" endline="3798" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5178" startcolumn="5" endline="5199" endcolumn="5"/>
+    </clone>
+    <clone nlines="22" distance="8">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3777" startcolumn="5" endline="3798" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5552" startcolumn="5" endline="5573" endcolumn="5"/>
+    </clone>
+    <clone nlines="22" distance="8">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4368" startcolumn="5" endline="4389" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4077" startcolumn="5" endline="4098" endcolumn="5"/>
+    </clone>
+    <clone nlines="22" distance="8">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4368" startcolumn="5" endline="4389" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5178" startcolumn="5" endline="5199" endcolumn="5"/>
+    </clone>
+    <clone nlines="22" distance="8">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4368" startcolumn="5" endline="4389" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5552" startcolumn="5" endline="5573" endcolumn="5"/>
+    </clone>
+    <clone nlines="22" distance="3">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3777" startcolumn="5" endline="3798" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4022" startcolumn="5" endline="4043" endcolumn="5"/>
+    </clone>
+    <clone nlines="22" distance="3">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4368" startcolumn="5" endline="4389" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4022" startcolumn="5" endline="4043" endcolumn="5"/>
+    </clone>
+    <clone nlines="19" distance="7">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3779" startcolumn="5" endline="3797" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4079" startcolumn="5" endline="4097" endcolumn="5"/>
+    </clone>
+    <clone nlines="19" distance="7">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3779" startcolumn="5" endline="3797" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5180" startcolumn="5" endline="5198" endcolumn="5"/>
+    </clone>
+    <clone nlines="19" distance="7">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="3779" startcolumn="5" endline="3797" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5554" startcolumn="5" endline="5572" endcolumn="5"/>
+    </clone>
+    <clone nlines="19" distance="7">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4024" startcolumn="5" endline="4042" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4079" startcolumn="5" endline="4097" endcolumn="5"/>
+    </clone>
+    <clone nlines="19" distance="7">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4024" startcolumn="5" endline="4042" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5180" startcolumn="5" endline="5198" endcolumn="5"/>
+    </clone>
+    <clone nlines="19" distance="7">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4024" startcolumn="5" endline="4042" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5554" startcolumn="5" endline="5572" endcolumn="5"/>
+    </clone>
+    <clone nlines="19" distance="7">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4370" startcolumn="5" endline="4388" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4079" startcolumn="5" endline="4097" endcolumn="5"/>
+    </clone>
+    <clone nlines="19" distance="7">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4370" startcolumn="5" endline="4388" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5180" startcolumn="5" endline="5198" endcolumn="5"/>
+    </clone>
+    <clone nlines="19" distance="7">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4370" startcolumn="5" endline="4388" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5554" startcolumn="5" endline="5572" endcolumn="5"/>
+    </clone>
+    <clone nlines="19" distance="7">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4646" startcolumn="5" endline="4664" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4079" startcolumn="5" endline="4097" endcolumn="5"/>
+    </clone>
+    <clone nlines="19" distance="7">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4646" startcolumn="5" endline="4664" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5180" startcolumn="5" endline="5198" endcolumn="5"/>
+    </clone>
+    <clone nlines="19" distance="7">
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="4646" startcolumn="5" endline="4664" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/bsh/Parser.java" startline="5554" startcolumn="5" endline="5572" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="4">
+        <source file="org/gjt/sp/jedit/gui/PanelWindowContainer.java" startline="844" startcolumn="5" endline="854" endcolumn="5"/>
+        <source file="org/gjt/sp/jedit/gui/PanelWindowContainer.java" startline="873" startcolumn="5" endline="883" endcolumn="5"/>
+    </clone>
+    <clone nlines="28" distance="6">
+        <source file="org/gjt/sp/jedit/OptionGroup.java" startline="169" startcolumn="4" endline="196" endcolumn="4"/>
+        <source file="org/gjt/sp/jedit/OptionGroup.java" startline="167" startcolumn="3" endline="197" endcolumn="3"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/gjt/sp/jedit/textarea/SelectionManager.java" startline="139" startcolumn="3" endline="148" endcolumn="3"/>
+        <source file="org/gjt/sp/jedit/Buffer.java" startline="1363" startcolumn="4" endline="1372" endcolumn="4"/>
+    </clone>
+    <clone nlines="10" distance="6">
+        <source file="org/gjt/sp/jedit/bsh/NameSpace.java" startline="1072" startcolumn="9" endline="1081" endcolumn="9"/>
+        <source file="org/gjt/sp/jedit/bsh/NameSpace.java" startline="1071" startcolumn="9" endline="1081" endcolumn="9"/>
+    </clone>
+</clones>

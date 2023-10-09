@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<clones>
+    <clone nlines="6" distance="1">
+        <source file="java/org/mockito/internal/creation/bytebuddy/TypeCachingBytecodeGenerator.java" startline="37" startcolumn="5" endline="43" endcolumn="5"/>
+        <source file="java/org/mockito/internal/util/concurrent/WeakConcurrentMap.java" startline="120" startcolumn="5" endline="125" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="6">
+        <source file="java/org/mockito/internal/invocation/InvocationImpl.java" startline="113" startcolumn="5" endline="118" endcolumn="5"/>
+        <source file="java/org/mockito/internal/creation/bytebuddy/InterceptedInvocation.java" startline="122" startcolumn="5" endline="128" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="8">
+        <source file="java/org/mockito/internal/invocation/InvocationImpl.java" startline="113" startcolumn="5" endline="118" endcolumn="5"/>
+        <source file="java/org/mockito/internal/handler/MockHandlerImpl.java" startline="119" startcolumn="5" endline="125" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="1">
+        <source file="java/org/mockito/internal/stubbing/StubberImpl.java" startline="48" startcolumn="5" endline="57" endcolumn="5"/>
+        <source file="java/org/mockito/internal/stubbing/StubberImpl.java" startline="59" startcolumn="5" endline="68" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="1">
+        <source file="java/org/mockito/internal/util/reflection/Fields.java" startline="98" startcolumn="5" endline="104" endcolumn="5"/>
+        <source file="java/org/mockito/internal/util/reflection/Fields.java" startline="85" startcolumn="5" endline="91" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="java/org/mockito/internal/MockitoCore.java" startline="93" startcolumn="5" endline="102" endcolumn="5"/>
+        <source file="java/org/mockito/internal/MockitoCore.java" startline="104" startcolumn="5" endline="113" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="7">
+        <source file="java/org/mockito/internal/invocation/InvocationMatcher.java" startline="69" startcolumn="5" endline="75" endcolumn="5"/>
+        <source file="java/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java" startline="39" startcolumn="5" endline="45" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="2">
+        <source file="java/org/mockito/exceptions/base/MockitoException.java" startline="38" startcolumn="5" endline="43" endcolumn="5"/>
+        <source file="java/org/mockito/exceptions/base/MockitoSerializationIssue.java" startline="33" startcolumn="5" endline="38" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="8">
+        <source file="java/org/mockito/internal/stubbing/answers/AnswerFunctionalInterfaces.java" startline="50" startcolumn="5" endline="58" endcolumn="5"/>
+        <source file="java/org/mockito/internal/stubbing/answers/AnswerFunctionalInterfaces.java" startline="35" startcolumn="5" endline="42" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="java/org/mockito/internal/stubbing/answers/AnswerFunctionalInterfaces.java" startline="86" startcolumn="5" endline="96" endcolumn="5"/>
+        <source file="java/org/mockito/internal/stubbing/answers/AnswerFunctionalInterfaces.java" startline="68" startcolumn="5" endline="77" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="8">
+        <source file="java/org/mockito/internal/stubbing/answers/AnswerFunctionalInterfaces.java" startline="127" startcolumn="5" endline="138" endcolumn="5"/>
+        <source file="java/org/mockito/internal/stubbing/answers/AnswerFunctionalInterfaces.java" startline="107" startcolumn="5" endline="117" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="8">
+        <source file="java/org/mockito/internal/util/reflection/Constructors.java" startline="13" startcolumn="5" endline="19" endcolumn="5"/>
+        <source file="java/org/mockito/internal/util/junit/JUnitFailureHacker.java" startline="71" startcolumn="5" endline="77" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="1">
+        <source file="java/org/mockito/internal/verification/AtMost.java" startline="50" startcolumn="5" endline="57" endcolumn="5"/>
+        <source file="java/org/mockito/internal/verification/checkers/AtLeastXNumberOfInvocationsChecker.java" startline="38" startcolumn="5" endline="45" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="1">
+        <source file="java/org/mockito/internal/verification/checkers/NumberOfInvocationsChecker.java" startline="46" startcolumn="5" endline="53" endcolumn="5"/>
+        <source file="java/org/mockito/internal/verification/checkers/AtLeastXNumberOfInvocationsChecker.java" startline="38" startcolumn="5" endline="45" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="4">
+        <source file="java/org/mockito/internal/verification/VerificationOverTimeImpl.java" startline="115" startcolumn="5" endline="121" endcolumn="5"/>
+        <source file="java/org/mockito/internal/verification/Description.java" startline="33" startcolumn="5" endline="41" endcolumn="5"/>
+    </clone>
+    <clone nlines="12" distance="8">
+        <source file="java/org/mockito/internal/stubbing/answers/AnswerFunctionalInterfaces.java" startline="172" startcolumn="5" endline="184" endcolumn="5"/>
+        <source file="java/org/mockito/internal/stubbing/answers/AnswerFunctionalInterfaces.java" startline="150" startcolumn="5" endline="161" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="7">
+        <source file="java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java" startline="258" startcolumn="13" endline="270" endcolumn="13"/>
+        <source file="java/org/mockito/internal/creation/bytebuddy/SubclassByteBuddyMockMaker.java" startline="140" startcolumn="13" endline="152" endcolumn="13"/>
+    </clone>
+    <clone nlines="13" distance="8">
+        <source file="java/org/mockito/internal/stubbing/answers/AnswerFunctionalInterfaces.java" startline="221" startcolumn="5" endline="234" endcolumn="5"/>
+        <source file="java/org/mockito/internal/stubbing/answers/AnswerFunctionalInterfaces.java" startline="197" startcolumn="5" endline="209" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="8">
+        <source file="java/org/mockito/internal/matchers/And.java" startline="23" startcolumn="5" endline="30" endcolumn="5"/>
+        <source file="java/org/mockito/internal/creation/MockSettingsImpl.java" startline="140" startcolumn="5" endline="147" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="8">
+        <source file="java/org/mockito/internal/matchers/CapturingMatcher.java" startline="28" startcolumn="5" endline="35" endcolumn="5"/>
+        <source file="java/org/mockito/internal/creation/bytebuddy/InterceptedInvocation.java" startline="122" startcolumn="5" endline="128" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="7">
+        <source file="java/org/mockito/internal/matchers/CapturingMatcher.java" startline="28" startcolumn="5" endline="35" endcolumn="5"/>
+        <source file="java/org/mockito/internal/invocation/InvocationImpl.java" startline="113" startcolumn="5" endline="118" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="1">
+        <source file="java/org/mockito/internal/verification/AtLeast.java" startline="21" startcolumn="5" endline="26" endcolumn="5"/>
+        <source file="java/org/mockito/internal/verification/Calls.java" startline="26" startcolumn="5" endline="31" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="1">
+        <source file="java/org/mockito/internal/verification/AtMost.java" startline="24" startcolumn="5" endline="29" endcolumn="5"/>
+        <source file="java/org/mockito/internal/verification/Calls.java" startline="26" startcolumn="5" endline="31" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="1">
+        <source file="java/org/mockito/internal/verification/Times.java" startline="25" startcolumn="5" endline="30" endcolumn="5"/>
+        <source file="java/org/mockito/internal/verification/Calls.java" startline="26" startcolumn="5" endline="31" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="3">
+        <source file="java/org/mockito/internal/util/MockCreationValidator.java" startline="49" startcolumn="5" endline="56" endcolumn="5"/>
+        <source file="java/org/mockito/internal/util/MockCreationValidator.java" startline="40" startcolumn="5" endline="47" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="4">
+        <source file="java/org/mockito/internal/stubbing/answers/AnswerFunctionalInterfaces.java" startline="70" startcolumn="13" endline="75" endcolumn="13"/>
+        <source file="java/org/mockito/internal/stubbing/answers/AnswerFunctionalInterfaces.java" startline="88" startcolumn="13" endline="94" endcolumn="13"/>
+    </clone>
+    <clone nlines="6" distance="4">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="59" startcolumn="5" endline="64" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="150" startcolumn="5" endline="156" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="59" startcolumn="5" endline="64" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="167" startcolumn="5" endline="175" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="59" startcolumn="5" endline="64" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="177" startcolumn="5" endline="185" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="59" startcolumn="5" endline="64" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="158" startcolumn="5" endline="165" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="59" startcolumn="5" endline="64" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="187" startcolumn="5" endline="194" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="59" startcolumn="5" endline="64" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="196" startcolumn="5" endline="203" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="59" startcolumn="5" endline="64" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="205" startcolumn="5" endline="212" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="59" startcolumn="5" endline="64" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="214" startcolumn="5" endline="221" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="59" startcolumn="5" endline="64" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="223" startcolumn="5" endline="230" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="59" startcolumn="5" endline="64" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="589" startcolumn="5" endline="596" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="59" startcolumn="5" endline="64" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="708" startcolumn="5" endline="714" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="59" startcolumn="5" endline="64" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="272" startcolumn="5" endline="277" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="59" startcolumn="5" endline="64" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="598" startcolumn="5" endline="606" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="59" startcolumn="5" endline="64" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="52" startcolumn="5" endline="57" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="1">
+        <source file="java/org/mockito/internal/matchers/Or.java" startline="23" startcolumn="5" endline="30" endcolumn="5"/>
+        <source file="java/org/mockito/internal/matchers/And.java" startline="23" startcolumn="5" endline="30" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="8">
+        <source file="java/org/mockito/internal/matchers/Or.java" startline="23" startcolumn="5" endline="30" endcolumn="5"/>
+        <source file="java/org/mockito/internal/creation/MockSettingsImpl.java" startline="140" startcolumn="5" endline="147" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="5">
+        <source file="java/org/mockito/internal/util/collections/IdentitySet.java" startline="14" startcolumn="5" endline="21" endcolumn="5"/>
+        <source file="java/org/mockito/internal/matchers/And.java" startline="23" startcolumn="5" endline="30" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="4">
+        <source file="java/org/mockito/internal/util/collections/IdentitySet.java" startline="14" startcolumn="5" endline="21" endcolumn="5"/>
+        <source file="java/org/mockito/internal/matchers/Or.java" startline="23" startcolumn="5" endline="30" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="4">
+        <source file="java/org/mockito/internal/stubbing/answers/AnswerFunctionalInterfaces.java" startline="109" startcolumn="13" endline="115" endcolumn="13"/>
+        <source file="java/org/mockito/internal/stubbing/answers/AnswerFunctionalInterfaces.java" startline="129" startcolumn="13" endline="136" endcolumn="13"/>
+    </clone>
+    <clone nlines="10" distance="7">
+        <source file="java/org/mockito/internal/util/junit/JUnitFailureHacker.java" startline="34" startcolumn="5" endline="43" endcolumn="5"/>
+        <source file="java/org/mockito/internal/util/junit/JUnitFailureHacker.java" startline="45" startcolumn="5" endline="54" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="4">
+        <source file="java/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java" startline="39" startcolumn="5" endline="45" endcolumn="5"/>
+        <source file="java/org/mockito/internal/util/junit/JUnitFailureHacker.java" startline="71" startcolumn="5" endline="77" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="4">
+        <source file="java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java" startline="107" startcolumn="9" endline="112" endcolumn="9"/>
+        <source file="java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java" startline="140" startcolumn="9" endline="145" endcolumn="9"/>
+    </clone>
+    <clone nlines="6" distance="6">
+        <source file="java/org/mockito/internal/configuration/injection/ConstructorInjection.java" startline="78" startcolumn="9" endline="83" endcolumn="9"/>
+        <source file="java/org/mockito/internal/creation/MockSettingsImpl.java" startline="140" startcolumn="5" endline="147" endcolumn="5"/>
+    </clone>
+    <clone nlines="12" distance="5">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="84" startcolumn="5" endline="95" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="536" startcolumn="5" endline="549" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="7">
+        <source file="java/org/mockito/internal/invocation/finder/AllInvocationsFinder.java" startline="43" startcolumn="5" endline="53" endcolumn="5"/>
+        <source file="java/org/mockito/internal/invocation/finder/AllInvocationsFinder.java" startline="25" startcolumn="5" endline="35" endcolumn="5"/>
+    </clone>
+    <clone nlines="9" distance="2">
+        <source file="java/org/mockito/internal/invocation/InvocationImpl.java" startline="78" startcolumn="5" endline="86" endcolumn="5"/>
+        <source file="java/org/mockito/internal/creation/bytebuddy/InterceptedInvocation.java" startline="136" startcolumn="5" endline="145" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="7">
+        <source file="java/org/mockito/internal/util/concurrent/DetachedThreadLocal.java" startline="73" startcolumn="5" endline="79" endcolumn="5"/>
+        <source file="java/org/mockito/internal/util/concurrent/DetachedThreadLocal.java" startline="61" startcolumn="5" endline="67" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="3">
+        <source file="java/org/mockito/internal/verification/VerificationOverTimeImpl.java" startline="50" startcolumn="5" endline="55" endcolumn="5"/>
+        <source file="java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java" startline="107" startcolumn="9" endline="112" endcolumn="9"/>
+    </clone>
+    <clone nlines="6" distance="7">
+        <source file="java/org/mockito/internal/verification/VerificationOverTimeImpl.java" startline="50" startcolumn="5" endline="55" endcolumn="5"/>
+        <source file="java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java" startline="140" startcolumn="9" endline="145" endcolumn="9"/>
+    </clone>
+    <clone nlines="8" distance="3">
+        <source file="java/org/mockito/internal/util/reflection/GenericMetadataSupport.java" startline="353" startcolumn="9" endline="360" endcolumn="9"/>
+        <source file="java/org/mockito/internal/util/reflection/GenericMetadataSupport.java" startline="385" startcolumn="9" endline="392" endcolumn="9"/>
+    </clone>
+    <clone nlines="8" distance="4">
+        <source file="java/org/mockito/internal/util/concurrent/WeakConcurrentMap.java" startline="224" startcolumn="9" endline="231" endcolumn="9"/>
+        <source file="java/org/mockito/internal/util/concurrent/WeakConcurrentMap.java" startline="197" startcolumn="9" endline="204" endcolumn="9"/>
+    </clone>
+    <clone nlines="8" distance="4">
+        <source file="java/org/mockito/internal/stubbing/answers/AnswerFunctionalInterfaces.java" startline="152" startcolumn="13" endline="159" endcolumn="13"/>
+        <source file="java/org/mockito/internal/stubbing/answers/AnswerFunctionalInterfaces.java" startline="174" startcolumn="13" endline="182" endcolumn="13"/>
+    </clone>
+    <clone nlines="9" distance="4">
+        <source file="java/org/mockito/internal/stubbing/answers/AnswerFunctionalInterfaces.java" startline="199" startcolumn="13" endline="207" endcolumn="13"/>
+        <source file="java/org/mockito/internal/stubbing/answers/AnswerFunctionalInterfaces.java" startline="223" startcolumn="13" endline="232" endcolumn="13"/>
+    </clone>
+    <clone nlines="6" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="272" startcolumn="5" endline="277" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="150" startcolumn="5" endline="156" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="272" startcolumn="5" endline="277" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="167" startcolumn="5" endline="175" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="272" startcolumn="5" endline="277" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="177" startcolumn="5" endline="185" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="4">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="272" startcolumn="5" endline="277" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="158" startcolumn="5" endline="165" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="4">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="272" startcolumn="5" endline="277" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="187" startcolumn="5" endline="194" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="4">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="272" startcolumn="5" endline="277" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="196" startcolumn="5" endline="203" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="4">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="272" startcolumn="5" endline="277" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="205" startcolumn="5" endline="212" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="4">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="272" startcolumn="5" endline="277" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="214" startcolumn="5" endline="221" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="4">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="272" startcolumn="5" endline="277" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="223" startcolumn="5" endline="230" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="4">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="272" startcolumn="5" endline="277" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="589" startcolumn="5" endline="596" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="4">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="272" startcolumn="5" endline="277" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="708" startcolumn="5" endline="714" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="272" startcolumn="5" endline="277" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="598" startcolumn="5" endline="606" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="4">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="272" startcolumn="5" endline="277" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="52" startcolumn="5" endline="57" endcolumn="5"/>
+    </clone>
+    <clone nlines="9" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="598" startcolumn="5" endline="606" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="167" startcolumn="5" endline="175" endcolumn="5"/>
+    </clone>
+    <clone nlines="9" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="598" startcolumn="5" endline="606" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="177" startcolumn="5" endline="185" endcolumn="5"/>
+    </clone>
+    <clone nlines="9" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="598" startcolumn="5" endline="606" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="138" startcolumn="5" endline="148" endcolumn="5"/>
+    </clone>
+    <clone nlines="9" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="598" startcolumn="5" endline="606" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="464" startcolumn="5" endline="474" endcolumn="5"/>
+    </clone>
+    <clone nlines="9" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="598" startcolumn="5" endline="606" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="640" startcolumn="5" endline="649" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="4">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="150" startcolumn="5" endline="156" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="167" startcolumn="5" endline="175" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="4">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="150" startcolumn="5" endline="156" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="177" startcolumn="5" endline="185" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="150" startcolumn="5" endline="156" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="158" startcolumn="5" endline="165" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="150" startcolumn="5" endline="156" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="187" startcolumn="5" endline="194" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="150" startcolumn="5" endline="156" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="196" startcolumn="5" endline="203" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="150" startcolumn="5" endline="156" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="205" startcolumn="5" endline="212" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="150" startcolumn="5" endline="156" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="214" startcolumn="5" endline="221" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="150" startcolumn="5" endline="156" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="223" startcolumn="5" endline="230" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="150" startcolumn="5" endline="156" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="589" startcolumn="5" endline="596" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="150" startcolumn="5" endline="156" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="708" startcolumn="5" endline="714" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="150" startcolumn="5" endline="156" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="138" startcolumn="5" endline="148" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="150" startcolumn="5" endline="156" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="464" startcolumn="5" endline="474" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="4">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="150" startcolumn="5" endline="156" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="598" startcolumn="5" endline="606" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="4">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="150" startcolumn="5" endline="156" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="52" startcolumn="5" endline="57" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="150" startcolumn="5" endline="156" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="279" startcolumn="5" endline="285" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="2">
+        <source file="java/org/mockito/internal/creation/bytebuddy/TypeCachingBytecodeGenerator.java" startline="162" startcolumn="9" endline="167" endcolumn="9"/>
+        <source file="java/org/mockito/internal/creation/bytebuddy/TypeCachingBytecodeGenerator.java" startline="184" startcolumn="9" endline="189" endcolumn="9"/>
+    </clone>
+    <clone nlines="6" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="279" startcolumn="5" endline="285" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="557" startcolumn="5" endline="562" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="7">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="279" startcolumn="5" endline="285" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="564" startcolumn="5" endline="570" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="382" startcolumn="5" endline="387" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="409" startcolumn="5" endline="415" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="127" startcolumn="5" endline="136" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="775" startcolumn="5" endline="785" endcolumn="5"/>
+    </clone>
+    <clone nlines="9" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="127" startcolumn="5" endline="136" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="630" startcolumn="5" endline="638" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="1">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="557" startcolumn="5" endline="562" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="564" startcolumn="5" endline="570" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="158" startcolumn="5" endline="165" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="167" startcolumn="5" endline="175" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="158" startcolumn="5" endline="165" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="177" startcolumn="5" endline="185" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="187" startcolumn="5" endline="194" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="167" startcolumn="5" endline="175" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="187" startcolumn="5" endline="194" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="177" startcolumn="5" endline="185" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="196" startcolumn="5" endline="203" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="167" startcolumn="5" endline="175" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="196" startcolumn="5" endline="203" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="177" startcolumn="5" endline="185" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="205" startcolumn="5" endline="212" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="167" startcolumn="5" endline="175" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="205" startcolumn="5" endline="212" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="177" startcolumn="5" endline="185" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="214" startcolumn="5" endline="221" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="167" startcolumn="5" endline="175" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="214" startcolumn="5" endline="221" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="177" startcolumn="5" endline="185" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="223" startcolumn="5" endline="230" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="167" startcolumn="5" endline="175" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="223" startcolumn="5" endline="230" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="177" startcolumn="5" endline="185" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="589" startcolumn="5" endline="596" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="167" startcolumn="5" endline="175" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="589" startcolumn="5" endline="596" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="177" startcolumn="5" endline="185" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="708" startcolumn="5" endline="714" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="167" startcolumn="5" endline="175" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="708" startcolumn="5" endline="714" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="177" startcolumn="5" endline="185" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="158" startcolumn="5" endline="165" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="138" startcolumn="5" endline="148" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="158" startcolumn="5" endline="165" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="464" startcolumn="5" endline="474" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="187" startcolumn="5" endline="194" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="138" startcolumn="5" endline="148" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="187" startcolumn="5" endline="194" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="464" startcolumn="5" endline="474" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="196" startcolumn="5" endline="203" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="138" startcolumn="5" endline="148" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="196" startcolumn="5" endline="203" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="464" startcolumn="5" endline="474" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="205" startcolumn="5" endline="212" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="138" startcolumn="5" endline="148" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="205" startcolumn="5" endline="212" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="464" startcolumn="5" endline="474" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="214" startcolumn="5" endline="221" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="138" startcolumn="5" endline="148" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="214" startcolumn="5" endline="221" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="464" startcolumn="5" endline="474" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="223" startcolumn="5" endline="230" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="138" startcolumn="5" endline="148" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="223" startcolumn="5" endline="230" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="464" startcolumn="5" endline="474" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="589" startcolumn="5" endline="596" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="138" startcolumn="5" endline="148" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="589" startcolumn="5" endline="596" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="464" startcolumn="5" endline="474" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="708" startcolumn="5" endline="714" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="138" startcolumn="5" endline="148" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="708" startcolumn="5" endline="714" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="464" startcolumn="5" endline="474" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="3">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="158" startcolumn="5" endline="165" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="598" startcolumn="5" endline="606" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="3">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="187" startcolumn="5" endline="194" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="598" startcolumn="5" endline="606" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="3">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="196" startcolumn="5" endline="203" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="598" startcolumn="5" endline="606" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="3">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="205" startcolumn="5" endline="212" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="598" startcolumn="5" endline="606" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="3">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="214" startcolumn="5" endline="221" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="598" startcolumn="5" endline="606" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="3">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="223" startcolumn="5" endline="230" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="598" startcolumn="5" endline="606" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="3">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="589" startcolumn="5" endline="596" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="598" startcolumn="5" endline="606" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="3">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="708" startcolumn="5" endline="714" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="598" startcolumn="5" endline="606" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="158" startcolumn="5" endline="165" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="52" startcolumn="5" endline="57" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="187" startcolumn="5" endline="194" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="52" startcolumn="5" endline="57" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="196" startcolumn="5" endline="203" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="52" startcolumn="5" endline="57" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="205" startcolumn="5" endline="212" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="52" startcolumn="5" endline="57" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="214" startcolumn="5" endline="221" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="52" startcolumn="5" endline="57" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="223" startcolumn="5" endline="230" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="52" startcolumn="5" endline="57" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="589" startcolumn="5" endline="596" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="52" startcolumn="5" endline="57" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="708" startcolumn="5" endline="714" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="52" startcolumn="5" endline="57" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="158" startcolumn="5" endline="165" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="279" startcolumn="5" endline="285" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="187" startcolumn="5" endline="194" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="279" startcolumn="5" endline="285" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="196" startcolumn="5" endline="203" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="279" startcolumn="5" endline="285" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="205" startcolumn="5" endline="212" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="279" startcolumn="5" endline="285" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="214" startcolumn="5" endline="221" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="279" startcolumn="5" endline="285" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="223" startcolumn="5" endline="230" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="279" startcolumn="5" endline="285" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="589" startcolumn="5" endline="596" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="279" startcolumn="5" endline="285" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="708" startcolumn="5" endline="714" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="279" startcolumn="5" endline="285" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="158" startcolumn="5" endline="165" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="640" startcolumn="5" endline="649" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="187" startcolumn="5" endline="194" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="640" startcolumn="5" endline="649" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="196" startcolumn="5" endline="203" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="640" startcolumn="5" endline="649" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="205" startcolumn="5" endline="212" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="640" startcolumn="5" endline="649" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="214" startcolumn="5" endline="221" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="640" startcolumn="5" endline="649" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="223" startcolumn="5" endline="230" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="640" startcolumn="5" endline="649" endcolumn="5"/>
+    </clone>
+    <clone nlines="8" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="589" startcolumn="5" endline="596" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="640" startcolumn="5" endline="649" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="708" startcolumn="5" endline="714" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="640" startcolumn="5" endline="649" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="52" startcolumn="5" endline="57" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="167" startcolumn="5" endline="175" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="52" startcolumn="5" endline="57" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="177" startcolumn="5" endline="185" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="7">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="52" startcolumn="5" endline="57" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="598" startcolumn="5" endline="606" endcolumn="5"/>
+    </clone>
+    <clone nlines="6" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="52" startcolumn="5" endline="57" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="279" startcolumn="5" endline="285" endcolumn="5"/>
+    </clone>
+    <clone nlines="16" distance="7">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="66" startcolumn="5" endline="82" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="447" startcolumn="5" endline="462" endcolumn="5"/>
+    </clone>
+    <clone nlines="14" distance="7">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="112" startcolumn="5" endline="125" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="66" startcolumn="5" endline="82" endcolumn="5"/>
+    </clone>
+    <clone nlines="14" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="112" startcolumn="5" endline="125" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="97" startcolumn="5" endline="110" endcolumn="5"/>
+    </clone>
+    <clone nlines="9" distance="4">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="167" startcolumn="5" endline="175" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="138" startcolumn="5" endline="148" endcolumn="5"/>
+    </clone>
+    <clone nlines="9" distance="4">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="167" startcolumn="5" endline="175" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="464" startcolumn="5" endline="474" endcolumn="5"/>
+    </clone>
+    <clone nlines="9" distance="4">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="177" startcolumn="5" endline="185" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="138" startcolumn="5" endline="148" endcolumn="5"/>
+    </clone>
+    <clone nlines="9" distance="4">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="177" startcolumn="5" endline="185" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="464" startcolumn="5" endline="474" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="167" startcolumn="5" endline="175" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="279" startcolumn="5" endline="285" endcolumn="5"/>
+    </clone>
+    <clone nlines="7" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="177" startcolumn="5" endline="185" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="279" startcolumn="5" endline="285" endcolumn="5"/>
+    </clone>
+    <clone nlines="9" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="167" startcolumn="5" endline="175" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="640" startcolumn="5" endline="649" endcolumn="5"/>
+    </clone>
+    <clone nlines="9" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="177" startcolumn="5" endline="185" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="640" startcolumn="5" endline="649" endcolumn="5"/>
+    </clone>
+    <clone nlines="9" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="167" startcolumn="5" endline="175" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="811" startcolumn="5" endline="820" endcolumn="5"/>
+    </clone>
+    <clone nlines="9" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="177" startcolumn="5" endline="185" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="811" startcolumn="5" endline="820" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="525" startcolumn="5" endline="534" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="371" startcolumn="5" endline="380" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="5">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="138" startcolumn="5" endline="148" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="84" startcolumn="5" endline="95" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="5">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="464" startcolumn="5" endline="474" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="84" startcolumn="5" endline="95" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="138" startcolumn="5" endline="148" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="536" startcolumn="5" endline="549" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="464" startcolumn="5" endline="474" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="536" startcolumn="5" endline="549" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="138" startcolumn="5" endline="148" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="640" startcolumn="5" endline="649" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="464" startcolumn="5" endline="474" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="640" startcolumn="5" endline="649" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="138" startcolumn="5" endline="148" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="811" startcolumn="5" endline="820" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="464" startcolumn="5" endline="474" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="811" startcolumn="5" endline="820" endcolumn="5"/>
+    </clone>
+    <clone nlines="9" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="630" startcolumn="5" endline="638" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="775" startcolumn="5" endline="785" endcolumn="5"/>
+    </clone>
+    <clone nlines="14" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="97" startcolumn="5" endline="110" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="66" startcolumn="5" endline="82" endcolumn="5"/>
+    </clone>
+    <clone nlines="14" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="536" startcolumn="5" endline="549" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="66" startcolumn="5" endline="82" endcolumn="5"/>
+    </clone>
+    <clone nlines="14" distance="6">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="536" startcolumn="5" endline="549" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="112" startcolumn="5" endline="125" endcolumn="5"/>
+    </clone>
+    <clone nlines="14" distance="4">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="536" startcolumn="5" endline="549" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="97" startcolumn="5" endline="110" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="640" startcolumn="5" endline="649" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="112" startcolumn="5" endline="125" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="640" startcolumn="5" endline="649" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="84" startcolumn="5" endline="95" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="8">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="640" startcolumn="5" endline="649" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="97" startcolumn="5" endline="110" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="640" startcolumn="5" endline="649" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="536" startcolumn="5" endline="549" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="640" startcolumn="5" endline="649" endcolumn="5"/>
+        <source file="java/org/mockito/internal/exceptions/Reporter.java" startline="811" startcolumn="5" endline="820" endcolumn="5"/>
+    </clone>
+</clones>

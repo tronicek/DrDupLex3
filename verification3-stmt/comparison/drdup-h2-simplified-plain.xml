@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<clones>
+    <clone nlines="10" distance="2">
+        <source file="org/h2/table/MetaTable.java" startline="337" startcolumn="13" endline="346" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="384" startcolumn="13" endline="394" endcolumn="14"/>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="org/h2/table/MetaTable.java" startline="363" startcolumn="13" endline="372" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="384" startcolumn="13" endline="394" endcolumn="14"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="org/h2/table/MetaTable.java" startline="384" startcolumn="13" endline="394" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="133" startcolumn="13" endline="147" endcolumn="14"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="org/h2/table/MetaTable.java" startline="384" startcolumn="13" endline="394" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="251" startcolumn="13" endline="264" endcolumn="14"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="org/h2/table/MetaTable.java" startline="384" startcolumn="13" endline="394" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="298" startcolumn="13" endline="311" endcolumn="14"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="org/h2/table/MetaTable.java" startline="384" startcolumn="13" endline="394" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="525" startcolumn="13" endline="538" endcolumn="14"/>
+    </clone>
+    <clone nlines="15" distance="4">
+        <source file="org/h2/table/MetaTable.java" startline="133" startcolumn="13" endline="147" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="214" startcolumn="13" endline="229" endcolumn="14"/>
+    </clone>
+    <clone nlines="15" distance="4">
+        <source file="org/h2/table/MetaTable.java" startline="133" startcolumn="13" endline="147" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="406" startcolumn="13" endline="421" endcolumn="14"/>
+    </clone>
+    <clone nlines="15" distance="4">
+        <source file="org/h2/table/MetaTable.java" startline="133" startcolumn="13" endline="147" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="457" startcolumn="13" endline="472" endcolumn="14"/>
+    </clone>
+    <clone nlines="15" distance="4">
+        <source file="org/h2/table/MetaTable.java" startline="133" startcolumn="13" endline="147" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="476" startcolumn="13" endline="491" endcolumn="14"/>
+    </clone>
+    <clone nlines="14" distance="4">
+        <source file="org/h2/table/MetaTable.java" startline="251" startcolumn="13" endline="264" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="214" startcolumn="13" endline="229" endcolumn="14"/>
+    </clone>
+    <clone nlines="14" distance="4">
+        <source file="org/h2/table/MetaTable.java" startline="251" startcolumn="13" endline="264" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="406" startcolumn="13" endline="421" endcolumn="14"/>
+    </clone>
+    <clone nlines="14" distance="4">
+        <source file="org/h2/table/MetaTable.java" startline="251" startcolumn="13" endline="264" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="457" startcolumn="13" endline="472" endcolumn="14"/>
+    </clone>
+    <clone nlines="14" distance="4">
+        <source file="org/h2/table/MetaTable.java" startline="251" startcolumn="13" endline="264" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="476" startcolumn="13" endline="491" endcolumn="14"/>
+    </clone>
+    <clone nlines="14" distance="4">
+        <source file="org/h2/table/MetaTable.java" startline="298" startcolumn="13" endline="311" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="214" startcolumn="13" endline="229" endcolumn="14"/>
+    </clone>
+    <clone nlines="14" distance="4">
+        <source file="org/h2/table/MetaTable.java" startline="298" startcolumn="13" endline="311" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="406" startcolumn="13" endline="421" endcolumn="14"/>
+    </clone>
+    <clone nlines="14" distance="4">
+        <source file="org/h2/table/MetaTable.java" startline="298" startcolumn="13" endline="311" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="457" startcolumn="13" endline="472" endcolumn="14"/>
+    </clone>
+    <clone nlines="14" distance="4">
+        <source file="org/h2/table/MetaTable.java" startline="298" startcolumn="13" endline="311" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="476" startcolumn="13" endline="491" endcolumn="14"/>
+    </clone>
+    <clone nlines="14" distance="4">
+        <source file="org/h2/table/MetaTable.java" startline="525" startcolumn="13" endline="538" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="214" startcolumn="13" endline="229" endcolumn="14"/>
+    </clone>
+    <clone nlines="14" distance="4">
+        <source file="org/h2/table/MetaTable.java" startline="525" startcolumn="13" endline="538" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="406" startcolumn="13" endline="421" endcolumn="14"/>
+    </clone>
+    <clone nlines="14" distance="4">
+        <source file="org/h2/table/MetaTable.java" startline="525" startcolumn="13" endline="538" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="457" startcolumn="13" endline="472" endcolumn="14"/>
+    </clone>
+    <clone nlines="14" distance="4">
+        <source file="org/h2/table/MetaTable.java" startline="525" startcolumn="13" endline="538" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="476" startcolumn="13" endline="491" endcolumn="14"/>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="org/h2/table/MetaTable.java" startline="133" startcolumn="13" endline="147" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="426" startcolumn="13" endline="440" endcolumn="14"/>
+    </clone>
+    <clone nlines="14" distance="2">
+        <source file="org/h2/table/MetaTable.java" startline="251" startcolumn="13" endline="264" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="426" startcolumn="13" endline="440" endcolumn="14"/>
+    </clone>
+    <clone nlines="14" distance="2">
+        <source file="org/h2/table/MetaTable.java" startline="298" startcolumn="13" endline="311" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="426" startcolumn="13" endline="440" endcolumn="14"/>
+    </clone>
+    <clone nlines="14" distance="2">
+        <source file="org/h2/table/MetaTable.java" startline="525" startcolumn="13" endline="538" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="426" startcolumn="13" endline="440" endcolumn="14"/>
+    </clone>
+    <clone nlines="11" distance="4">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="1028" startcolumn="13" endline="1038" endcolumn="37"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="406" startcolumn="13" endline="418" endcolumn="46"/>
+    </clone>
+    <clone nlines="11" distance="4">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="1028" startcolumn="13" endline="1038" endcolumn="37"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="899" startcolumn="13" endline="911" endcolumn="69"/>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="org/h2/table/MetaTable.java" startline="426" startcolumn="13" endline="440" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="214" startcolumn="13" endline="229" endcolumn="14"/>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="org/h2/table/MetaTable.java" startline="426" startcolumn="13" endline="440" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="406" startcolumn="13" endline="421" endcolumn="14"/>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="org/h2/table/MetaTable.java" startline="426" startcolumn="13" endline="440" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="457" startcolumn="13" endline="472" endcolumn="14"/>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="org/h2/table/MetaTable.java" startline="426" startcolumn="13" endline="440" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="476" startcolumn="13" endline="491" endcolumn="14"/>
+    </clone>
+    <clone nlines="13" distance="5">
+        <source file="org/h2/command/Parser.java" startline="962" startcolumn="13" endline="975" endcolumn="53"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="406" startcolumn="13" endline="418" endcolumn="46"/>
+    </clone>
+    <clone nlines="13" distance="5">
+        <source file="org/h2/command/Parser.java" startline="962" startcolumn="13" endline="975" endcolumn="53"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="899" startcolumn="13" endline="911" endcolumn="69"/>
+    </clone>
+    <clone nlines="14" distance="5">
+        <source file="org/h2/command/Parser.java" startline="962" startcolumn="13" endline="975" endcolumn="53"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="593" startcolumn="13" endline="607" endcolumn="84"/>
+    </clone>
+    <clone nlines="14" distance="5">
+        <source file="org/h2/command/Parser.java" startline="962" startcolumn="13" endline="975" endcolumn="53"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="836" startcolumn="13" endline="850" endcolumn="57"/>
+    </clone>
+    <clone nlines="16" distance="6">
+        <source file="org/h2/table/MetaTable.java" startline="214" startcolumn="13" endline="229" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="315" startcolumn="13" endline="333" endcolumn="14"/>
+    </clone>
+    <clone nlines="16" distance="6">
+        <source file="org/h2/table/MetaTable.java" startline="406" startcolumn="13" endline="421" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="315" startcolumn="13" endline="333" endcolumn="14"/>
+    </clone>
+    <clone nlines="16" distance="6">
+        <source file="org/h2/table/MetaTable.java" startline="457" startcolumn="13" endline="472" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="315" startcolumn="13" endline="333" endcolumn="14"/>
+    </clone>
+    <clone nlines="16" distance="6">
+        <source file="org/h2/table/MetaTable.java" startline="476" startcolumn="13" endline="491" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="315" startcolumn="13" endline="333" endcolumn="14"/>
+    </clone>
+    <clone nlines="13" distance="4">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="406" startcolumn="13" endline="418" endcolumn="46"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="593" startcolumn="13" endline="607" endcolumn="84"/>
+    </clone>
+    <clone nlines="13" distance="4">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="406" startcolumn="13" endline="418" endcolumn="46"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="836" startcolumn="13" endline="850" endcolumn="57"/>
+    </clone>
+    <clone nlines="13" distance="4">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="899" startcolumn="13" endline="911" endcolumn="69"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="593" startcolumn="13" endline="607" endcolumn="84"/>
+    </clone>
+    <clone nlines="13" distance="4">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="899" startcolumn="13" endline="911" endcolumn="69"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="836" startcolumn="13" endline="850" endcolumn="57"/>
+    </clone>
+    <clone nlines="15" distance="6">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="593" startcolumn="13" endline="607" endcolumn="84"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="962" startcolumn="13" endline="979" endcolumn="40"/>
+    </clone>
+    <clone nlines="15" distance="6">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="836" startcolumn="13" endline="850" endcolumn="57"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="962" startcolumn="13" endline="979" endcolumn="40"/>
+    </clone>
+    <clone nlines="11" distance="4">
+        <source file="org/h2/store/PageStore.java" startline="1767" startcolumn="9" endline="1777" endcolumn="9"/>
+        <source file="org/h2/store/PageStore.java" startline="1823" startcolumn="9" endline="1833" endcolumn="9"/>
+    </clone>
+    <clone nlines="11" distance="5">
+        <source file="org/h2/jdbc/JdbcConnection.java" startline="496" startcolumn="9" endline="506" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="145" startcolumn="9" endline="156" endcolumn="9"/>
+    </clone>
+    <clone nlines="12" distance="6">
+        <source file="org/h2/engine/Database.java" startline="278" startcolumn="17" endline="289" endcolumn="17"/>
+        <source file="org/h2/engine/Database.java" startline="277" startcolumn="13" endline="290" endcolumn="13"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="org/h2/store/fs/FilePathZip.java" startline="358" startcolumn="13" endline="368" endcolumn="19"/>
+        <source file="org/h2/store/fs/FilePathZip.java" startline="356" startcolumn="9" endline="369" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="6">
+        <source file="org/h2/store/WriterThread.java" startline="98" startcolumn="17" endline="107" endcolumn="17"/>
+        <source file="org/h2/store/WriterThread.java" startline="97" startcolumn="13" endline="108" endcolumn="13"/>
+    </clone>
+    <clone nlines="12" distance="6">
+        <source file="org/h2/engine/Database.java" startline="639" startcolumn="17" endline="650" endcolumn="17"/>
+        <source file="org/h2/engine/Database.java" startline="638" startcolumn="13" endline="651" endcolumn="13"/>
+    </clone>
+    <clone nlines="18" distance="4">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="962" startcolumn="13" endline="979" endcolumn="40"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="156" startcolumn="13" endline="173" endcolumn="71"/>
+    </clone>
+    <clone nlines="18" distance="4">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="962" startcolumn="13" endline="979" endcolumn="40"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="1087" startcolumn="13" endline="1106" endcolumn="93"/>
+    </clone>
+    <clone nlines="18" distance="4">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="962" startcolumn="13" endline="979" endcolumn="40"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="1160" startcolumn="13" endline="1179" endcolumn="93"/>
+    </clone>
+    <clone nlines="18" distance="6">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="962" startcolumn="13" endline="979" endcolumn="40"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="1365" startcolumn="13" endline="1385" endcolumn="49"/>
+    </clone>
+    <clone nlines="16" distance="5">
+        <source file="org/h2/table/MetaTable.java" startline="1938" startcolumn="13" endline="1953" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="1955" startcolumn="13" endline="1972" endcolumn="14"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="760" startcolumn="9" endline="769" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="784" startcolumn="9" endline="794" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="org/h2/server/TcpServer.java" startline="269" startcolumn="9" endline="278" endcolumn="9"/>
+        <source file="org/h2/server/pg/PgServer.java" startline="251" startcolumn="9" endline="260" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="org/h2/server/web/WebServer.java" startline="367" startcolumn="9" endline="376" endcolumn="9"/>
+        <source file="org/h2/server/pg/PgServer.java" startline="251" startcolumn="9" endline="260" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="1">
+        <source file="org/h2/jdbc/JdbcSavepoint.java" startline="102" startcolumn="9" endline="111" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcSavepoint.java" startline="84" startcolumn="9" endline="93" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/h2/jdbc/JdbcSavepoint.java" startline="102" startcolumn="9" endline="111" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="3098" startcolumn="9" endline="3107" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcSavepoint.java" startline="84" startcolumn="9" endline="93" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="3098" startcolumn="9" endline="3107" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="org/h2/mvstore/db/TransactionStore.java" startline="543" startcolumn="25" endline="552" endcolumn="25"/>
+        <source file="org/h2/mvstore/db/TransactionStore.java" startline="333" startcolumn="17" endline="342" endcolumn="17"/>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="org/h2/mvstore/db/TransactionStore.java" startline="543" startcolumn="25" endline="552" endcolumn="25"/>
+        <source file="org/h2/mvstore/db/TransactionStore.java" startline="489" startcolumn="17" endline="498" endcolumn="17"/>
+    </clone>
+    <clone nlines="11" distance="3">
+        <source file="org/h2/mvstore/db/TransactionStore.java" startline="1117" startcolumn="13" endline="1128" endcolumn="13"/>
+        <source file="org/h2/mvstore/db/TransactionStore.java" startline="1130" startcolumn="13" endline="1140" endcolumn="13"/>
+    </clone>
+    <clone nlines="18" distance="6">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="156" startcolumn="13" endline="173" endcolumn="71"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="342" startcolumn="13" endline="363" endcolumn="94"/>
+    </clone>
+    <clone nlines="18" distance="1">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="156" startcolumn="13" endline="173" endcolumn="71"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="1087" startcolumn="13" endline="1106" endcolumn="93"/>
+    </clone>
+    <clone nlines="18" distance="1">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="156" startcolumn="13" endline="173" endcolumn="71"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="1160" startcolumn="13" endline="1179" endcolumn="93"/>
+    </clone>
+    <clone nlines="18" distance="3">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="156" startcolumn="13" endline="173" endcolumn="71"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="1365" startcolumn="13" endline="1385" endcolumn="49"/>
+    </clone>
+    <clone nlines="20" distance="6">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="1087" startcolumn="13" endline="1106" endcolumn="93"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="1243" startcolumn="13" endline="1265" endcolumn="93"/>
+    </clone>
+    <clone nlines="20" distance="6">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="1160" startcolumn="13" endline="1179" endcolumn="93"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="1243" startcolumn="13" endline="1265" endcolumn="93"/>
+    </clone>
+    <clone nlines="20" distance="6">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="1087" startcolumn="13" endline="1106" endcolumn="93"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="342" startcolumn="13" endline="363" endcolumn="94"/>
+    </clone>
+    <clone nlines="20" distance="6">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="1160" startcolumn="13" endline="1179" endcolumn="93"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="342" startcolumn="13" endline="363" endcolumn="94"/>
+    </clone>
+    <clone nlines="20" distance="2">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="1087" startcolumn="13" endline="1106" endcolumn="93"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="1365" startcolumn="13" endline="1385" endcolumn="49"/>
+    </clone>
+    <clone nlines="20" distance="2">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="1160" startcolumn="13" endline="1179" endcolumn="93"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="1365" startcolumn="13" endline="1385" endcolumn="49"/>
+    </clone>
+    <clone nlines="11" distance="4">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="784" startcolumn="9" endline="794" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="731" startcolumn="9" endline="744" endcolumn="9"/>
+    </clone>
+    <clone nlines="24" distance="2">
+        <source file="org/h2/table/MetaTable.java" startline="182" startcolumn="13" endline="205" endcolumn="14"/>
+        <source file="org/h2/table/MetaTable.java" startline="152" startcolumn="13" endline="177" endcolumn="14"/>
+    </clone>
+    <clone nlines="10" distance="1">
+        <source file="org/h2/mvstore/db/TransactionStore.java" startline="333" startcolumn="17" endline="342" endcolumn="17"/>
+        <source file="org/h2/mvstore/db/TransactionStore.java" startline="489" startcolumn="17" endline="498" endcolumn="17"/>
+    </clone>
+    <clone nlines="11" distance="4">
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="869" startcolumn="13" endline="879" endcolumn="13"/>
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="780" startcolumn="13" endline="790" endcolumn="13"/>
+    </clone>
+    <clone nlines="11" distance="4">
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="869" startcolumn="13" endline="879" endcolumn="13"/>
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="837" startcolumn="13" endline="847" endcolumn="13"/>
+    </clone>
+    <clone nlines="21" distance="4">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="1365" startcolumn="13" endline="1385" endcolumn="49"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="1243" startcolumn="13" endline="1265" endcolumn="93"/>
+    </clone>
+    <clone nlines="21" distance="4">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="1365" startcolumn="13" endline="1385" endcolumn="49"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="342" startcolumn="13" endline="363" endcolumn="94"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcStatement.java" startline="386" startcolumn="9" endline="395" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcStatement.java" startline="603" startcolumn="9" endline="612" endcolumn="9"/>
+    </clone>
+    <clone nlines="14" distance="6">
+        <source file="org/h2/engine/SessionRemote.java" startline="523" startcolumn="13" endline="536" endcolumn="13"/>
+        <source file="org/h2/engine/SessionRemote.java" startline="522" startcolumn="9" endline="537" endcolumn="9"/>
+    </clone>
+    <clone nlines="22" distance="1">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="1243" startcolumn="13" endline="1265" endcolumn="93"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="342" startcolumn="13" endline="363" endcolumn="94"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/h2/index/PageDataIndex.java" startline="194" startcolumn="9" endline="203" endcolumn="9"/>
+        <source file="org/h2/index/ScanIndex.java" startline="104" startcolumn="9" endline="113" endcolumn="9"/>
+    </clone>
+    <clone nlines="13" distance="6">
+        <source file="org/h2/index/MultiVersionCursor.java" startline="56" startcolumn="13" endline="68" endcolumn="13"/>
+        <source file="org/h2/index/MultiVersionCursor.java" startline="55" startcolumn="9" endline="69" endcolumn="9"/>
+    </clone>
+    <clone nlines="11" distance="5">
+        <source file="org/h2/tools/Console.java" startline="143" startcolumn="24" endline="153" endcolumn="17"/>
+        <source file="org/h2/tools/Server.java" startline="281" startcolumn="20" endline="291" endcolumn="13"/>
+    </clone>
+    <clone nlines="11" distance="5">
+        <source file="org/h2/tools/Server.java" startline="131" startcolumn="24" endline="141" endcolumn="17"/>
+        <source file="org/h2/tools/Server.java" startline="281" startcolumn="20" endline="291" endcolumn="13"/>
+    </clone>
+    <clone nlines="11" distance="5">
+        <source file="org/h2/tools/Server.java" startline="165" startcolumn="17" endline="175" endcolumn="17"/>
+        <source file="org/h2/tools/Server.java" startline="281" startcolumn="20" endline="291" endcolumn="13"/>
+    </clone>
+    <clone nlines="11" distance="5">
+        <source file="org/h2/tools/Server.java" startline="229" startcolumn="24" endline="239" endcolumn="17"/>
+        <source file="org/h2/tools/Server.java" startline="281" startcolumn="20" endline="291" endcolumn="13"/>
+    </clone>
+    <clone nlines="11" distance="3">
+        <source file="org/h2/tools/Console.java" startline="143" startcolumn="24" endline="153" endcolumn="17"/>
+        <source file="org/h2/tools/Console.java" startline="198" startcolumn="20" endline="208" endcolumn="13"/>
+    </clone>
+    <clone nlines="11" distance="3">
+        <source file="org/h2/tools/Server.java" startline="131" startcolumn="24" endline="141" endcolumn="17"/>
+        <source file="org/h2/tools/Console.java" startline="198" startcolumn="20" endline="208" endcolumn="13"/>
+    </clone>
+    <clone nlines="11" distance="3">
+        <source file="org/h2/tools/Server.java" startline="165" startcolumn="17" endline="175" endcolumn="17"/>
+        <source file="org/h2/tools/Console.java" startline="198" startcolumn="20" endline="208" endcolumn="13"/>
+    </clone>
+    <clone nlines="11" distance="3">
+        <source file="org/h2/tools/Server.java" startline="229" startcolumn="24" endline="239" endcolumn="17"/>
+        <source file="org/h2/tools/Console.java" startline="198" startcolumn="20" endline="208" endcolumn="13"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="org/h2/mvstore/MVStoreTool.java" startline="180" startcolumn="25" endline="190" endcolumn="34"/>
+        <source file="org/h2/mvstore/MVStoreTool.java" startline="179" startcolumn="21" endline="191" endcolumn="21"/>
+    </clone>
+    <clone nlines="10" distance="6">
+        <source file="org/h2/index/PageBtreeIndex.java" startline="277" startcolumn="9" endline="286" endcolumn="9"/>
+        <source file="org/h2/index/PageDataIndex.java" startline="395" startcolumn="9" endline="405" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1993" startcolumn="9" endline="2002" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1893" startcolumn="9" endline="1902" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2066" startcolumn="9" endline="2075" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1893" startcolumn="9" endline="1902" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2276" startcolumn="9" endline="2285" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1893" startcolumn="9" endline="1902" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2424" startcolumn="9" endline="2433" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1893" startcolumn="9" endline="1902" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="3644" startcolumn="9" endline="3653" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1893" startcolumn="9" endline="1902" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1993" startcolumn="9" endline="2002" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2043" startcolumn="9" endline="2052" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1993" startcolumn="9" endline="2002" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2143" startcolumn="9" endline="2152" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1993" startcolumn="9" endline="2002" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2485" startcolumn="9" endline="2494" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1993" startcolumn="9" endline="2002" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="3680" startcolumn="9" endline="3689" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2066" startcolumn="9" endline="2075" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2043" startcolumn="9" endline="2052" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2066" startcolumn="9" endline="2075" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2143" startcolumn="9" endline="2152" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2066" startcolumn="9" endline="2075" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2485" startcolumn="9" endline="2494" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2066" startcolumn="9" endline="2075" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="3680" startcolumn="9" endline="3689" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2276" startcolumn="9" endline="2285" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2043" startcolumn="9" endline="2052" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2276" startcolumn="9" endline="2285" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2143" startcolumn="9" endline="2152" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2276" startcolumn="9" endline="2285" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2485" startcolumn="9" endline="2494" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2276" startcolumn="9" endline="2285" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="3680" startcolumn="9" endline="3689" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2424" startcolumn="9" endline="2433" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2043" startcolumn="9" endline="2052" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2424" startcolumn="9" endline="2433" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2143" startcolumn="9" endline="2152" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2424" startcolumn="9" endline="2433" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2485" startcolumn="9" endline="2494" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2424" startcolumn="9" endline="2433" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="3680" startcolumn="9" endline="3689" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="3644" startcolumn="9" endline="3653" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2043" startcolumn="9" endline="2052" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="3644" startcolumn="9" endline="3653" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2143" startcolumn="9" endline="2152" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="3644" startcolumn="9" endline="3653" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2485" startcolumn="9" endline="2494" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="3644" startcolumn="9" endline="3653" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="3680" startcolumn="9" endline="3689" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1993" startcolumn="9" endline="2002" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2363" startcolumn="9" endline="2372" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2066" startcolumn="9" endline="2075" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2363" startcolumn="9" endline="2372" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2276" startcolumn="9" endline="2285" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2363" startcolumn="9" endline="2372" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2424" startcolumn="9" endline="2433" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2363" startcolumn="9" endline="2372" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="3644" startcolumn="9" endline="3653" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2363" startcolumn="9" endline="2372" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="6">
+        <source file="org/h2/index/ScanIndex.java" startline="104" startcolumn="9" endline="113" endcolumn="9"/>
+        <source file="org/h2/index/PageDataIndex.java" startline="351" startcolumn="9" endline="362" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="1">
+        <source file="org/h2/command/ddl/DropSequence.java" startline="43" startcolumn="9" endline="52" endcolumn="9"/>
+        <source file="org/h2/command/ddl/DropSchema.java" startline="38" startcolumn="9" endline="47" endcolumn="9"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="org/h2/tools/Console.java" startline="198" startcolumn="20" endline="208" endcolumn="13"/>
+        <source file="org/h2/tools/Console.java" startline="186" startcolumn="17" endline="197" endcolumn="17"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="org/h2/tools/Console.java" startline="198" startcolumn="20" endline="208" endcolumn="13"/>
+        <source file="org/h2/tools/Server.java" startline="267" startcolumn="17" endline="278" endcolumn="17"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/h2/jdbc/JdbcStatement.java" startline="710" startcolumn="9" endline="719" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcConnection.java" startline="329" startcolumn="9" endline="339" endcolumn="9"/>
+    </clone>
+    <clone nlines="12" distance="6">
+        <source file="org/h2/tools/Console.java" startline="281" startcolumn="13" endline="292" endcolumn="13"/>
+        <source file="org/h2/tools/Console.java" startline="280" startcolumn="9" endline="293" endcolumn="9"/>
+    </clone>
+    <clone nlines="14" distance="1">
+        <source file="org/h2/jdbc/JdbcConnection.java" startline="715" startcolumn="13" endline="728" endcolumn="13"/>
+        <source file="org/h2/jdbc/JdbcConnection.java" startline="801" startcolumn="13" endline="814" endcolumn="13"/>
+    </clone>
+    <clone nlines="11" distance="5">
+        <source file="org/h2/tools/Server.java" startline="196" startcolumn="20" endline="206" endcolumn="13"/>
+        <source file="org/h2/tools/Server.java" startline="153" startcolumn="24" endline="163" endcolumn="17"/>
+    </clone>
+    <clone nlines="11" distance="5">
+        <source file="org/h2/tools/Server.java" startline="196" startcolumn="20" endline="206" endcolumn="13"/>
+        <source file="org/h2/tools/Server.java" startline="181" startcolumn="24" endline="191" endcolumn="17"/>
+    </clone>
+    <clone nlines="11" distance="5">
+        <source file="org/h2/command/Parser.java" startline="1106" startcolumn="13" endline="1116" endcolumn="34"/>
+        <source file="org/h2/command/Parser.java" startline="765" startcolumn="13" endline="775" endcolumn="34"/>
+    </clone>
+    <clone nlines="11" distance="5">
+        <source file="org/h2/command/Parser.java" startline="1106" startcolumn="13" endline="1116" endcolumn="34"/>
+        <source file="org/h2/command/Parser.java" startline="1127" startcolumn="17" endline="1137" endcolumn="38"/>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2043" startcolumn="9" endline="2052" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2363" startcolumn="9" endline="2372" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2143" startcolumn="9" endline="2152" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2363" startcolumn="9" endline="2372" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2485" startcolumn="9" endline="2494" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2363" startcolumn="9" endline="2372" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="3680" startcolumn="9" endline="3689" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2363" startcolumn="9" endline="2372" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2043" startcolumn="9" endline="2052" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1943" startcolumn="9" endline="1952" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2143" startcolumn="9" endline="2152" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1943" startcolumn="9" endline="1952" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2485" startcolumn="9" endline="2494" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1943" startcolumn="9" endline="1952" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="3680" startcolumn="9" endline="3689" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1943" startcolumn="9" endline="1952" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/h2/tools/Restore.java" startline="60" startcolumn="20" endline="69" endcolumn="13"/>
+        <source file="org/h2/tools/DeleteDbFiles.java" startline="53" startcolumn="20" endline="62" endcolumn="13"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/value/Transfer.java" startline="705" startcolumn="13" endline="714" endcolumn="13"/>
+        <source file="org/h2/store/Data.java" startline="879" startcolumn="13" endline="888" endcolumn="13"/>
+    </clone>
+    <clone nlines="12" distance="6">
+        <source file="org/h2/tools/Console.java" startline="231" startcolumn="13" endline="242" endcolumn="13"/>
+        <source file="org/h2/tools/Console.java" startline="230" startcolumn="9" endline="243" endcolumn="9"/>
+    </clone>
+    <clone nlines="12" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="3053" startcolumn="9" endline="3064" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="3076" startcolumn="9" endline="3087" endcolumn="9"/>
+    </clone>
+    <clone nlines="11" distance="2">
+        <source file="org/h2/jdbc/JdbcParameterMetaData.java" startline="174" startcolumn="9" endline="184" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcParameterMetaData.java" startline="81" startcolumn="9" endline="91" endcolumn="9"/>
+    </clone>
+    <clone nlines="11" distance="2">
+        <source file="org/h2/jdbc/JdbcParameterMetaData.java" startline="174" startcolumn="9" endline="184" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcParameterMetaData.java" startline="196" startcolumn="9" endline="206" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="6">
+        <source file="org/h2/store/FileLock.java" startline="489" startcolumn="16" endline="498" endcolumn="9"/>
+        <source file="org/h2/tools/CompressTool.java" startline="256" startcolumn="9" endline="266" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="6">
+        <source file="org/h2/command/dml/Query.java" startline="430" startcolumn="33" endline="439" endcolumn="33"/>
+        <source file="org/h2/command/dml/Query.java" startline="469" startcolumn="17" endline="478" endcolumn="17"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="org/h2/command/Parser.java" startline="4475" startcolumn="13" endline="4485" endcolumn="13"/>
+        <source file="org/h2/command/Parser.java" startline="4474" startcolumn="9" endline="4486" endcolumn="9"/>
+    </clone>
+    <clone nlines="12" distance="4">
+        <source file="org/h2/index/PageDataIndex.java" startline="351" startcolumn="9" endline="362" endcolumn="9"/>
+        <source file="org/h2/index/ScanIndex.java" startline="155" startcolumn="9" endline="166" endcolumn="9"/>
+    </clone>
+    <clone nlines="13" distance="6">
+        <source file="org/h2/command/dml/Select.java" startline="594" startcolumn="13" endline="606" endcolumn="13"/>
+        <source file="org/h2/command/dml/Select.java" startline="593" startcolumn="9" endline="607" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1893" startcolumn="9" endline="1902" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1943" startcolumn="9" endline="1952" endcolumn="9"/>
+    </clone>
+    <clone nlines="12" distance="2">
+        <source file="org/h2/index/TreeIndex.java" startline="360" startcolumn="9" endline="371" endcolumn="9"/>
+        <source file="org/h2/index/PageBtreeIndex.java" startline="190" startcolumn="9" endline="201" endcolumn="9"/>
+    </clone>
+    <clone nlines="12" distance="4">
+        <source file="org/h2/index/TreeIndex.java" startline="360" startcolumn="9" endline="371" endcolumn="9"/>
+        <source file="org/h2/index/MultiVersionIndex.java" startline="112" startcolumn="9" endline="123" endcolumn="9"/>
+    </clone>
+    <clone nlines="14" distance="4">
+        <source file="org/h2/table/RegularTable.java" startline="627" startcolumn="13" endline="640" endcolumn="13"/>
+        <source file="org/h2/mvstore/db/MVTable.java" startline="359" startcolumn="13" endline="372" endcolumn="13"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/result/RowImpl.java" startline="118" startcolumn="9" endline="127" endcolumn="9"/>
+        <source file="org/h2/result/SimpleRow.java" startline="79" startcolumn="9" endline="88" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/h2/command/ddl/AlterTableAddConstraint.java" startline="166" startcolumn="13" endline="175" endcolumn="13"/>
+        <source file="org/h2/command/ddl/AlterTableAddConstraint.java" startline="209" startcolumn="13" endline="218" endcolumn="13"/>
+    </clone>
+    <clone nlines="12" distance="6">
+        <source file="org/h2/index/MultiVersionIndex.java" startline="112" startcolumn="9" endline="123" endcolumn="9"/>
+        <source file="org/h2/index/PageBtreeIndex.java" startline="190" startcolumn="9" endline="201" endcolumn="9"/>
+    </clone>
+    <clone nlines="14" distance="6">
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="807" startcolumn="9" endline="820" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="944" startcolumn="9" endline="957" endcolumn="9"/>
+    </clone>
+    <clone nlines="14" distance="6">
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="807" startcolumn="9" endline="820" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1095" startcolumn="9" endline="1108" endcolumn="9"/>
+    </clone>
+    <clone nlines="14" distance="6">
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="807" startcolumn="9" endline="820" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1493" startcolumn="9" endline="1507" endcolumn="9"/>
+    </clone>
+    <clone nlines="14" distance="6">
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="807" startcolumn="9" endline="820" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1590" startcolumn="9" endline="1603" endcolumn="9"/>
+    </clone>
+    <clone nlines="14" distance="6">
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="807" startcolumn="9" endline="820" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1619" startcolumn="9" endline="1632" endcolumn="9"/>
+    </clone>
+    <clone nlines="14" distance="6">
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="807" startcolumn="9" endline="820" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1648" startcolumn="9" endline="1661" endcolumn="9"/>
+    </clone>
+    <clone nlines="14" distance="6">
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1562" startcolumn="9" endline="1575" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="944" startcolumn="9" endline="957" endcolumn="9"/>
+    </clone>
+    <clone nlines="14" distance="6">
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1562" startcolumn="9" endline="1575" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1095" startcolumn="9" endline="1108" endcolumn="9"/>
+    </clone>
+    <clone nlines="14" distance="6">
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1562" startcolumn="9" endline="1575" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1493" startcolumn="9" endline="1507" endcolumn="9"/>
+    </clone>
+    <clone nlines="14" distance="6">
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1562" startcolumn="9" endline="1575" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1590" startcolumn="9" endline="1603" endcolumn="9"/>
+    </clone>
+    <clone nlines="14" distance="6">
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1562" startcolumn="9" endline="1575" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1619" startcolumn="9" endline="1632" endcolumn="9"/>
+    </clone>
+    <clone nlines="14" distance="6">
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1562" startcolumn="9" endline="1575" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1648" startcolumn="9" endline="1661" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="org/h2/tools/DeleteDbFiles.java" startline="53" startcolumn="20" endline="62" endcolumn="13"/>
+        <source file="org/h2/tools/ConvertTraceFile.java" startline="89" startcolumn="20" endline="98" endcolumn="13"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="org/h2/tools/DeleteDbFiles.java" startline="53" startcolumn="20" endline="62" endcolumn="13"/>
+        <source file="org/h2/tools/CreateCluster.java" startline="66" startcolumn="20" endline="75" endcolumn="13"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/h2/tools/DeleteDbFiles.java" startline="53" startcolumn="20" endline="62" endcolumn="13"/>
+        <source file="org/h2/tools/ChangeFileEncryption.java" startline="88" startcolumn="20" endline="97" endcolumn="13"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="org/h2/tools/Backup.java" startline="72" startcolumn="20" endline="81" endcolumn="13"/>
+        <source file="org/h2/tools/ConvertTraceFile.java" startline="89" startcolumn="20" endline="98" endcolumn="13"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="org/h2/tools/Backup.java" startline="72" startcolumn="20" endline="81" endcolumn="13"/>
+        <source file="org/h2/tools/CreateCluster.java" startline="66" startcolumn="20" endline="75" endcolumn="13"/>
+    </clone>
+    <clone nlines="13" distance="6">
+        <source file="org/h2/tools/Console.java" startline="266" startcolumn="13" endline="278" endcolumn="13"/>
+        <source file="org/h2/tools/Console.java" startline="265" startcolumn="9" endline="279" endcolumn="9"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="org/h2/command/Parser.java" startline="4764" startcolumn="20" endline="4774" endcolumn="13"/>
+        <source file="org/h2/command/Parser.java" startline="1358" startcolumn="16" endline="1368" endcolumn="9"/>
+    </clone>
+    <clone nlines="13" distance="2">
+        <source file="org/h2/value/ValueLob.java" startline="422" startcolumn="13" endline="434" endcolumn="13"/>
+        <source file="org/h2/value/ValueLobDb.java" startline="135" startcolumn="13" endline="147" endcolumn="13"/>
+    </clone>
+    <clone nlines="14" distance="5">
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="944" startcolumn="9" endline="957" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1020" startcolumn="9" endline="1033" endcolumn="9"/>
+    </clone>
+    <clone nlines="14" distance="5">
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1095" startcolumn="9" endline="1108" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1020" startcolumn="9" endline="1033" endcolumn="9"/>
+    </clone>
+    <clone nlines="14" distance="5">
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1493" startcolumn="9" endline="1507" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1020" startcolumn="9" endline="1033" endcolumn="9"/>
+    </clone>
+    <clone nlines="14" distance="5">
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1590" startcolumn="9" endline="1603" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1020" startcolumn="9" endline="1033" endcolumn="9"/>
+    </clone>
+    <clone nlines="14" distance="5">
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1619" startcolumn="9" endline="1632" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1020" startcolumn="9" endline="1033" endcolumn="9"/>
+    </clone>
+    <clone nlines="14" distance="5">
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1648" startcolumn="9" endline="1661" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1020" startcolumn="9" endline="1033" endcolumn="9"/>
+    </clone>
+    <clone nlines="32" distance="4">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="244" startcolumn="13" endline="275" endcolumn="76"/>
+        <source file="org/h2/security/CipherFactory.java" startline="289" startcolumn="13" endline="322" endcolumn="63"/>
+    </clone>
+    <clone nlines="13" distance="4">
+        <source file="org/h2/jdbc/JdbcBlob.java" startline="51" startcolumn="9" endline="63" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcClob.java" startline="53" startcolumn="9" endline="65" endcolumn="9"/>
+    </clone>
+    <clone nlines="13" distance="5">
+        <source file="org/h2/tools/Server.java" startline="194" startcolumn="20" endline="206" endcolumn="13"/>
+        <source file="org/h2/tools/Server.java" startline="151" startcolumn="24" endline="163" endcolumn="17"/>
+    </clone>
+    <clone nlines="19" distance="6">
+        <source file="org/h2/server/web/WebApp.java" startline="1657" startcolumn="21" endline="1675" endcolumn="40"/>
+        <source file="org/h2/server/web/WebApp.java" startline="1656" startcolumn="17" endline="1676" endcolumn="17"/>
+    </clone>
+    <clone nlines="13" distance="6">
+        <source file="org/h2/engine/SessionRemote.java" startline="571" startcolumn="17" endline="583" endcolumn="17"/>
+        <source file="org/h2/engine/SessionRemote.java" startline="570" startcolumn="13" endline="584" endcolumn="13"/>
+    </clone>
+    <clone nlines="13" distance="3">
+        <source file="org/h2/tools/Server.java" startline="151" startcolumn="24" endline="163" endcolumn="17"/>
+        <source file="org/h2/tools/Server.java" startline="179" startcolumn="24" endline="191" endcolumn="17"/>
+    </clone>
+    <clone nlines="11" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1026" startcolumn="9" endline="1036" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1049" startcolumn="9" endline="1059" endcolumn="9"/>
+    </clone>
+    <clone nlines="11" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1026" startcolumn="9" endline="1036" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1167" startcolumn="9" endline="1177" endcolumn="9"/>
+    </clone>
+    <clone nlines="11" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1026" startcolumn="9" endline="1036" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1212" startcolumn="9" endline="1222" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1145" startcolumn="9" endline="1154" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1049" startcolumn="9" endline="1059" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1145" startcolumn="9" endline="1154" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1167" startcolumn="9" endline="1177" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1145" startcolumn="9" endline="1154" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1212" startcolumn="9" endline="1222" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1190" startcolumn="9" endline="1199" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1049" startcolumn="9" endline="1059" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1190" startcolumn="9" endline="1199" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1167" startcolumn="9" endline="1177" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1190" startcolumn="9" endline="1199" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1212" startcolumn="9" endline="1222" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="3478" startcolumn="9" endline="3487" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1049" startcolumn="9" endline="1059" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="3478" startcolumn="9" endline="3487" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1167" startcolumn="9" endline="1177" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="3478" startcolumn="9" endline="3487" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1212" startcolumn="9" endline="1222" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="3500" startcolumn="9" endline="3509" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1049" startcolumn="9" endline="1059" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="3500" startcolumn="9" endline="3509" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1167" startcolumn="9" endline="1177" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="3500" startcolumn="9" endline="3509" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="1212" startcolumn="9" endline="1222" endcolumn="9"/>
+    </clone>
+    <clone nlines="15" distance="3">
+        <source file="org/h2/expression/ConditionInConstantSet.java" startline="127" startcolumn="9" endline="141" endcolumn="9"/>
+        <source file="org/h2/expression/Variable.java" startline="66" startcolumn="9" endline="84" endcolumn="9"/>
+    </clone>
+    <clone nlines="15" distance="3">
+        <source file="org/h2/expression/ValueExpression.java" startline="152" startcolumn="9" endline="166" endcolumn="9"/>
+        <source file="org/h2/expression/Variable.java" startline="66" startcolumn="9" endline="84" endcolumn="9"/>
+    </clone>
+    <clone nlines="15" distance="3">
+        <source file="org/h2/expression/ConditionInConstantSet.java" startline="127" startcolumn="9" endline="141" endcolumn="9"/>
+        <source file="org/h2/expression/Rownum.java" startline="82" startcolumn="9" endline="98" endcolumn="9"/>
+    </clone>
+    <clone nlines="15" distance="3">
+        <source file="org/h2/expression/ValueExpression.java" startline="152" startcolumn="9" endline="166" endcolumn="9"/>
+        <source file="org/h2/expression/Rownum.java" startline="82" startcolumn="9" endline="98" endcolumn="9"/>
+    </clone>
+    <clone nlines="15" distance="6">
+        <source file="org/h2/expression/ConditionInConstantSet.java" startline="127" startcolumn="9" endline="141" endcolumn="9"/>
+        <source file="org/h2/expression/Parameter.java" startline="150" startcolumn="9" endline="168" endcolumn="9"/>
+    </clone>
+    <clone nlines="15" distance="6">
+        <source file="org/h2/expression/ValueExpression.java" startline="152" startcolumn="9" endline="166" endcolumn="9"/>
+        <source file="org/h2/expression/Parameter.java" startline="150" startcolumn="9" endline="168" endcolumn="9"/>
+    </clone>
+    <clone nlines="15" distance="5">
+        <source file="org/h2/expression/ConditionInConstantSet.java" startline="127" startcolumn="9" endline="141" endcolumn="9"/>
+        <source file="org/h2/expression/Function.java" startline="2764" startcolumn="9" endline="2779" endcolumn="9"/>
+    </clone>
+    <clone nlines="15" distance="5">
+        <source file="org/h2/expression/ValueExpression.java" startline="152" startcolumn="9" endline="166" endcolumn="9"/>
+        <source file="org/h2/expression/Function.java" startline="2764" startcolumn="9" endline="2779" endcolumn="9"/>
+    </clone>
+    <clone nlines="12" distance="2">
+        <source file="org/h2/store/PageLog.java" startline="341" startcolumn="25" endline="352" endcolumn="25"/>
+        <source file="org/h2/store/PageLog.java" startline="323" startcolumn="25" endline="334" endcolumn="25"/>
+    </clone>
+    <clone nlines="10" distance="6">
+        <source file="org/h2/fulltext/FullTextLucene.java" startline="685" startcolumn="13" endline="694" endcolumn="13"/>
+        <source file="org/h2/fulltext/FullText.java" startline="1085" startcolumn="13" endline="1094" endcolumn="13"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/h2/mvstore/type/ObjectDataType.java" startline="854" startcolumn="20" endline="863" endcolumn="13"/>
+        <source file="org/h2/mvstore/type/ObjectDataType.java" startline="916" startcolumn="20" endline="927" endcolumn="13"/>
+    </clone>
+    <clone nlines="10" distance="6">
+        <source file="org/h2/command/dml/Merge.java" startline="119" startcolumn="17" endline="128" endcolumn="17"/>
+        <source file="org/h2/command/dml/Insert.java" startline="185" startcolumn="9" endline="194" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="6">
+        <source file="org/h2/command/dml/Replace.java" startline="118" startcolumn="17" endline="127" endcolumn="17"/>
+        <source file="org/h2/command/dml/Insert.java" startline="185" startcolumn="9" endline="194" endcolumn="9"/>
+    </clone>
+    <clone nlines="15" distance="3">
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1534" startcolumn="9" endline="1548" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2323" startcolumn="9" endline="2337" endcolumn="9"/>
+    </clone>
+    <clone nlines="15" distance="3">
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1534" startcolumn="9" endline="1548" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2445" startcolumn="9" endline="2459" endcolumn="9"/>
+    </clone>
+    <clone nlines="15" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2297" startcolumn="9" endline="2311" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2323" startcolumn="9" endline="2337" endcolumn="9"/>
+    </clone>
+    <clone nlines="15" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2297" startcolumn="9" endline="2311" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2445" startcolumn="9" endline="2459" endcolumn="9"/>
+    </clone>
+    <clone nlines="15" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2384" startcolumn="9" endline="2398" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2323" startcolumn="9" endline="2337" endcolumn="9"/>
+    </clone>
+    <clone nlines="15" distance="3">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2384" startcolumn="9" endline="2398" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2445" startcolumn="9" endline="2459" endcolumn="9"/>
+    </clone>
+    <clone nlines="15" distance="5">
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="1534" startcolumn="9" endline="1548" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="894" startcolumn="9" endline="908" endcolumn="9"/>
+    </clone>
+    <clone nlines="15" distance="5">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2297" startcolumn="9" endline="2311" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="894" startcolumn="9" endline="908" endcolumn="9"/>
+    </clone>
+    <clone nlines="15" distance="5">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="2384" startcolumn="9" endline="2398" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="894" startcolumn="9" endline="908" endcolumn="9"/>
+    </clone>
+    <clone nlines="13" distance="6">
+        <source file="org/h2/store/LobStorageBackend.java" startline="603" startcolumn="13" endline="615" endcolumn="13"/>
+        <source file="org/h2/store/LobStorageBackend.java" startline="602" startcolumn="9" endline="616" endcolumn="9"/>
+    </clone>
+    <clone nlines="17" distance="6">
+        <source file="org/h2/expression/Variable.java" startline="66" startcolumn="9" endline="84" endcolumn="9"/>
+        <source file="org/h2/expression/Rownum.java" startline="82" startcolumn="9" endline="98" endcolumn="9"/>
+    </clone>
+    <clone nlines="19" distance="3">
+        <source file="org/h2/expression/Variable.java" startline="66" startcolumn="9" endline="84" endcolumn="9"/>
+        <source file="org/h2/expression/Parameter.java" startline="150" startcolumn="9" endline="168" endcolumn="9"/>
+    </clone>
+    <clone nlines="12" distance="5">
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="803" startcolumn="9" endline="814" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcResultSet.java" startline="773" startcolumn="9" endline="785" endcolumn="9"/>
+    </clone>
+    <clone nlines="12" distance="4">
+        <source file="org/h2/tools/Restore.java" startline="58" startcolumn="20" endline="69" endcolumn="13"/>
+        <source file="org/h2/tools/DeleteDbFiles.java" startline="51" startcolumn="13" endline="62" endcolumn="13"/>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="org/h2/jdbc/JdbcConnection.java" startline="903" startcolumn="9" endline="917" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcConnection.java" startline="279" startcolumn="9" endline="293" endcolumn="9"/>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="org/h2/jdbc/JdbcConnection.java" startline="903" startcolumn="9" endline="917" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcConnection.java" startline="304" startcolumn="9" endline="318" endcolumn="9"/>
+    </clone>
+    <clone nlines="14" distance="6">
+        <source file="org/h2/tools/Recover.java" startline="992" startcolumn="21" endline="1005" endcolumn="21"/>
+        <source file="org/h2/tools/Recover.java" startline="991" startcolumn="17" endline="1006" endcolumn="17"/>
+    </clone>
+    <clone nlines="19" distance="4">
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="864" startcolumn="9" endline="882" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="775" startcolumn="9" endline="793" endcolumn="9"/>
+    </clone>
+    <clone nlines="19" distance="4">
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="864" startcolumn="9" endline="882" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="832" startcolumn="9" endline="850" endcolumn="9"/>
+    </clone>
+    <clone nlines="14" distance="2">
+        <source file="org/h2/store/PageLog.java" startline="340" startcolumn="21" endline="353" endcolumn="21"/>
+        <source file="org/h2/store/PageLog.java" startline="322" startcolumn="28" endline="335" endcolumn="21"/>
+    </clone>
+    <clone nlines="12" distance="5">
+        <source file="org/h2/tools/DeleteDbFiles.java" startline="51" startcolumn="13" endline="62" endcolumn="13"/>
+        <source file="org/h2/tools/ConvertTraceFile.java" startline="87" startcolumn="13" endline="98" endcolumn="13"/>
+    </clone>
+    <clone nlines="12" distance="5">
+        <source file="org/h2/tools/DeleteDbFiles.java" startline="51" startcolumn="13" endline="62" endcolumn="13"/>
+        <source file="org/h2/tools/CreateCluster.java" startline="64" startcolumn="20" endline="75" endcolumn="13"/>
+    </clone>
+    <clone nlines="12" distance="5">
+        <source file="org/h2/tools/Backup.java" startline="70" startcolumn="20" endline="81" endcolumn="13"/>
+        <source file="org/h2/tools/ConvertTraceFile.java" startline="87" startcolumn="13" endline="98" endcolumn="13"/>
+    </clone>
+    <clone nlines="12" distance="5">
+        <source file="org/h2/tools/Backup.java" startline="70" startcolumn="20" endline="81" endcolumn="13"/>
+        <source file="org/h2/tools/CreateCluster.java" startline="64" startcolumn="20" endline="75" endcolumn="13"/>
+    </clone>
+    <clone nlines="15" distance="6">
+        <source file="org/h2/tools/Server.java" startline="149" startcolumn="24" endline="163" endcolumn="17"/>
+        <source file="org/h2/tools/Server.java" startline="177" startcolumn="17" endline="191" endcolumn="17"/>
+    </clone>
+    <clone nlines="11" distance="2">
+        <source file="org/h2/store/fs/FilePathMem.java" startline="53" startcolumn="9" endline="63" endcolumn="9"/>
+        <source file="org/h2/store/fs/FilePathNioMem.java" startline="56" startcolumn="9" endline="66" endcolumn="9"/>
+    </clone>
+    <clone nlines="12" distance="2">
+        <source file="org/h2/jdbc/JdbcStatement.java" startline="182" startcolumn="21" endline="193" endcolumn="21"/>
+        <source file="org/h2/jdbc/JdbcPreparedStatement.java" startline="196" startcolumn="25" endline="208" endcolumn="25"/>
+    </clone>
+    <clone nlines="13" distance="6">
+        <source file="org/h2/store/LobStorageBackend.java" startline="427" startcolumn="13" endline="439" endcolumn="13"/>
+        <source file="org/h2/store/LobStorageBackend.java" startline="426" startcolumn="9" endline="440" endcolumn="9"/>
+    </clone>
+    <clone nlines="18" distance="2">
+        <source file="org/h2/engine/Database.java" startline="2844" startcolumn="9" endline="2862" endcolumn="9"/>
+        <source file="org/h2/engine/SessionRemote.java" startline="810" startcolumn="9" endline="827" endcolumn="9"/>
+    </clone>
+    <clone nlines="16" distance="2">
+        <source file="org/h2/jdbc/JdbcConnection.java" startline="935" startcolumn="9" endline="950" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcConnection.java" startline="666" startcolumn="9" endline="681" endcolumn="9"/>
+    </clone>
+    <clone nlines="20" distance="6">
+        <source file="org/h2/command/dml/ScriptCommand.java" startline="532" startcolumn="21" endline="551" endcolumn="21"/>
+        <source file="org/h2/command/dml/ScriptCommand.java" startline="531" startcolumn="17" endline="552" endcolumn="17"/>
+    </clone>
+    <clone nlines="20" distance="6">
+        <source file="org/h2/command/dml/ScriptCommand.java" startline="532" startcolumn="21" endline="551" endcolumn="21"/>
+        <source file="org/h2/command/dml/ScriptCommand.java" startline="587" startcolumn="17" endline="608" endcolumn="17"/>
+    </clone>
+    <clone nlines="20" distance="6">
+        <source file="org/h2/command/dml/ScriptCommand.java" startline="588" startcolumn="21" endline="607" endcolumn="21"/>
+        <source file="org/h2/command/dml/ScriptCommand.java" startline="531" startcolumn="17" endline="552" endcolumn="17"/>
+    </clone>
+    <clone nlines="20" distance="6">
+        <source file="org/h2/command/dml/ScriptCommand.java" startline="588" startcolumn="21" endline="607" endcolumn="21"/>
+        <source file="org/h2/command/dml/ScriptCommand.java" startline="587" startcolumn="17" endline="608" endcolumn="17"/>
+    </clone>
+    <clone nlines="29" distance="6">
+        <source file="org/h2/jdbc/JdbcConnection.java" startline="372" startcolumn="17" endline="400" endcolumn="17"/>
+        <source file="org/h2/jdbc/JdbcConnection.java" startline="371" startcolumn="13" endline="401" endcolumn="13"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="org/h2/index/PageDataLeaf.java" startline="208" startcolumn="13" endline="218" endcolumn="13"/>
+        <source file="org/h2/index/PageDataLeaf.java" startline="207" startcolumn="9" endline="219" endcolumn="9"/>
+    </clone>
+    <clone nlines="15" distance="4">
+        <source file="org/h2/jdbc/JdbcConnection.java" startline="1588" startcolumn="9" endline="1602" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcConnection.java" startline="1563" startcolumn="9" endline="1578" endcolumn="9"/>
+    </clone>
+    <clone nlines="15" distance="4">
+        <source file="org/h2/jdbc/JdbcConnection.java" startline="1588" startcolumn="9" endline="1602" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcConnection.java" startline="1612" startcolumn="9" endline="1627" endcolumn="9"/>
+    </clone>
+    <clone nlines="17" distance="5">
+        <source file="org/h2/index/PageDataCursor.java" startline="56" startcolumn="13" endline="72" endcolumn="13"/>
+        <source file="org/h2/index/ScanCursor.java" startline="48" startcolumn="17" endline="64" endcolumn="17"/>
+    </clone>
+    <clone nlines="12" distance="4">
+        <source file="org/h2/mvstore/type/ObjectDataType.java" startline="852" startcolumn="13" endline="863" endcolumn="13"/>
+        <source file="org/h2/mvstore/type/ObjectDataType.java" startline="914" startcolumn="13" endline="927" endcolumn="13"/>
+    </clone>
+    <clone nlines="17" distance="2">
+        <source file="org/h2/value/ValueLob.java" startline="547" startcolumn="9" endline="563" endcolumn="9"/>
+        <source file="org/h2/value/ValueLobDb.java" startline="281" startcolumn="9" endline="297" endcolumn="9"/>
+    </clone>
+    <clone nlines="21" distance="6">
+        <source file="org/h2/index/PageDataIndex.java" startline="134" startcolumn="13" endline="154" endcolumn="13"/>
+        <source file="org/h2/index/PageDataIndex.java" startline="133" startcolumn="9" endline="155" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="org/h2/store/Data.java" startline="894" startcolumn="20" endline="903" endcolumn="13"/>
+        <source file="org/h2/mvstore/db/ValueDataType.java" startline="621" startcolumn="20" endline="630" endcolumn="13"/>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="org/h2/tools/ChangeFileEncryption.java" startline="282" startcolumn="9" endline="291" endcolumn="9"/>
+        <source file="org/h2/tools/ChangeFileEncryption.java" startline="241" startcolumn="13" endline="250" endcolumn="13"/>
+    </clone>
+    <clone nlines="17" distance="2">
+        <source file="org/h2/jdbc/JdbcConnection.java" startline="969" startcolumn="9" endline="986" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcConnection.java" startline="1101" startcolumn="9" endline="1117" endcolumn="9"/>
+    </clone>
+    <clone nlines="20" distance="5">
+        <source file="org/h2/index/PageDataCursor.java" startline="55" startcolumn="9" endline="74" endcolumn="9"/>
+        <source file="org/h2/index/ScanCursor.java" startline="47" startcolumn="13" endline="66" endcolumn="13"/>
+    </clone>
+    <clone nlines="14" distance="5">
+        <source file="org/h2/tools/Backup.java" startline="68" startcolumn="13" endline="81" endcolumn="13"/>
+        <source file="org/h2/tools/CreateCluster.java" startline="62" startcolumn="20" endline="75" endcolumn="13"/>
+    </clone>
+    <clone nlines="15" distance="5">
+        <source file="org/h2/tools/DeleteDbFiles.java" startline="49" startcolumn="9" endline="63" endcolumn="9"/>
+        <source file="org/h2/tools/ConvertTraceFile.java" startline="85" startcolumn="9" endline="99" endcolumn="9"/>
+    </clone>
+    <clone nlines="18" distance="6">
+        <source file="org/h2/table/Table.java" startline="480" startcolumn="9" endline="497" endcolumn="9"/>
+        <source file="org/h2/table/Table.java" startline="499" startcolumn="9" endline="516" endcolumn="9"/>
+    </clone>
+    <clone nlines="22" distance="6">
+        <source file="org/h2/engine/Database.java" startline="1363" startcolumn="17" endline="1384" endcolumn="17"/>
+        <source file="org/h2/engine/Database.java" startline="1362" startcolumn="13" endline="1385" endcolumn="13"/>
+    </clone>
+    <clone nlines="19" distance="6">
+        <source file="org/h2/store/LobStorageBackend.java" startline="222" startcolumn="13" endline="240" endcolumn="13"/>
+        <source file="org/h2/store/LobStorageBackend.java" startline="221" startcolumn="9" endline="241" endcolumn="9"/>
+    </clone>
+    <clone nlines="19" distance="3">
+        <source file="org/h2/value/Value.java" startline="715" startcolumn="17" endline="733" endcolumn="17"/>
+        <source file="org/h2/value/Value.java" startline="737" startcolumn="17" endline="755" endcolumn="17"/>
+    </clone>
+    <clone nlines="12" distance="4">
+        <source file="org/h2/store/Data.java" startline="892" startcolumn="13" endline="903" endcolumn="13"/>
+        <source file="org/h2/mvstore/db/ValueDataType.java" startline="619" startcolumn="13" endline="630" endcolumn="13"/>
+    </clone>
+    <clone nlines="21" distance="2">
+        <source file="org/h2/command/dml/Select.java" startline="253" startcolumn="9" endline="273" endcolumn="9"/>
+        <source file="org/h2/command/dml/Select.java" startline="252" startcolumn="9" endline="273" endcolumn="9"/>
+    </clone>
+    <clone nlines="22" distance="2">
+        <source file="org/h2/table/RegularTable.java" startline="510" startcolumn="13" endline="531" endcolumn="13"/>
+        <source file="org/h2/mvstore/db/MVTable.java" startline="225" startcolumn="13" endline="246" endcolumn="13"/>
+    </clone>
+    <clone nlines="29" distance="6">
+        <source file="org/h2/result/LocalResult.java" startline="339" startcolumn="13" endline="367" endcolumn="13"/>
+        <source file="org/h2/result/LocalResult.java" startline="338" startcolumn="9" endline="368" endcolumn="9"/>
+    </clone>
+    <clone nlines="13" distance="4">
+        <source file="org/h2/store/Data.java" startline="288" startcolumn="9" endline="300" endcolumn="9"/>
+        <source file="org/h2/store/Data.java" startline="269" startcolumn="9" endline="281" endcolumn="9"/>
+    </clone>
+    <clone nlines="31" distance="4">
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="891" startcolumn="9" endline="921" endcolumn="9"/>
+        <source file="org/h2/jdbc/JdbcDatabaseMetaData.java" startline="585" startcolumn="9" endline="617" endcolumn="9"/>
+    </clone>
+    <clone nlines="21" distance="6">
+        <source file="org/h2/command/ddl/CreateView.java" startline="106" startcolumn="13" endline="126" endcolumn="13"/>
+        <source file="org/h2/command/ddl/CreateView.java" startline="105" startcolumn="9" endline="127" endcolumn="9"/>
+    </clone>
+    <clone nlines="23" distance="6">
+        <source file="org/h2/command/Parser.java" startline="1762" startcolumn="13" endline="1784" endcolumn="13"/>
+        <source file="org/h2/command/Parser.java" startline="1761" startcolumn="9" endline="1785" endcolumn="9"/>
+    </clone>
+    <clone nlines="21" distance="3">
+        <source file="org/h2/value/Value.java" startline="599" startcolumn="17" endline="619" endcolumn="17"/>
+        <source file="org/h2/value/Value.java" startline="575" startcolumn="17" endline="595" endcolumn="17"/>
+    </clone>
+    <clone nlines="28" distance="6">
+        <source file="org/h2/mvstore/db/TransactionStore.java" startline="539" startcolumn="21" endline="566" endcolumn="21"/>
+        <source file="org/h2/mvstore/db/TransactionStore.java" startline="538" startcolumn="17" endline="567" endcolumn="17"/>
+    </clone>
+    <clone nlines="28" distance="6">
+        <source file="org/h2/mvstore/db/TransactionStore.java" startline="486" startcolumn="13" endline="513" endcolumn="13"/>
+        <source file="org/h2/mvstore/db/TransactionStore.java" startline="485" startcolumn="9" endline="514" endcolumn="9"/>
+    </clone>
+    <clone nlines="24" distance="6">
+        <source file="org/h2/command/Parser.java" startline="2349" startcolumn="13" endline="2372" endcolumn="13"/>
+        <source file="org/h2/command/Parser.java" startline="2348" startcolumn="9" endline="2373" endcolumn="9"/>
+    </clone>
+    <clone nlines="22" distance="6">
+        <source file="org/h2/tools/Recover.java" startline="961" startcolumn="21" endline="982" endcolumn="21"/>
+        <source file="org/h2/tools/Recover.java" startline="960" startcolumn="17" endline="983" endcolumn="17"/>
+    </clone>
+    <clone nlines="38" distance="6">
+        <source file="org/h2/store/LobStorageBackend.java" startline="455" startcolumn="13" endline="492" endcolumn="13"/>
+        <source file="org/h2/store/LobStorageBackend.java" startline="454" startcolumn="9" endline="493" endcolumn="9"/>
+    </clone>
+    <clone nlines="36" distance="6">
+        <source file="org/h2/store/LobStorageBackend.java" startline="288" startcolumn="17" endline="323" endcolumn="17"/>
+        <source file="org/h2/store/LobStorageBackend.java" startline="287" startcolumn="13" endline="324" endcolumn="13"/>
+    </clone>
+    <clone nlines="57" distance="6">
+        <source file="org/h2/table/MetaTable.java" startline="1160" startcolumn="17" endline="1216" endcolumn="17"/>
+        <source file="org/h2/table/MetaTable.java" startline="1159" startcolumn="13" endline="1217" endcolumn="13"/>
+    </clone>
+    <clone nlines="48" distance="2">
+        <source file="org/h2/table/RegularTable.java" startline="485" startcolumn="9" endline="532" endcolumn="9"/>
+        <source file="org/h2/mvstore/db/MVTable.java" startline="199" startcolumn="9" endline="247" endcolumn="9"/>
+    </clone>
+    <clone nlines="37" distance="6">
+        <source file="org/h2/command/Parser.java" startline="5087" startcolumn="13" endline="5123" endcolumn="13"/>
+        <source file="org/h2/command/Parser.java" startline="5086" startcolumn="9" endline="5124" endcolumn="9"/>
+    </clone>
+    <clone nlines="55" distance="6">
+        <source file="org/h2/server/web/WebApp.java" startline="716" startcolumn="17" endline="770" endcolumn="17"/>
+        <source file="org/h2/server/web/WebApp.java" startline="715" startcolumn="13" endline="771" endcolumn="13"/>
+    </clone>
+    <clone nlines="41" distance="6">
+        <source file="org/h2/command/Parser.java" startline="4633" startcolumn="13" endline="4673" endcolumn="13"/>
+        <source file="org/h2/command/Parser.java" startline="4632" startcolumn="9" endline="4674" endcolumn="9"/>
+    </clone>
+    <clone nlines="101" distance="6">
+        <source file="org/h2/tools/Shell.java" startline="209" startcolumn="13" endline="309" endcolumn="13"/>
+        <source file="org/h2/tools/Shell.java" startline="208" startcolumn="9" endline="310" endcolumn="9"/>
+    </clone>
+    <clone nlines="117" distance="6">
+        <source file="org/h2/command/Parser.java" startline="1552" startcolumn="13" endline="1668" endcolumn="13"/>
+        <source file="org/h2/command/Parser.java" startline="1551" startcolumn="9" endline="1669" endcolumn="9"/>
+    </clone>
+</clones>

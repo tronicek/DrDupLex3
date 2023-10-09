@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<clones>
+    <clone nlines="11" distance="6">
+        <source file="jdk/nashorn/internal/runtime/PropertyListeners.java" startline="146" startcolumn="5" endline="156" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/PropertyListeners.java" startline="182" startcolumn="5" endline="192" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="jdk/nashorn/internal/runtime/PropertyListeners.java" startline="163" startcolumn="5" endline="173" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/PropertyListeners.java" startline="182" startcolumn="5" endline="192" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="jdk/nashorn/internal/objects/NativeTypeError.java" startline="65" startcolumn="5" endline="74" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/objects/NativeSyntaxError.java" startline="65" startcolumn="5" endline="74" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="jdk/nashorn/internal/objects/NativeTypeError.java" startline="65" startcolumn="5" endline="74" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/objects/NativeURIError.java" startline="64" startcolumn="5" endline="73" endcolumn="5"/>
+    </clone>
+    <clone nlines="14" distance="4">
+        <source file="jdk/nashorn/internal/runtime/regexp/joni/StackMachine.java" startline="341" startcolumn="5" endline="354" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/regexp/joni/StackMachine.java" startline="326" startcolumn="5" endline="339" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="jdk/nashorn/internal/objects/NativeError.java" startline="94" startcolumn="5" endline="103" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/objects/NativeEvalError.java" startline="65" startcolumn="5" endline="74" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="jdk/nashorn/internal/objects/NativeError.java" startline="94" startcolumn="5" endline="103" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/objects/NativeRangeError.java" startline="65" startcolumn="5" endline="74" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="jdk/nashorn/internal/objects/NativeError.java" startline="94" startcolumn="5" endline="103" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/objects/NativeReferenceError.java" startline="65" startcolumn="5" endline="74" endcolumn="5"/>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="jdk/internal/dynalink/support/TypeConverterFactory.java" startline="116" startcolumn="9" endline="130" endcolumn="9"/>
+        <source file="jdk/internal/dynalink/support/TypeConverterFactory.java" startline="152" startcolumn="9" endline="166" endcolumn="9"/>
+    </clone>
+    <clone nlines="10" distance="2">
+        <source file="jdk/internal/dynalink/support/TypeConverterFactory.java" startline="119" startcolumn="17" endline="128" endcolumn="17"/>
+        <source file="jdk/internal/dynalink/support/TypeConverterFactory.java" startline="155" startcolumn="17" endline="164" endcolumn="17"/>
+    </clone>
+    <clone nlines="11" distance="2">
+        <source file="jdk/nashorn/internal/ir/BinaryNode.java" startline="124" startcolumn="5" endline="134" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/UnaryNode.java" startline="107" startcolumn="5" endline="118" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="2">
+        <source file="jdk/nashorn/internal/codegen/CompilerConstants.java" startline="572" startcolumn="5" endline="584" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/codegen/CompilerConstants.java" startline="623" startcolumn="5" endline="635" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="2">
+        <source file="jdk/nashorn/internal/codegen/CompilerConstants.java" startline="597" startcolumn="5" endline="609" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/codegen/CompilerConstants.java" startline="623" startcolumn="5" endline="635" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="2">
+        <source file="jdk/nashorn/internal/runtime/Context.java" startline="887" startcolumn="12" endline="897" endcolumn="12"/>
+        <source file="jdk/nashorn/api/scripting/NashornScriptEngine.java" startline="344" startcolumn="13" endline="354" endcolumn="13"/>
+    </clone>
+    <clone nlines="21" distance="4">
+        <source file="jdk/nashorn/internal/runtime/regexp/joni/ScannerSupport.java" startline="75" startcolumn="5" endline="95" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/regexp/joni/ScannerSupport.java" startline="97" startcolumn="5" endline="117" endcolumn="5"/>
+    </clone>
+    <clone nlines="19" distance="6">
+        <source file="jdk/nashorn/internal/runtime/regexp/joni/ByteCodeMachine.java" startline="662" startcolumn="5" endline="680" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/regexp/joni/ByteCodeMachine.java" startline="682" startcolumn="5" endline="700" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="4">
+        <source file="jdk/nashorn/api/scripting/NashornScriptEngine.java" startline="126" startcolumn="13" endline="136" endcolumn="13"/>
+        <source file="jdk/nashorn/api/scripting/NashornScriptEngineFactory.java" startline="145" startcolumn="5" endline="155" endcolumn="5"/>
+    </clone>
+    <clone nlines="21" distance="1">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1288" startcolumn="5" endline="1308" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1096" startcolumn="5" endline="1116" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="jdk/nashorn/internal/runtime/regexp/joni/ByteCodeMachine.java" startline="1051" startcolumn="5" endline="1060" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/regexp/joni/ByteCodeMachine.java" startline="1040" startcolumn="5" endline="1049" endcolumn="5"/>
+    </clone>
+    <clone nlines="14" distance="1">
+        <source file="jdk/nashorn/internal/runtime/regexp/joni/ByteCodeMachine.java" startline="498" startcolumn="5" endline="511" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/regexp/joni/ByteCodeMachine.java" startline="440" startcolumn="5" endline="453" endcolumn="5"/>
+    </clone>
+    <clone nlines="15" distance="3">
+        <source file="jdk/nashorn/internal/runtime/arrays/ScriptObjectIterator.java" startline="56" startcolumn="5" endline="70" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/arrays/JSObjectIterator.java" startline="56" startcolumn="5" endline="70" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="4">
+        <source file="jdk/nashorn/internal/objects/NativeString.java" startline="1157" startcolumn="5" endline="1169" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/objects/NativeString.java" startline="1138" startcolumn="5" endline="1150" endcolumn="5"/>
+    </clone>
+    <clone nlines="15" distance="3">
+        <source file="jdk/nashorn/internal/objects/NativeJSAdapter.java" startline="585" startcolumn="5" endline="599" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/objects/NativeJSAdapter.java" startline="641" startcolumn="5" endline="655" endcolumn="5"/>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="jdk/internal/dynalink/support/Lookup.java" startline="278" startcolumn="5" endline="292" endcolumn="5"/>
+        <source file="jdk/internal/dynalink/support/Lookup.java" startline="247" startcolumn="5" endline="261" endcolumn="5"/>
+    </clone>
+    <clone nlines="15" distance="2">
+        <source file="jdk/internal/dynalink/support/Lookup.java" startline="305" startcolumn="5" endline="319" endcolumn="5"/>
+        <source file="jdk/internal/dynalink/support/Lookup.java" startline="247" startcolumn="5" endline="261" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="jdk/nashorn/internal/runtime/AccessorProperty.java" startline="425" startcolumn="6" endline="434" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/AccessorProperty.java" startline="392" startcolumn="5" endline="401" endcolumn="6"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="jdk/nashorn/internal/runtime/AccessorProperty.java" startline="425" startcolumn="6" endline="434" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/AccessorProperty.java" startline="403" startcolumn="5" endline="412" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="3">
+        <source file="jdk/nashorn/internal/runtime/AccessorProperty.java" startline="425" startcolumn="6" endline="434" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/AccessorProperty.java" startline="414" startcolumn="6" endline="423" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="2">
+        <source file="jdk/nashorn/internal/runtime/arrays/NumberArrayData.java" startline="267" startcolumn="5" endline="279" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/arrays/IntArrayData.java" startline="327" startcolumn="5" endline="340" endcolumn="5"/>
+    </clone>
+    <clone nlines="13" distance="2">
+        <source file="jdk/nashorn/internal/runtime/arrays/NumberArrayData.java" startline="267" startcolumn="5" endline="279" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/arrays/LongArrayData.java" startline="287" startcolumn="5" endline="300" endcolumn="5"/>
+    </clone>
+    <clone nlines="12" distance="5">
+        <source file="jdk/nashorn/internal/runtime/regexp/joni/ByteCodeMachine.java" startline="1062" startcolumn="5" endline="1073" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/regexp/joni/ByteCodeMachine.java" startline="1075" startcolumn="5" endline="1087" endcolumn="5"/>
+    </clone>
+    <clone nlines="19" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3251" startcolumn="5" endline="3269" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3191" startcolumn="5" endline="3209" endcolumn="5"/>
+    </clone>
+    <clone nlines="19" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3251" startcolumn="5" endline="3269" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3211" startcolumn="5" endline="3229" endcolumn="5"/>
+    </clone>
+    <clone nlines="19" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3251" startcolumn="5" endline="3269" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3231" startcolumn="5" endline="3249" endcolumn="5"/>
+    </clone>
+    <clone nlines="22" distance="3">
+        <source file="jdk/nashorn/internal/codegen/types/BooleanType.java" startline="111" startcolumn="5" endline="132" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/codegen/types/IntType.java" startline="130" startcolumn="5" endline="151" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="2">
+        <source file="jdk/nashorn/internal/runtime/Source.java" startline="521" startcolumn="5" endline="531" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/objects/GenericPropertyDescriptor.java" startline="164" startcolumn="5" endline="176" endcolumn="5"/>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3328" startcolumn="5" endline="3345" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3271" startcolumn="5" endline="3288" endcolumn="5"/>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3328" startcolumn="5" endline="3345" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3290" startcolumn="5" endline="3307" endcolumn="5"/>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3328" startcolumn="5" endline="3345" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3309" startcolumn="5" endline="3326" endcolumn="5"/>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3328" startcolumn="5" endline="3345" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3347" startcolumn="5" endline="3364" endcolumn="5"/>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3328" startcolumn="5" endline="3345" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3366" startcolumn="5" endline="3383" endcolumn="5"/>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3328" startcolumn="5" endline="3345" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3385" startcolumn="5" endline="3402" endcolumn="5"/>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3328" startcolumn="5" endline="3345" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3440" startcolumn="5" endline="3457" endcolumn="5"/>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3328" startcolumn="5" endline="3345" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3459" startcolumn="5" endline="3476" endcolumn="5"/>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3404" startcolumn="5" endline="3421" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3271" startcolumn="5" endline="3288" endcolumn="5"/>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3404" startcolumn="5" endline="3421" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3290" startcolumn="5" endline="3307" endcolumn="5"/>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3404" startcolumn="5" endline="3421" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3309" startcolumn="5" endline="3326" endcolumn="5"/>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3404" startcolumn="5" endline="3421" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3347" startcolumn="5" endline="3364" endcolumn="5"/>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3404" startcolumn="5" endline="3421" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3366" startcolumn="5" endline="3383" endcolumn="5"/>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3404" startcolumn="5" endline="3421" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3385" startcolumn="5" endline="3402" endcolumn="5"/>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3404" startcolumn="5" endline="3421" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3440" startcolumn="5" endline="3457" endcolumn="5"/>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3404" startcolumn="5" endline="3421" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3459" startcolumn="5" endline="3476" endcolumn="5"/>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3478" startcolumn="5" endline="3495" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3271" startcolumn="5" endline="3288" endcolumn="5"/>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3478" startcolumn="5" endline="3495" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3290" startcolumn="5" endline="3307" endcolumn="5"/>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3478" startcolumn="5" endline="3495" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3309" startcolumn="5" endline="3326" endcolumn="5"/>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3478" startcolumn="5" endline="3495" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3347" startcolumn="5" endline="3364" endcolumn="5"/>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3478" startcolumn="5" endline="3495" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3366" startcolumn="5" endline="3383" endcolumn="5"/>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3478" startcolumn="5" endline="3495" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3385" startcolumn="5" endline="3402" endcolumn="5"/>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3478" startcolumn="5" endline="3495" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3440" startcolumn="5" endline="3457" endcolumn="5"/>
+    </clone>
+    <clone nlines="18" distance="5">
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3478" startcolumn="5" endline="3495" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/ScriptObject.java" startline="3459" startcolumn="5" endline="3476" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="4">
+        <source file="jdk/nashorn/internal/objects/NativeBoolean.java" startline="147" startcolumn="5" endline="157" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/objects/NativeNumber.java" startline="336" startcolumn="5" endline="346" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="jdk/nashorn/internal/objects/NativeBoolean.java" startline="147" startcolumn="5" endline="157" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/objects/NativeString.java" startline="1314" startcolumn="5" endline="1324" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="4">
+        <source file="jdk/nashorn/internal/runtime/arrays/IntArrayData.java" startline="255" startcolumn="5" endline="264" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/runtime/arrays/IntArrayData.java" startline="266" startcolumn="5" endline="275" endcolumn="5"/>
+    </clone>
+    <clone nlines="10" distance="6">
+        <source file="jdk/nashorn/internal/codegen/Lower.java" startline="313" startcolumn="5" endline="322" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/codegen/OptimisticTypesCalculator.java" startline="134" startcolumn="5" endline="144" endcolumn="5"/>
+    </clone>
+    <clone nlines="21" distance="2">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="893" startcolumn="5" endline="913" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="655" startcolumn="5" endline="676" endcolumn="5"/>
+    </clone>
+    <clone nlines="21" distance="2">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="954" startcolumn="5" endline="974" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="655" startcolumn="5" endline="676" endcolumn="5"/>
+    </clone>
+    <clone nlines="22" distance="2">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="990" startcolumn="5" endline="1012" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="655" startcolumn="5" endline="676" endcolumn="5"/>
+    </clone>
+    <clone nlines="21" distance="2">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1232" startcolumn="5" endline="1252" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="655" startcolumn="5" endline="676" endcolumn="5"/>
+    </clone>
+    <clone nlines="21" distance="3">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="893" startcolumn="5" endline="913" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1288" startcolumn="5" endline="1308" endcolumn="5"/>
+    </clone>
+    <clone nlines="21" distance="3">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="954" startcolumn="5" endline="974" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1288" startcolumn="5" endline="1308" endcolumn="5"/>
+    </clone>
+    <clone nlines="21" distance="3">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="990" startcolumn="5" endline="1012" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1288" startcolumn="5" endline="1308" endcolumn="5"/>
+    </clone>
+    <clone nlines="21" distance="3">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1232" startcolumn="5" endline="1252" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1288" startcolumn="5" endline="1308" endcolumn="5"/>
+    </clone>
+    <clone nlines="21" distance="4">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="893" startcolumn="5" endline="913" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1028" startcolumn="5" endline="1050" endcolumn="5"/>
+    </clone>
+    <clone nlines="21" distance="4">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="954" startcolumn="5" endline="974" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1028" startcolumn="5" endline="1050" endcolumn="5"/>
+    </clone>
+    <clone nlines="23" distance="4">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="990" startcolumn="5" endline="1012" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1028" startcolumn="5" endline="1050" endcolumn="5"/>
+    </clone>
+    <clone nlines="21" distance="4">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1232" startcolumn="5" endline="1252" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1028" startcolumn="5" endline="1050" endcolumn="5"/>
+    </clone>
+    <clone nlines="21" distance="3">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="893" startcolumn="5" endline="913" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1096" startcolumn="5" endline="1116" endcolumn="5"/>
+    </clone>
+    <clone nlines="21" distance="3">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="954" startcolumn="5" endline="974" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1096" startcolumn="5" endline="1116" endcolumn="5"/>
+    </clone>
+    <clone nlines="21" distance="3">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="990" startcolumn="5" endline="1012" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1096" startcolumn="5" endline="1116" endcolumn="5"/>
+    </clone>
+    <clone nlines="21" distance="3">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1232" startcolumn="5" endline="1252" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1096" startcolumn="5" endline="1116" endcolumn="5"/>
+    </clone>
+    <clone nlines="21" distance="5">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="655" startcolumn="5" endline="676" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1288" startcolumn="5" endline="1308" endcolumn="5"/>
+    </clone>
+    <clone nlines="22" distance="6">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="655" startcolumn="5" endline="676" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1028" startcolumn="5" endline="1050" endcolumn="5"/>
+    </clone>
+    <clone nlines="21" distance="5">
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="655" startcolumn="5" endline="676" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/FunctionNode.java" startline="1096" startcolumn="5" endline="1116" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="153" startcolumn="5" endline="163" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="320" startcolumn="5" endline="331" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="153" startcolumn="5" endline="163" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="733" startcolumn="5" endline="744" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="582" startcolumn="5" endline="592" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="320" startcolumn="5" endline="331" endcolumn="5"/>
+    </clone>
+    <clone nlines="11" distance="6">
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="582" startcolumn="5" endline="592" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="733" startcolumn="5" endline="744" endcolumn="5"/>
+    </clone>
+    <clone nlines="15" distance="6">
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="530" startcolumn="5" endline="544" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="922" startcolumn="5" endline="937" endcolumn="4"/>
+    </clone>
+    <clone nlines="10" distance="5">
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="104" startcolumn="5" endline="113" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/codegen/LocalVariableTypesCalculator.java" startline="779" startcolumn="5" endline="788" endcolumn="5"/>
+    </clone>
+    <clone nlines="18" distance="6">
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="134" startcolumn="5" endline="151" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="510" startcolumn="5" endline="528" endcolumn="5"/>
+    </clone>
+    <clone nlines="15" distance="6">
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="212" startcolumn="5" endline="226" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="922" startcolumn="5" endline="937" endcolumn="4"/>
+    </clone>
+    <clone nlines="15" distance="6">
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="696" startcolumn="5" endline="710" endcolumn="5"/>
+        <source file="jdk/nashorn/internal/ir/debug/JSONWriter.java" startline="922" startcolumn="5" endline="937" endcolumn="4"/>
+    </clone>
+</clones>
