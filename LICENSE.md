@@ -2,7 +2,7 @@ LICENSE FOR RESEARCH AND EVALUATION
 
 DrDupLex3
 
-Copyright © 2024 Zdenek Tronicek. All rights reserved.
+Copyright © 2023 Zdenek Tronicek. All rights reserved.
 
 The licensor grants to the user of this software the following rights, irrevocably:
 
