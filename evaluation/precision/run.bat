@@ -25,9 +25,16 @@ REM CloneWorks
 set BIGCLONEBENCH_SRC_DIR="/home/TRONZ635/research/BigCloneBench/"
 java -cp %TOOL_JAR% drdup.ChangeDir %BIGCLONEBENCH_SRC_DIR% cloneworks-0.99-20.xml
 java %OPTIONS% -cp %TOOL_JAR% drdup.Sourcer %SRC_DIR% cloneworks-0.99-20-dir.xml
-java %OPTIONS% -cp %DISTANCE_JAR% nicad.EditDistance cloneworks-distance23.properties
-java %OPTIONS% -jar %CHECKER_JAR% cloneworks-checker23.properties
+java %OPTIONS% -cp %DISTANCE_JAR% nicad.EditDistance cloneworks-distance.properties
+java %OPTIONS% -jar %CHECKER_JAR% cloneworks-checker.properties
 java %OPTIONS% -cp %TOOL_JAR% drdup.Counter cloneworks-0.99-20-dir.xml
+
+REM SourcererCC
+java %OPTIONS% -cp %TOOL_JAR% drdup.FilterLines 20 10000 sourcerercc-0.99.xml
+java %OPTIONS% -cp %TOOL_JAR% drdup.Sourcer %SRC_DIR% sourcerercc-0.99-filtered.xml
+java %OPTIONS% -cp %DISTANCE_JAR% nicad.EditDistance sourcerercc-distance.properties
+java %OPTIONS% -jar %CHECKER_JAR% sourcerercc-checker.properties
+java %OPTIONS% -cp %TOOL_JAR% drdup.Counter sourcerercc-0.99-filtered.xml
 
 REM DrDupLex3
 java %OPTIONS% -jar %DRDUPLEX_JAR% bigclonebench23.properties
