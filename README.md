@@ -1,5 +1,8 @@
 # DrDupLex3
-DrDupLex3 is a novel Type-3 clone detector.
+DrDupLex3 is a novel Type-3 clone detector. Please see the following paper for details:
+
+Zdenek Tronicek: <a href="https://doi.org/10.37190/e-Inf260105">Index-Based Type-3 Clone Detection</a>,
+e-Informatica Software Engineering Journal, vol. 20, no. 1, pp. 260105, 2026.
 
 ## Compilation
 To compile the code, you need to install ```maven``` and run the following command (see also ```compile.bat```):
